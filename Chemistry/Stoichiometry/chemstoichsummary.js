@@ -116,16 +116,16 @@ if (localStorage.getItem('chemstoich10') == 1) {
   let button = document.getElementById('clear');
 
   button.onclick = function() {
-    localStorage.removeItem(chemstoich1);
-    localStorage.removeItem(chemstoich2);
-    localStorage.removeItem(chemstoich3);
-    localStorage.removeItem(chemstoich4);
-    localStorage.removeItem(chemstoich5);
-    localStorage.removeItem(chemstoich6);
-    localStorage.removeItem(chemstoich7);
-    localStorage.removeItem(chemstoich8);
-    localStorage.removeItem(chemstoich9);
-    localStorage.removeItem(chemstoich10);
+    localStorage.removeItem('chemstoich1');
+    localStorage.removeItem('chemstoich2');
+    localStorage.removeItem('chemstoich3');
+    localStorage.removeItem('chemstoich4');
+    localStorage.removeItem('chemstoich5');
+    localStorage.removeItem('chemstoich6');
+    localStorage.removeItem('chemstoich7');
+    localStorage.removeItem('chemstoich8');
+    localStorage.removeItem('chemstoich9');
+    localStorage.removeItem('chemstoich10');
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";
