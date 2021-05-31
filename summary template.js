@@ -116,16 +116,16 @@ if (localStorage.getItem('subject10') == 1) {
   let button = document.getElementById('clear');
 
   button.onclick = function() {
-    localStorage.removeItem(subjectb1);
-    localStorage.removeItem(subjectb2);
-    localStorage.removeItem(subjectb3);
-    localStorage.removeItem(subjectb4);
-    localStorage.removeItem(subjectb5);
-    localStorage.removeItem(subjectb6);
-    localStorage.removeItem(subjectb7);
-    localStorage.removeItem(subjectb8);
-    localStorage.removeItem(subjectb9);
-    localStorage.removeItem(subjectb10);
+    localStorage.removeItem(subject1);
+    localStorage.removeItem(subject2);
+    localStorage.removeItem(subject3);
+    localStorage.removeItem(subject4);
+    localStorage.removeItem(subject5);
+    localStorage.removeItem(subject6);
+    localStorage.removeItem(subject7);
+    localStorage.removeItem(subject8);
+    localStorage.removeItem(subject9);
+    localStorage.removeItem(subject10);
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";

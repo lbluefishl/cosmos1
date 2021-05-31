@@ -3,12 +3,15 @@ html {
   font-family: "minion-pro", serif;
   
 }
-div {
+
+
+div.box {
   padding: 10px;
 }
 
 p {
   color:rgb(0, 0, 0);
+
  
 }
 .katex { font-size: 1em !important; } 
@@ -17,7 +20,7 @@ body {
 	width: 800px;
 	margin: 50px auto;
 	background-color: #ffffff;
-	padding: 0 20px 20px 20px;
+	padding: 30px 30px;
 	border: 10px solid rgb(226, 224, 224);
 }
 
@@ -67,7 +70,7 @@ button {
 .last {
 
   padding: 5px;
-  margin: 10px 55px;
+  margin: 10px 115px;
   font-size: medium;
   border-radius: 122px;
   background-color: rgb(231, 231, 231);
@@ -80,6 +83,14 @@ button {
   
 
 }
+svg, embed {
+  display: block;
+  margin: auto;
+}
+
+
+
+
 
 input {
   transform: scale(1.3);

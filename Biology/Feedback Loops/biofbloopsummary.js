@@ -30,7 +30,7 @@ if (localStorage.getItem('biofbloop3') == 1) {
   document.getElementById('biofbloopb3').style.background = 'red';
   }
   else {
-    document.getElementById('biofbloop3').style.background = 'white';
+    document.getElementById('biofbloopb3').style.background = 'white';
   }
 
   
@@ -116,16 +116,16 @@ if (localStorage.getItem('biofbloop10') == 1) {
   let button = document.getElementById('clear');
 
   button.onclick = function() {
-    localStorage.removeItem(biofbloopb1);
-    localStorage.removeItem(biofbloopb2);
-    localStorage.removeItem(biofbloopb3);
-    localStorage.removeItem(biofbloopb4);
-    localStorage.removeItem(biofbloopb5);
-    localStorage.removeItem(biofbloopb6);
-    localStorage.removeItem(biofbloopb7);
-    localStorage.removeItem(biofbloopb8);
-    localStorage.removeItem(biofbloopb9);
-    localStorage.removeItem(biofbloopb10);
+    localStorage.removeItem("biofbloop1");
+    localStorage.removeItem("biofbloop2");
+    localStorage.removeItem("biofbloop3");
+    localStorage.removeItem("biofbloop4");
+    localStorage.removeItem("biofbloop5");
+    localStorage.removeItem("biofbloop6");
+    localStorage.removeItem("biofbloop7");
+    localStorage.removeItem("biofbloop8");
+    localStorage.removeItem("biofbloop9");
+    localStorage.removeItem("biofbloop10");
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";

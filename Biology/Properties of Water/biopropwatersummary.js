@@ -116,16 +116,16 @@ if (localStorage.getItem('biopropwater10') == 1) {
   let button = document.getElementById('clear');
 
   button.onclick = function() {
-    localStorage.removeItem(biopropwaterb1);
-    localStorage.removeItem(biopropwaterb2);
-    localStorage.removeItem(biopropwaterb3);
-    localStorage.removeItem(biopropwaterb4);
-    localStorage.removeItem(biopropwaterb5);
-    localStorage.removeItem(biopropwaterb6);
-    localStorage.removeItem(biopropwaterb7);
-    localStorage.removeItem(biopropwaterb8);
-    localStorage.removeItem(biopropwaterb9);
-    localStorage.removeItem(biopropwaterb10);
+    localStorage.removeItem('biopropwater1');
+    localStorage.removeItem('biopropwater2');
+    localStorage.removeItem('biopropwater3');
+    localStorage.removeItem('biopropwater4');
+    localStorage.removeItem('biopropwater5');
+    localStorage.removeItem('biopropwater6');
+    localStorage.removeItem('biopropwater7');
+    localStorage.removeItem('biopropwater8');
+    localStorage.removeItem('biopropwater9');
+    localStorage.removeItem('biopropwater10');
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";
