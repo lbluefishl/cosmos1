@@ -6,7 +6,11 @@ html {
 div.correct {
   border: 3px solid #add8e6;
   background-color: #add8e6;
+  border-style: dotted  ;
+  border-color: rgb(94, 93, 93);
+
 }
+
 
 div.incorrect {
   opacity: .5;
@@ -39,7 +43,7 @@ body {
 	width: 800px;
 	margin: 50px auto;
 	background-color: #ffffff;
-	padding: 30px 30px;
+	padding: 30px 40px;
 	border: 10px solid rgb(226, 224, 224);
 }
 
