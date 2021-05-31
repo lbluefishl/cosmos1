@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+
+<head>
+    <meta charset="utf-8">
+    <title>Linear Equations Problem 2</title>
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+<script src="../../scripts/alg.js" defer></script>
+</head>
+
+<body>
+
+<h1 class="question"> A speaker system with a price of $300 is to be purchased with an intitial payment
+  of $100 and weekly payments of $25. Which of the following is an equation which can be used
+to find the number of weekly payments, \(w\), required to complete the purchase? </h1>
+<p>Choose 1 Answer:</p>  
+<hr/> 
+  <div id='b-alg-21' style='padding: 20px;'>
+    <label for= 'o-alg-21' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(100=25+300w\)
+    </label>
+    <span id='r-alg-21'></span>
+  </div>
+
+  <div id='b-alg-22' style='padding: 20px;'>
+    <label for= 'o-alg-22' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(100=300+25w\)
+    </label>
+    <span id='r-alg-22'></span>
+  </div>
+
+  <div id='b-alg-23' style='padding: 20px;'>
+    <label for= 'o-alg-23' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(300=100+25w\)
+    </label>
+    <span id='r-alg-23'></span>
+  </div>
+
+  <div id='b-alg-24' style='padding: 20px;'>
+    <label for= 'o-alg-24' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(25=100+300w\)
+    </label>
+    <span id='r-alg-24'></span>
+  </div>
+
+<hr/>
+<nav> 
+  <a href="algsummary.html"><button class= 'nav' id= 'su-alg-2' >Summary</button></a>
+  <button class= 'nav' id= "sa-alg-2" >Submit Answer</button>
+  <a href="alg-3.html"><button class= 'nav' id= 'nq-alg-2' >Next Question</button></a>
+</nav>
+
+<div class='explanation' id='e-alg-2'>
+<h2> Approach 1 </h2>
+<p>For linear equation word problems, we typically look for the initial value and rate. Since we are paying $25 per week, slope should be 25. The initial amount is $300, which can 
+  be considered the y-intercept. Plugging it into the slope-intercept equation gives us the answer. 
+  $$y=mx+b$$
+  $$y=25x+100$$
+</p>
+
+<h2>Approach 2</h2>
+<p>With a bit of mental math or arithmetic calculation, we can figure out that a weekly payment of $25 can be extended to be a 4-week payment of $100 or a 8-week payment of $200, 
+  which is the amount due after the initial $100 payment. The only equation which is valid when we plug in \(w=8\) is option 3.</p>
+</div>
+
+</body>
+
+</html> 

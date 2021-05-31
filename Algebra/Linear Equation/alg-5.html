@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+
+<head>
+    <meta charset="utf-8">
+    <title>Linear Equations Problem 5</title>
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="../../scripts/alg.js" defer></script>
+</head>
+
+<body>
+
+<h1 class="question"> The table below represents a linear relationship between \(x\) and \(y\), where \(a\) is a constant. Which equation represents the relationship in the table?
+  $$ \begin{array}{|c||c|c|c|} \hline
+  x & a & 3a & 5a \\ \hline
+  y & 0 & -a & -2a \\ \hline
+  \end{array} $$
+
+ </h1>
+
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div id='b-alg-51' style='padding: 20px;'>
+    <label for= 'o-alg-51' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(y=x+a\)
+    </label>
+    <span id='r-alg-51'></span>
+  </div>
+
+  <div id='b-alg-52' style='padding: 20px;'>
+    <label for= 'o-alg-52' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(y=\frac{1}{2}x+\frac{a}{2}\)
+    </label>
+    <span id='r-alg-52'></span>
+  </div>
+
+  <div id='b-alg-53' style='padding: 20px;'>
+    <label for= 'o-alg-53' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(y=-\frac{1}{2}x+\frac{a}{2}\)
+    </label>
+    <span id='r-alg-53'></span>
+  </div>
+
+  <div id='b-alg-54' style='padding: 20px;'>
+    <label for= 'o-alg-54' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+        \(y=-2x+2a\)
+    </label>
+    <span id='r-alg-54'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algsummary.html"><button class= 'nav' id= 'su-alg-5' >Summary</button></a>
+  <button class= 'nav' id= "sa-alg-5" >Submit Answer</button>
+  <a href="alg-6.html"><button class= 'nav' id= 'nq-alg-5' >Next Question</button></a>
+</nav>
+
+<div class='explanation' id='e-alg-5'>
+
+<h2> Approach 1 </h2>
+
+<p>
+As with other table of values, we can choose two points and find the slope between them. 
+Using the points \((a,0)\) and \((3a,-a)\),
+$$ m=\frac{-a-0}{3a-a} $$
+$$ m=\frac{-a}{2a} $$
+$$ m=-\frac{1}{2} $$
+
+We can use either the point-slope equation or the slope-intercept equation to solve, as was shown in problem 1. Since the answer choices are in slope-intercept form, lets use that method this time.
+$$ y=mx+b $$
+Substituting in our values \(m=-\frac{1}{2}\) and \((a,0)\), we get that
+$$0=-\frac{1}{2}(a)+b$$
+$$\frac{a}{2}=b $$
+
+Substituting \(m\) and \(b\) into the slope-intercept equation results in the correct answer.
+</p>
+<h2>Approach 2</h2>
+
+<p>We can always plug in the given \((x,y)\) coordinates into the four equations. We can quickly tell that the first two choices do not work for \((a,0)\).</p>
+<p>\((3a,-a)\) only works for the third choice.</p>
+
+
+
+</div>
+
+</body>
+
+</html> 

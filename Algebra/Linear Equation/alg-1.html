@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+
+<head>
+    <meta charset="utf-8">
+    
+    <title>Linear Equations Problem 1</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+
+<script src="../../scripts/alg.js" defer></script>
+</head>
+
+<body>
+
+<h1 class="question">What is the equation of a line passing through the points \((0,4)\) and \((2,5)\)? </h1>
+<p>Choose 1 Answer:</p>  
+<hr/> 
+  <div id='b-alg-11' style='padding: 20px;'>
+    <label for= 'o-alg-11' style='padding: 20px; '> 
+      <input type='radio' name='option'  id='o-alg-11' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' />\(y=\frac{1}{2}x+4\)
+       </label>
+    <span id='r-alg-11'></span>
+  </div>
+
+  <div id='b-alg-12' style='padding: 20px;'>
+    <label for= 'o-alg-12' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-12' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> \(y=2x+4\)
+    </label>
+    <span id='r-alg-12'></span>
+  </div>
+
+  <div id='b-alg-13' style='padding: 20px;'>
+    <label for= 'o-alg-13' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-13' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> \(y=-\frac{1}{2}x+4\)
+    </label>
+    <span id='r-alg-13'></span>
+  </div>
+
+  <div id='b-alg-14' style='padding: 20px;'>
+    <label for= 'o-alg-14' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-14' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> \(y=\frac{9}{2}x+4\)
+    </label>
+    <span id='r-alg-14'></span>
+  </div>
+
+<hr/>
+<nav class> 
+  <a href="algsummary.html"><button class="nav" id= 'su-alg-1' >Summary</button></a>
+  <button class= 'nav' id= 'sa-alg-1' >Submit Answer</button>
+  <a href="alg-2.html"><button class= 'nav' id= 'nq-alg-1' >Next Question</button></a>
+</nav>
+
+
+
+
+
+<div class='explanation' id='e-alg-1'>
+<h2> Approach 1 </h2>
+<p>First, find the slope between the two points using the slope formula. 
+  $$ m=\frac{y_2-y_1}{x_2-x_1} $$
+  Using \((0,4)\) as \((x_1,y_1)\) and \((2,5)\) as \((x_2,y_2)\), we have $$ m=\frac{5-4}{2-0}=\frac{1}{2} $$
+Plug these into the point-slope formula using either of the points.
+$$ y-y_1=m(x-x_1)$$
+If we use the point \((0,4)\) and the slope (\(m=\frac{1}{2}\)), we obtain
+$$y-4=\frac{1}{2}(x-0)$$
+$$y-4=\frac{1}{2}x$$
+$$y=\frac{1}{2}x+4$$
+</p>
+<h2 > Approach 2 </h2>
+<p>Similar to the first approach, we first find the slope of the equation by using the two points. $$m=\frac{1}{2}$$
+We plug the slope and a point into the slope-intercept formula.
+$$y=mx+b$$   
+Using the point \((0,4)\) and \(m=\frac{1}{2}\), we obtain 
+$$4=\frac{1}{2}(0)+b$$
+$$4=b$$
+We use the slope and y-intercept to write the equation.
+$$y=\frac{1}{2}x+4$$
+</p>
+<h2 > Approach 3 </h2>
+<p>To check if several points are on the same line, simply plug the points into the answer choices.
+  If we go from top to bottom, we get lucky,  the first answer choice works. 
+
+  <div id='col'>
+  <center>For the point \((0,4)\) </center>
+  $$y=\frac{1}{2}x+4$$
+  $$4=\frac{1}{2}(0)+4$$
+  $$4=4 \ \ \ &#10003 $$
+ <center> For the point \((2,5\)) </center>
+  $$y=\frac{1}{2}x+4$$
+  $$5=\frac{1}{2}(2)+4$$
+  $$5=5 \ \ \ &#10003 $$
+
+</div>
+</p>
+</div>
+
+</body>
+
+</html> 

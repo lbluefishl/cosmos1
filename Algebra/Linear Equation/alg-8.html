@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+
+<head>
+    <meta charset="utf-8">
+    <title>Linear Equations Problem 8</title>
+    
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="../../scripts/alg.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+<body>
+
+<h1 class="question"> 
+The graph of the equation \(ax+ky=-6\) is a line in the \((x,y)\)-plane, where \(a\) and \(k\) are constants. If the line contains the points \((1,4)\) and \((0,-3)\), what is the value of \(ak\)?
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div id='b-alg-81' style='padding: 20px;'>
+    <label for= 'o-alg-81' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-81' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(-14\)
+    </label>
+    <span id='r-alg-81'></span>
+  </div>
+
+  <div id='b-alg-82' style='padding: 20px;'>
+    <label for= 'o-alg-82' style='padding: 20px; '>
+      <input type='radio' name='option'  id='o-alg-82' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(-28\)
+    </label>
+    <span id='r-alg-82'></span>
+  </div>
+
+  <div id='b-alg-83' style='padding: 20px;'>
+    <label for= 'o-alg-83' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-83' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(2\)
+    </label>
+    <span id='r-alg-83'></span>
+  </div>
+
+  <div id='b-alg-84' style='padding: 20px;'>
+    <label for= 'o-alg-84' style='padding: 20px; '>
+      <input type='radio' name='option' id='o-alg-84' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(7\)
+    </label>
+    <span id='r-alg-84'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algsummary.html"><button class= 'nav' id= 'su-alg-8' >Summary</button></a>
+  <button class= 'nav' id= "sa-alg-8" >Submit Answer</button>
+  <a href="alg-9.html"><button class= 'nav' id= 'nq-alg-8' >Next Question</button></a>
+</nav>
+
+<div class='explanation' id='e-alg-8'>
+  <h2> Approach 1 </h2>
+<p>Write the equation of the line in standard form, given the two points. We start by finding the slope of the equation using the slope formula.
+  $$m=\frac{y_2-y_1}{x_2-x_1}$$
+  $$m=\frac{4-(-3)}{1-0}$$
+  $$m=\frac{7}{1}=7$$
+
+  Since the second point given is the \(y\)-intercept, we can use the slope equation directly.
+  $$y=mx+b$$
+  $$y=7x-3$$
+  Rearranging the terms:
+  $$y=7x-3$$
+  $$-7x+y=-3$$
+  If we compare our equation to the one given, we need to match the constant on the right side. We can do that by doubling both sides.
+  $$-7x+y=-3$$
+  $$2(-7x+y)=2(-3)$$
+  $$-14x+2y=-6$$
+  Matching the corresponding coefficients gives us \(a=-14\) and \(k=2\).
+$$ ak=-14(2)=-28$$
+</p>
+
+
+
+<h2> Approach 2 </h2>
+
+<p>
+When given \((x,y)\) coordinates, a common first move when you're unsure where to start would be to plug them into any available equation. In this case, since the line contains these two points, we can plug them into the equation to see what happens.
+</p>
+<div id='col'>
+
+    <center>For the point \((1,4)\) </center>
+    $$ax+ky=-6$$
+    $$a(1)+k(4)=-6$$
+    $$a+4k=-6 $$
+    
+    <br>
+   <center> For the point \((0,-3\)) </center>
+    $$ax+ky=-6$$
+    $$a(0)+k(-3)=-6$$
+    $$-3k=-6 $$
+$$k=2$$
+
+</div>
+
+<p>
+  Given the value of \(k\), we can plug this into the equation above to find \(a\).
+  $$a+4k=-6$$
+  $$a+4(2)=-6$$
+  $$a+8=-6$$
+  $$a=-14 $$
+Finally, multiply \(a\) and \(k\) to get the solution.
+$$ak=-14(2) $$
+$$ak=-28$$
+
+</p>
+
+
+<h2>Approach 3</h2>
+<p>We can arrange the equation into slope-intercept form. 
+
+  $$ax+ky=-6$$
+  $$ky=-ax-6$$
+  $$y=-\frac{a}{k}x-\frac{6}{k}$$
+
+  In this form, we can identify the slope of the equation as \(-\frac{a}{k}\) and the \(y\)-intercept as \(-\frac{6}{k}\). 
+</p>
+
+
+<p>We can use these two pieces of information to calculate the values of \(a\) and \(k\). First, use the known \(y\)-intercept.</p>
+
+$$-\frac{6}{k}=-3$$
+$$k=2$$
+Set the known slope equal to its expression and use the value of \(k\) we just found.
+
+$$-\frac{a}{k}=7$$
+$$-\frac{a}{2}=7$$
+$$a=-14$$
+Finally,
+$$ak=-14(2)=-28$$
+
+<h2>Approach 4</h2>
+For many standardized tests, the incorrect answer choices are values you may have found earlier during your workthrough of the problem. In this problem,
+a test maker or test algorithm may think that students may forget to find \(ak\) and instead simply choose their answer when they have found \(a\) or \(k\). 
+If we use this to our advantage, we can see that two of the answer choices, when multiplied, equal a third answer choice, which hints to the correct answer choice.
+You may have also noticed that the last answer choice was the slope of the line, which acts as a false answer since test takers are accustomed to enter in values for common formulas (slope formula).
+
+
+
+</body>
+
+</html> 

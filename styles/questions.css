@@ -1,0 +1,123 @@
+html {
+  background-color: rgb(207, 205, 205);
+  font-family: "minion-pro", serif;
+  
+}
+
+
+p {
+  color:rgb(0, 0, 0);
+ 
+}
+.katex { font-size: 1em !important; } 
+
+body {
+	width: 800px;
+	margin: 50px auto;
+	background-color: #ffffff;
+	padding: 0 20px 20px 20px;
+	border: 10px solid rgb(226, 224, 224);
+}
+
+h1 {
+  font-size: medium;
+  font-family: minion-pro-caption, serif;
+font-weight: 400;
+font-style: normal;
+margin: 20 px;
+}
+
+
+div.explanation {
+  display:none ;
+}
+
+
+#col {
+  column-count: 2;
+
+}
+
+
+
+.nav:hover,
+.nav:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  
+}
+
+
+button {
+  padding: 5px;
+  margin: 1em 4em;
+  font-size: medium;
+  border-radius: 122px;
+  background-color: rgb(231, 231, 231);
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  width: 8em;
+  height: 4em;
+  border: 1px solid;
+}
+
+
+.last {
+
+  padding: 5px;
+  margin: 10px 55px;
+  font-size: medium;
+  border-radius: 122px;
+  background-color: rgb(231, 231, 231);
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  width: 8em;
+  height: 4em;
+  border: 1px solid;
+ 
+  
+
+}
+
+label {
+  font-size: medium;
+}
+/*
+input[type="radio"] {
+  background-color: #ddd;
+
+  border-radius: 8px;
+  box-shadow: inset 0 1px 1px hsla(0,0%,100%,.8),
+              0 0 0 1px hsla(0,0%,0%,.6),
+              0 2px 3px hsla(0,0%,0%,.6),
+              0 4px 3px hsla(0,0%,0%,.4),
+              0 6px 6px hsla(0,0%,0%,.2),
+              0 10px 6px hsla(0,0%,0%,.2);
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin-right: 15px;
+  position: relative;
+  width: 8px;
+  -webkit-appearance: none;
+}
+
+input[type="radio"]:checked {
+  background-color: rgb(148, 236, 122);
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.4),
+              inset 0 2px 2px hsla(0,0%,100%,.4),
+              0 1px 1px hsla(0,0%,100%,.8),
+              0 0 2px 2px hsla(0,70%,70%,.4);
+}
+*/
+
+
+input[type="radio"]:checked {
+  background-color:#bfb;
+  border-color: #4c4;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.4),
+              inset 0 2px 2px hsla(0,0%,100%,.4),
+              0 1px 1px hsla(0,0%,100%,.8),
+              0 0 2px 2px rgba(200, 225, 255, 0.4);
+}
+
