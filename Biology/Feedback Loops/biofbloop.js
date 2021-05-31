@@ -48,20 +48,23 @@
 if (document.getElementById('sa-biofbloop-1') != null) {
  biofbloop1But.onclick = function() {
     if (document.getElementById('o-biofbloop-11').checked) {
-      document.getElementById('b-biofbloop-11').style.border = '3px solid limegreen'
-      document.getElementById('r-biofbloop-11').style.color = 'limegreen'
-      document.getElementById('r-biofbloop-11').innerHTML = 'Correct!'
+      document.getElementById('b-biofbloop-11').style.border = '3px solid red'
+      document.getElementById('r-biofbloop-11').style.color = 'red'
+      document.getElementById('r-biofbloop-11').innerHTML = 'Incorrect!'
+      document.getElementById('b-biofbloop-14').style.border = '3px solid limegreen'
+      document.getElementById('r-biofbloop-14').style.color = 'limegreen'
+      document.getElementById('r-biofbloop-14').innerHTML = 'Correct!'
 	    document.getElementById('sa-biofbloop-1').disabled = true;
       showExplanation1()
-      localStorage.setItem('biofbloop1', 1)
+      localStorage.setItem('biofbloop1', 0)
     }
     if (document.getElementById('o-biofbloop-12').checked) {
       document.getElementById('b-biofbloop-12').style.border = '3px solid red'
       document.getElementById('r-biofbloop-12').style.color = 'red'
       document.getElementById('r-biofbloop-12').innerHTML = 'Incorrect!'
-      document.getElementById('b-biofbloop-11').style.border = '3px solid limegreen'
-      document.getElementById('r-biofbloop-11').style.color = 'limegreen'
-      document.getElementById('r-biofbloop-11').innerHTML = 'Correct!'
+      document.getElementById('b-biofbloop-14').style.border = '3px solid limegreen'
+      document.getElementById('r-biofbloop-14').style.color = 'limegreen'
+      document.getElementById('r-biofbloop-14').innerHTML = 'Correct!'
       document.getElementById('sa-biofbloop-1').disabled = true;
       showExplanation1()
       localStorage.setItem('biofbloop1', 0)
@@ -70,23 +73,20 @@ if (document.getElementById('sa-biofbloop-1') != null) {
       document.getElementById('b-biofbloop-13').style.border = '3px solid red'
       document.getElementById('r-biofbloop-13').style.color = 'red'
       document.getElementById('r-biofbloop-13').innerHTML = 'Incorrect!'
-      document.getElementById('b-biofbloop-11').style.border = '3px solid limegreen'
-      document.getElementById('r-biofbloop-11').style.color = 'limegreen'
-      document.getElementById('r-biofbloop-11').innerHTML = 'Correct!'
+      document.getElementById('b-biofbloop-14').style.border = '3px solid limegreen'
+      document.getElementById('r-biofbloop-14').style.color = 'limegreen'
+      document.getElementById('r-biofbloop-14').innerHTML = 'Correct!'
       document.getElementById('sa-biofbloop-1').disabled = true;
       showExplanation1()
       localStorage.setItem('biofbloop1', 0)
     }
     if (document.getElementById('o-biofbloop-14').checked) {
-      document.getElementById('b-biofbloop-14').style.border = '3px solid red'
-      document.getElementById('r-biofbloop-14').style.color = 'red'
-      document.getElementById('r-biofbloop-14').innerHTML = 'Incorrect!'
-      document.getElementById('b-biofbloop-11').style.border = '3px solid limegreen'
-      document.getElementById('r-biofbloop-11').style.color = 'limegreen'
-      document.getElementById('r-biofbloop-11').innerHTML = 'Correct!'
+      document.getElementById('b-biofbloop-14').style.border = '3px solid limegreen'
+      document.getElementById('r-biofbloop-14').style.color = 'limegreen'
+      document.getElementById('r-biofbloop-14').innerHTML = 'Correct!'
       document.getElementById('sa-biofbloop-1').disabled = true;
       showExplanation1()
-      localStorage.setItem('biofbloop1', 0)
+      localStorage.setItem('biofbloop1', 1)
     }
     
   }
