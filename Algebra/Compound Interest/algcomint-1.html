@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+   <title>Compound Interest Problem 1</title>  
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="algcomint.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+
+<p>
+The enrollment capacity of a certain college is 22,200 students. If the current enrollment is 20,000, but the enrollement increases by 5% per year, how many years
+ will it take before the enrollment limit is reached?
+</p>
+
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-algcomint-11'>
+    <label for= 'o-algcomint-11'>
+      <input type='radio' name='option'  id='o-algcomint-11' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(1\)
+    </label>
+    <span id='r-algcomint-11'></span>
+  </div>
+
+  <div class="box" id='b-algcomint-12'>
+    <label for= 'o-algcomint-12'>
+      <input type='radio' name='option'  id='o-algcomint-12' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(2\)
+    </label>
+    <span id='r-algcomint-12'></span>
+  </div>
+
+  <div class="box" id='b-algcomint-13'>
+    <label for= 'o-algcomint-13'>
+      <input type='radio' name='option' id='o-algcomint-13' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(3\)
+    </label>
+    <span id='r-algcomint-13'></span>
+  </div>
+
+  <div class="box" id='b-algcomint-14'>
+    <label for= 'o-algcomint-14'>
+      <input type='radio' name='option' id='o-algcomint-14' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(4\)
+    </label>
+    <span id='r-algcomint-14'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algcomintsummary.html"><button  id= 'su-algcomint-1' >Summary</button></a>
+  <button  id= "sa-algcomint-1" >Submit Answer</button>
+  <a href="algcomint-2.html"><button class= 'nav' id= 'nq-algcomint-1' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-algcomint-1'>
+
+
+
+
+<h2> Approach 1 </h2>
+
+<p>
+We can approach this question with simple percents. Every year, the enrollment will increase by 5%.
+$$20{,}000 \tag*{current enrollment}$$
+$$20{,}000+20{,}000(0.05) \tag*{after 1 year}$$
+We can quickly calculate 5% by first taking 10% of the number, and halving it. 
+In this case, 10% of 20,000 is 2,000, so 5% would be 1,000.
+</p>
+<br>
+Therefore, 
+$$20{,}000(1.05)=20{,}000+1{,}000$$
+$$=21{,}000$$
+Repeat the process for the second year.
+$$21{,}000(1.05)$$
+$$=21{,}000+1{,}050$$
+$$=22{,}050$$
+We can estimate that another 5% increase the third year will certainly bring the number above the 22,200 threshold. 
+</p>
+
+<h2> Approach 2 </h2>
+
+<p>Use the compound interest equation.
+$$ A=P(1+\frac{r}{n})^{nt} $$
+
+\(A=\text{final amount}\)
+<br> 
+\(P=\text{initial amount}\)    
+<br>
+\(r=\text{interest rate}\)
+<br>
+\(n=\text{number of times interest applied for time period}\)
+<br>
+\(t=\text{number of time periods elapsed}\)
+</p>
+
+<p>
+In our situation, we start with 20,000 and have an increase of 5% (\(r\)=0.05) once every year (\(n=1\)). We're trying to figure out what year \(t\) results in an amount greater than 22,200.
+$$ 22{,}200 < 20{,}000\left(1+\frac{0.05}{1}\right)^{(1)t} $$
+$$ 22{,}200 < 20{,}000(1.05)^t $$
+From here we have two options for how to proceed. 
+</p>
+
+<div id="col" style="column-gap: 30px;">
+<p>We can substitute values of \(t\) and check if the inequality holds true. 
+</p>
+<p>For \(t=2\)</p>
+$$ 22{,}200 < 20{,}000(1.05)^2  $$
+$$ 22{,}200 < 22{,}050 \ \ &#x2716; $$
+For \(t=3\)
+$$ 22{,}200 < 20{,}000(1.05)^3  $$
+$$ 22{,}200 < 23{,}152.5 \ \ &#x2714; $$
+<br>
+<br>
+If we know how to use logarithms, we can solve for \(t\) directly. 
+$$ 22{,}200 < 20{,}000(1.05)^t $$
+$$ \frac{22{,}200}{20{,}000} < 1.05^t $$
+$$ 1.11 < 1.05^t $$
+$$\log_{1.05}1.11 < \log_{1.05}1.05^t $$
+$$\frac{\log1.11}{\log1.05} < t $$
+$$ 2.139 < t $$
+</div>
+
+
+
+</body>
+
+</html> 

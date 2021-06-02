@@ -63,9 +63,14 @@ div.explanation {
 #col {
   column-count: 2;
 
+;
+
 }
 
+p.col {
 
+  break-after:always;
+}
 
 .nav:hover,
 .nav:focus {
