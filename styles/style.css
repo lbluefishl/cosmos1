@@ -3,8 +3,7 @@ html {
  font-family: "minion-pro", serif;
  font-weight: 400;
  font-style: normal;
-  background-color: #345344;
-
+ background-color: rgb(207, 205, 205);
 }
 
 h1 {
@@ -25,10 +24,11 @@ p, li {
 body {
 	width: 800;
 	margin: auto auto;
-	background-color: #d4ba96;
-	padding: 0 20px 20px 20px;
-	border: 10px solid black;
+	background-color: #ffffff;
+	padding: 5px 20px 20px 20px;
+	border: 10px solid rgb(226, 224, 224);
 }
+
 
 img {
 display: block;
@@ -41,10 +41,7 @@ h2 {
 }
 
 
-#col {
-  column-count: 5;
 
-}
 
 .nav:hover,
 .nav:focus {
@@ -58,15 +55,15 @@ h2 {
 
 
 button {
-  padding: 5px;
+  padding: 2px;
   margin: 5px;
   font-size: small;
   border-radius: 5px;
   background-color: rgb(231, 231, 231);
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  width: 18em;
-  height: 2em;
+  width: 200px;
+  height: 20px;
   border: 1px solid;
 }
 

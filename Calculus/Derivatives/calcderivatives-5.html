@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+ <title>Derivatives Problem 5</title> 
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="calcderivatives.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+
+<p>
+If \(f(x)=e^{1/x}\), then \(f'(x)=\)
+</p>
+
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-calcderivatives-51'>
+    <label for= 'o-calcderivatives-51'>
+      <input type='radio' name='option'  id='o-calcderivatives-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(-e^{1/x}\)
+    </label>
+    <span id='r-calcderivatives-51'></span>
+  </div>
+
+  <div class="box" id='b-calcderivatives-52'>
+    <label for= 'o-calcderivatives-52'>
+      <input type='radio' name='option'  id='o-calcderivatives-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+
+      \(-\frac{e^{1/x}}{x^2}\)
+    </label>
+    <span id='r-calcderivatives-52'></span>
+  </div>
+
+  <div class="box" id='b-calcderivatives-53'>
+    <label for= 'o-calcderivatives-53'>
+      <input type='radio' name='option' id='o-calcderivatives-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(\frac{e^{1/x}}{x^2}\)
+    </label>
+    <span id='r-calcderivatives-53'></span>
+  </div>
+
+  <div class="box" id='b-calcderivatives-54'>
+    <label for= 'o-calcderivatives-54'>
+      <input type='radio' name='option' id='o-calcderivatives-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(\frac{e^{1/x}}{x}\)
+    </label>
+    <span id='r-calcderivatives-54'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="calcderivativessummary.html"><button  id= 'su-calcderivatives-5' >Summary</button></a>
+  <button  id= "sa-calcderivatives-5" >Submit Answer</button>
+  <a href="calcderivatives-6.html"><button class= 'nav' id= 'nq-calcderivatives-5' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-calcderivatives-5'>
+
+
+
+
+<h2> Approach 1 </h2>
+
+<p>
+We will combine the power rule and exponential rule for \(e^x\) as shown:
+$$ \frac{d}{dx}e^x = e^x \tag*{exponential rule for \(e^x\)} $$
+$$ \frac{d}{dx}\left(\frac{1}{x}\right)=\frac{d}{du}(x^{-1}) = -1\cdot x^{-2} = -\frac{1}{x^2} \tag*{power rule} $$
+Chain rule:
+$$\frac{d}{dx}e^{1/x}=e^{1/x}\cdot -\frac{1}{x^2} $$
+$$=\boxed{-\frac{e^{1/x}}{x^2}}$$
+</p>
+
+
+
+</div>
+
+
+
+</body>
+
+</html> 
