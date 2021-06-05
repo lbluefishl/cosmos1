@@ -14,8 +14,8 @@ p {
 
 
 body {
-	width: 33em;
-	margin: 50px auto;
+	width: auto;
+	margin: 3em 10em ;
 	background-color: #ffffff;
 	padding: 20px 20px 20px 20px;
 	border: 10px solid rgb(226, 224, 224);
@@ -46,13 +46,13 @@ vertical-align: 10px;
   border-radius: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  width: 4em;
+  width: 4.8em;
   height: 4em;
 }
 
 button {
   border-radius: 5px;
-  margin-left: 17em;
+  margin-left: 21em;
 }
 .nav:hover,
 .nav:focus {
