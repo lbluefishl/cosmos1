@@ -209,31 +209,11 @@
     if (document.getElementById('sa-algexprules-3') != null) {
       algexprules3But.onclick = function() {
         if (document.getElementById('o-algexprules-31').checked) {
-          document.getElementById('r-algexprules-31').style.color = 'red'
-          document.getElementById('r-algexprules-31').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-32').style.color = 'blue'
-          document.getElementById('r-algexprules-32').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-31').style.color = 'blue'
+          document.getElementById('r-algexprules-31').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-32').classList.add("correct")
-          document.getElementById('b-algexprules-31').classList.add("incorrect")
-          document.getElementById('b-algexprules-33').classList.add("incorrect")
-          document.getElementById('b-algexprules-34').classList.add("incorrect")
-    
-          document.getElementById('sa-algexprules-3').disabled = true;
-          document.getElementById('o-algexprules-31').disabled = true;
-          document.getElementById('o-algexprules-32').disabled = true;
-          document.getElementById('o-algexprules-33').disabled = true;
-          document.getElementById('o-algexprules-34').disabled = true;
-          showExplanation3()
-          localStorage.setItem('algexprules3', 0)
-        }
-        if (document.getElementById('o-algexprules-32').checked) {
-    
-          document.getElementById('r-algexprules-32').style.color = 'blue'
-          document.getElementById('r-algexprules-32').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algexprules-32').classList.add("correct")
-          document.getElementById('b-algexprules-31').classList.add("incorrect")
+          document.getElementById('b-algexprules-31').classList.add("correct")
+          document.getElementById('b-algexprules-32').classList.add("incorrect")
           document.getElementById('b-algexprules-33').classList.add("incorrect")
           document.getElementById('b-algexprules-34').classList.add("incorrect")
     
@@ -245,14 +225,33 @@
           showExplanation3()
           localStorage.setItem('algexprules3', 1)
         }
+        if (document.getElementById('o-algexprules-32').checked) {
+          document.getElementById('r-algexprules-32').style.color = 'red'
+          document.getElementById('r-algexprules-32').innerHTML = 'Incorrect!'
+          document.getElementById('r-algexprules-31').style.color = 'blue'
+          document.getElementById('r-algexprules-31').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algexprules-31').classList.add("correct")
+          document.getElementById('b-algexprules-32').classList.add("incorrect")
+          document.getElementById('b-algexprules-33').classList.add("incorrect")
+          document.getElementById('b-algexprules-34').classList.add("incorrect")
+    
+          document.getElementById('sa-algexprules-3').disabled = true;
+          document.getElementById('o-algexprules-31').disabled = true;
+          document.getElementById('o-algexprules-32').disabled = true;
+          document.getElementById('o-algexprules-33').disabled = true;
+          document.getElementById('o-algexprules-34').disabled = true;
+          showExplanation3()
+          localStorage.setItem('algexprules3', 0)
+        }
         if (document.getElementById('o-algexprules-33').checked) {
           document.getElementById('r-algexprules-33').style.color = 'red'
           document.getElementById('r-algexprules-33').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-32').style.color = 'blue'
-          document.getElementById('r-algexprules-32').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-31').style.color = 'blue'
+          document.getElementById('r-algexprules-31').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-32').classList.add("correct")
-          document.getElementById('b-algexprules-31').classList.add("incorrect")
+          document.getElementById('b-algexprules-31').classList.add("correct")
+          document.getElementById('b-algexprules-32').classList.add("incorrect")
           document.getElementById('b-algexprules-33').classList.add("incorrect")
           document.getElementById('b-algexprules-34').classList.add("incorrect")
     
@@ -267,11 +266,11 @@
         if (document.getElementById('o-algexprules-34').checked) {
           document.getElementById('r-algexprules-34').style.color = 'red'
           document.getElementById('r-algexprules-34').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-32').style.color = 'blue'
-          document.getElementById('r-algexprules-32').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-31').style.color = 'blue'
+          document.getElementById('r-algexprules-31').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-32').classList.add("correct")
-          document.getElementById('b-algexprules-31').classList.add("incorrect")
+          document.getElementById('b-algexprules-31').classList.add("correct")
+          document.getElementById('b-algexprules-32').classList.add("incorrect")
           document.getElementById('b-algexprules-33').classList.add("incorrect")
           document.getElementById('b-algexprules-34').classList.add("incorrect")
     

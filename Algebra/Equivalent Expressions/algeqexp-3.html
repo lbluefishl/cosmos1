@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+  <title>Equivalent Expressions Problem 3</title>  
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="algeqexp.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+
+<p>
+Which expression is equivalent to the following?
+$$ x^4-8x^2+16 $$
+</p>
+
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-algeqexp-31'>
+    <label for= 'o-algeqexp-31'>
+      <input type='radio' name='option'  id='o-algeqexp-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \( (x-2)^4\)
+    </label>
+    <span id='r-algeqexp-31'></span>
+  </div>
+
+  <div class="box" id='b-algeqexp-32'>
+    <label for= 'o-algeqexp-32'>
+      <input type='radio' name='option'  id='o-algeqexp-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( (x+2)^2 (x-2)^2\)
+    </label>
+    <span id='r-algeqexp-32'></span>
+  </div>
+
+  <div class="box" id='b-algeqexp-33'>
+    <label for= 'o-algeqexp-33'>
+      <input type='radio' name='option' id='o-algeqexp-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( (x+4) (x-4)\)
+    </label>
+    <span id='r-algeqexp-33'></span>
+  </div>
+
+  <div class="box" id='b-algeqexp-34'>
+    <label for= 'o-algeqexp-34'>
+      <input type='radio' name='option' id='o-algeqexp-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+     \( (x-4)^2 \)
+    </label>
+    <span id='r-algeqexp-34'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algeqexpsummary.html"><button  id= 'su-algeqexp-3' >Summary</button></a>
+  <button  id= "sa-algeqexp-3" >Submit Answer</button>
+  <a href="algeqexp-4.html"><button class= 'nav' id= 'nq-algeqexp-3' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-algeqexp-3'>
+
+
+
+
+<h2> Approach 1 </h2>
+
+<p>
+Recognize that the given expression is a perfect square trinomial in the form \(a^2-2ab+b^2\), where \(a=x^2\) and \(b=4\).
+$$ a^2-2ab+b^2 = (a-b)(a-b)$$
+$$ x^4-8x^2+16= (x^2)^2-2(x^2)(4)+(4)^2 = (x^2-4)(x^2-4) $$
+
+\(x^2-4\) is also a special quadratic, which can be factored using the difference of squares.
+$$ a^2-b^2 = (a+b)(a-b) $$
+$$ (x)^2-(2)^2= (x-2)(x+2) $$
+
+To put it all together, 
+$$ x^4-8x^2+16 = (x^2-4)(x^2-4) = (x+2)(x-2)(x+2)(x-2)$$
+$$ =\boxed{(x+2)^2(x-2)^2}$$
+</p>
+
+<h2> Approach 2 </h2>
+<p>
+If you have difficulty factoring, we can always expand the answer choices. Because the overall power of our expression is 4 \((x^4)\), we can eliminate the 
+last two answer choices, which both have an overall power of 2. It would take quite a while to show all the work for the expansion of \((x-2)^4\) and \( (x+2)^2 (x-2)^2\), but it may work for other questions.
+Regardless, we can knock two answers out by simply looking at the overall power of the expression.
+</p>
+
+
+<h2> Approach 3 </h2>
+<p>
+
+</p>
+For equivalent expression problems, we can substitute a value for \(x\) and check it it satisfies the expressions that are supposed to be equal. Using \(x=1\),
+$$ x^4-8x^2+16 $$
+$$ (1)^4-8(1)^2+16 = 1-8+16=9$$
+
+<div id='col'>
+<center>Choice 1</center>
+$$ (x-2)^4$$
+$$ (1-2)^4 = (-1)^4 = 1 &nbsp;  &#10006; $$
+<center>Choice 2</center>
+$$ (x+2)^2 (x-2)^2 $$
+$$ (1+2)^2 (1-2)^2 = (3)^2 (-1)^2 = 9 &nbsp; &#10003; $$
+</div>
+Note: Usually we would use \(x=0\), but for this question all three expressions would be equal.
+
+
+</div>
+
+
+
+</body>
+
+</html> 
