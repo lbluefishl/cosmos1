@@ -366,7 +366,7 @@ function initPicture(x_min,x_max,y_min,y_max) {
   fill = "none";    // default fill color
   fontstyle = "italic"; // default shape for text labels
   fontfamily = "times"; // default font
-  fontsize = "16";      // default size
+  fontsize = "32";      // default size
   fontweight = "normal";
   fontstroke = "none";  // default font outline color
   fontfill = "none";    // default font color
@@ -727,7 +727,7 @@ function redtext(p,st,pos,id,fontsty) {
   node.setAttribute("y",height-p[1]*yunitlength-origin[1]+dy);
   node.setAttribute("font-style",(fontsty!=null?fontsty:fontstyle));
   node.setAttribute("font-family",fontfamily);
-  node.setAttribute("font-size","large");
+  node.setAttribute("font-size","32");
   node.setAttribute("font-weight",fontweight);
   node.setAttribute("text-anchor",textanchor);
   node.setAttribute("fill","red");
