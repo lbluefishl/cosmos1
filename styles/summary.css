@@ -28,7 +28,7 @@ h1 {
   font-family:  'minion-pro-caption', sans-serif;
   color: #4d9471;
   text-shadow: .02em .02em .02em black;
-  
+  margin: 0;
 }
 
 
@@ -51,7 +51,7 @@ vertical-align: 10px;
   font-weight: 300;
   color: #4d9471;
   text-shadow: .02em .02em .02em black;
-  width: 4.83em;
+  width: 4.77em;
   height: 4em;
 }
 
