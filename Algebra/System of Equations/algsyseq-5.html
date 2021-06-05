@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>System of Equations Problem 5</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,13 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
 <p>
+If \((x,y)\) is the solution to the following system of equations, what is the value of \(10x-y\)?
 
+$$ 5x+3y=31 $$
+$$ 5x-4y=17 $$
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +38,7 @@
   <div class="box" id='b-algsyseq-51'>
     <label for= 'o-algsyseq-51'>
       <input type='radio' name='option'  id='o-algsyseq-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(2\)
     </label>
     <span id='r-algsyseq-51'></span>
   </div>
@@ -44,7 +46,7 @@
   <div class="box" id='b-algsyseq-52'>
     <label for= 'o-algsyseq-52'>
       <input type='radio' name='option'  id='o-algsyseq-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(5\)
     </label>
     <span id='r-algsyseq-52'></span>
   </div>
@@ -52,7 +54,7 @@
   <div class="box" id='b-algsyseq-53'>
     <label for= 'o-algsyseq-53'>
       <input type='radio' name='option' id='o-algsyseq-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(15\)
     </label>
     <span id='r-algsyseq-53'></span>
   </div>
@@ -60,7 +62,7 @@
   <div class="box" id='b-algsyseq-54'>
     <label for= 'o-algsyseq-54'>
       <input type='radio' name='option' id='o-algsyseq-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(48\)
     </label>
     <span id='r-algsyseq-54'></span>
   </div>
@@ -78,13 +80,54 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+If we compare the given equations to the requested expression, we see a clear relationship. 
+
+$$ 5x+3y=31 $$
+$$ 5x-4y=17 $$
+
+$$ \begin{array}{  c c c}
+&5x & 3y & 31 \\ 
++&5x & -4y & 17 \\ \hline
+\end{array} $$
+$$10x-y=\boxed{48}$$
+
 </p>
 
+<h2> Approach 2</h2>
 
+<p>
+We can use elimination to find the values of \(x\) and \(y\).
+
+$$ 5x+3y=31 $$
+Multiply each term of the second equation by \(-1\).
+$$ -1(5x-4y)=17(-1) $$
+$$  -5x+4y=-17 $$
+Add the two equations. 
+$$ \begin{array}{  c c c}
+&5x & 3y & 31 \\ 
++&-5x & 4y & -17 \\ \hline
+\end{array} $$
+$$7y=14$$
+$$y=2$$
+Substitute the value of \(y\) back into either equation.
+$$ 5x+3(2)=31$$
+$$5x+6=31$$
+$$5x=25$$
+$$x=5$$
+Using the values of \(x\) and \(y\),
+$$10x-y$$
+$$=10(5)-2$$
+$$=50-2$$
+$$=\boxed{48}$$
+
+
+</p>
+<h2> Sidenote</h2>
+
+<p>Questions like these are especially common on standardized tests like the SAT. A good hint that you would use the first approach would be if the question requests the value of an expression, rather than the \(x\) or \(y\) coordinate. </p>
 
 </div>
 
