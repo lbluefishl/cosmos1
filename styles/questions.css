@@ -32,12 +32,15 @@ font-size: 1em;
 
 div.box { 
   padding: 1em 1em 1em 3em ;
-  text-indent: -2em;
+  text-indent: -1.3em;
   margin: auto auto auto auto
 }
 
 
-.katex { font-size: 1em !important; } 
+.katex { font-size: 1em !important;
+} 
+
+
 
 body {
 	width: 20em auto;
@@ -52,7 +55,8 @@ h1 {
   font-family: minion-pro-caption, serif;
 font-weight: 400;
 font-style: normal;
-margin: 20 px;
+margin: 10px  ;
+padding: 10px ;
 }
 h2 {
   font-size: 2em;
