@@ -210,13 +210,13 @@
         if (document.getElementById('o-calcint-31').checked) {
           document.getElementById('r-calcint-31').style.color = 'red'
           document.getElementById('r-calcint-31').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcint-32').style.color = 'blue'
-          document.getElementById('r-calcint-32').innerHTML = 'Correct!'
+          document.getElementById('r-calcint-34').style.color = 'blue'
+          document.getElementById('r-calcint-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcint-32').classList.add("correct")
+          document.getElementById('b-calcint-34').classList.add("correct")
           document.getElementById('b-calcint-31').classList.add("incorrect")
+          document.getElementById('b-calcint-32').classList.add("incorrect")
           document.getElementById('b-calcint-33').classList.add("incorrect")
-          document.getElementById('b-calcint-34').classList.add("incorrect")
     
           document.getElementById('sa-calcint-3').disabled = true;
           document.getElementById('o-calcint-31').disabled = true;
@@ -227,14 +227,15 @@
           localStorage.setItem('calcint3', 0)
         }
         if (document.getElementById('o-calcint-32').checked) {
-    
-          document.getElementById('r-calcint-32').style.color = 'blue'
-          document.getElementById('r-calcint-32').innerHTML = 'Correct!'
+          document.getElementById('r-calcint-32').style.color = 'red'
+          document.getElementById('r-calcint-32').innerHTML = 'Incorrect!'
+          document.getElementById('r-calcint-34').style.color = 'blue'
+          document.getElementById('r-calcint-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcint-32').classList.add("correct")
+          document.getElementById('b-calcint-34').classList.add("correct")
           document.getElementById('b-calcint-31').classList.add("incorrect")
           document.getElementById('b-calcint-33').classList.add("incorrect")
-          document.getElementById('b-calcint-34').classList.add("incorrect")
+          document.getElementById('b-calcint-32').classList.add("incorrect")
     
           document.getElementById('sa-calcint-3').disabled = true;
           document.getElementById('o-calcint-31').disabled = true;
@@ -242,18 +243,18 @@
           document.getElementById('o-calcint-33').disabled = true;
           document.getElementById('o-calcint-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('calcint3', 1)
+          localStorage.setItem('calcint3', 0)
         }
         if (document.getElementById('o-calcint-33').checked) {
           document.getElementById('r-calcint-33').style.color = 'red'
           document.getElementById('r-calcint-33').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcint-32').style.color = 'blue'
-          document.getElementById('r-calcint-32').innerHTML = 'Correct!'
+          document.getElementById('r-calcint-34').style.color = 'blue'
+          document.getElementById('r-calcint-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcint-32').classList.add("correct")
+          document.getElementById('b-calcint-34').classList.add("correct")
           document.getElementById('b-calcint-31').classList.add("incorrect")
           document.getElementById('b-calcint-33').classList.add("incorrect")
-          document.getElementById('b-calcint-34').classList.add("incorrect")
+          document.getElementById('b-calcint-32').classList.add("incorrect")
     
           document.getElementById('sa-calcint-3').disabled = true;
           document.getElementById('o-calcint-31').disabled = true;
@@ -264,15 +265,13 @@
           localStorage.setItem('calcint3', 0)
         }
         if (document.getElementById('o-calcint-34').checked) {
-          document.getElementById('r-calcint-34').style.color = 'red'
-          document.getElementById('r-calcint-34').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcint-32').style.color = 'blue'
-          document.getElementById('r-calcint-32').innerHTML = 'Correct!'
+          document.getElementById('r-calcint-34').style.color = 'blue'
+          document.getElementById('r-calcint-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcint-32').classList.add("correct")
+          document.getElementById('b-calcint-34').classList.add("correct")
           document.getElementById('b-calcint-31').classList.add("incorrect")
           document.getElementById('b-calcint-33').classList.add("incorrect")
-          document.getElementById('b-calcint-34').classList.add("incorrect")
+          document.getElementById('b-calcint-32').classList.add("incorrect")
     
           document.getElementById('sa-calcint-3').disabled = true;
           document.getElementById('o-calcint-31').disabled = true;
@@ -280,7 +279,7 @@
           document.getElementById('o-calcint-33').disabled = true;
           document.getElementById('o-calcint-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('calcint3', 0)
+          localStorage.setItem('calcint3', 1)
         }
       }
     }
