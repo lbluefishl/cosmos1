@@ -46,33 +46,14 @@
 
      if (document.getElementById('sa-calcposvelacc-1') != null) {
       calcposvelacc1But.onclick = function () {
-        if (document.getElementById('o-calcposvelacc-11').checked) {
-          document.getElementById('r-calcposvelacc-11').style.color = 'blue'
-          document.getElementById('r-calcposvelacc-11').innerHTML = 'Correct!'
+        if (document.getElementById('o-calcposvelacc-11').checked) {               
+          document.getElementById('r-calcposvelacc-11').style.color = 'red'
+          document.getElementById('r-calcposvelacc-11').innerHTML = 'Incorrect!'
+          document.getElementById('r-calcposvelacc-12').style.color = 'blue'
+          document.getElementById('r-calcposvelacc-12').innerHTML = 'Correct!'
     
-          document.getElementById('b-calcposvelacc-11').classList.add("correct")
-          document.getElementById('b-calcposvelacc-12').classList.add("incorrect")
-          document.getElementById('b-calcposvelacc-13').classList.add("incorrect")
-          document.getElementById('b-calcposvelacc-14').classList.add("incorrect")
-    
-          document.getElementById('sa-calcposvelacc-1').disabled = true;
-          document.getElementById('o-calcposvelacc-11').disabled = true;
-          document.getElementById('o-calcposvelacc-12').disabled = true;
-          document.getElementById('o-calcposvelacc-13').disabled = true;
-          document.getElementById('o-calcposvelacc-14').disabled = true;
-          showExplanation1()
-          localStorage.setItem('calcposvelacc1', 1)
-        }
-    
-        if (document.getElementById('o-calcposvelacc-12').checked) {
-         
-          document.getElementById('r-calcposvelacc-12').style.color = 'red'
-          document.getElementById('r-calcposvelacc-12').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcposvelacc-11').style.color = 'blue'
-          document.getElementById('r-calcposvelacc-11').innerHTML = 'Correct!'
-    
-          document.getElementById('b-calcposvelacc-11').classList.add("correct")
-          document.getElementById('b-calcposvelacc-12').classList.add("incorrect")
+          document.getElementById('b-calcposvelacc-12').classList.add("correct")
+          document.getElementById('b-calcposvelacc-11').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-13').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-14').classList.add("incorrect")
     
@@ -84,14 +65,32 @@
           showExplanation1()
           localStorage.setItem('calcposvelacc1', 0)
         }
+    
+        if (document.getElementById('o-calcposvelacc-12').checked) {
+          document.getElementById('r-calcposvelacc-12').style.color = 'blue'
+          document.getElementById('r-calcposvelacc-12').innerHTML = 'Correct!'
+    
+          document.getElementById('b-calcposvelacc-12').classList.add("correct")
+          document.getElementById('b-calcposvelacc-11').classList.add("incorrect")
+          document.getElementById('b-calcposvelacc-13').classList.add("incorrect")
+          document.getElementById('b-calcposvelacc-14').classList.add("incorrect")
+    
+          document.getElementById('sa-calcposvelacc-1').disabled = true;
+          document.getElementById('o-calcposvelacc-11').disabled = true;
+          document.getElementById('o-calcposvelacc-12').disabled = true;
+          document.getElementById('o-calcposvelacc-13').disabled = true;
+          document.getElementById('o-calcposvelacc-14').disabled = true;
+          showExplanation1()
+          localStorage.setItem('calcposvelacc1', 1)
+        }
         if (document.getElementById('o-calcposvelacc-13').checked) {
           document.getElementById('r-calcposvelacc-13').style.color = 'red'
           document.getElementById('r-calcposvelacc-13').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcposvelacc-11').style.color = 'blue'
-          document.getElementById('r-calcposvelacc-11').innerHTML = 'Correct!'
+          document.getElementById('r-calcposvelacc-12').style.color = 'blue'
+          document.getElementById('r-calcposvelacc-12').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcposvelacc-11').classList.add("correct")
-          document.getElementById('b-calcposvelacc-12').classList.add("incorrect")
+          document.getElementById('b-calcposvelacc-12').classList.add("correct")
+          document.getElementById('b-calcposvelacc-11').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-13').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-14').classList.add("incorrect")
     
@@ -106,11 +105,11 @@
         if (document.getElementById('o-calcposvelacc-14').checked) {
           document.getElementById('r-calcposvelacc-14').style.color = 'red'
           document.getElementById('r-calcposvelacc-14').innerHTML = 'Incorrect!'
-          document.getElementById('r-calcposvelacc-11').style.color = 'blue'
-          document.getElementById('r-calcposvelacc-11').innerHTML = 'Correct!'
+          document.getElementById('r-calcposvelacc-12').style.color = 'blue'
+          document.getElementById('r-calcposvelacc-12').innerHTML = 'Correct!'
           
-          document.getElementById('b-calcposvelacc-11').classList.add("correct")
-          document.getElementById('b-calcposvelacc-12').classList.add("incorrect")
+          document.getElementById('b-calcposvelacc-12').classList.add("correct")
+          document.getElementById('b-calcposvelacc-11').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-13').classList.add("incorrect")
           document.getElementById('b-calcposvelacc-14').classList.add("incorrect")
     
