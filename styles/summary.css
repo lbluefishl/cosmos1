@@ -55,9 +55,9 @@ vertical-align: 10px;
   height: 4em;
 }
 
-button {
-  border-radius: 5px;
-  margin-left: 21em;
+button.clear {
+float: right;
+
 }
 .nav:hover,
 .nav:focus {
@@ -70,6 +70,7 @@ button {
   font-family: 'Lato', sans-serif;
   font-size: 1em;
   width: 10em;
+  
 }
 
 

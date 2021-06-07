@@ -73,18 +73,22 @@ div.explanation {
 }
 
 
-
+nav {
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 
 button {
   padding: 0;
   margin: .3em .8em ;
-  font-size: 1em;
+  font-size: 5vh ;
+  line-height: 5vh;
   border-radius: 12em;
   background-color: rgb(231, 231, 231);
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  width: 13em;
+  width: 28%;
   height: 3em;
   border: .1em solid;
 }
