@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Rearranging Algebraic Equations Problem 9</title> 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+The following formula gives the total amount of a loan \(P\) given a monthly payment \(m\), an annual interest \(r\) percent over a term of \(N\) months. 
+Which of the following would give us the monthly payment \(m\) in terms of \(P, r,\) and \(N\)?
 </p>
-!-->
+$$ P = \frac{\left(  1+\dfrac{r}{1{,}200}           \right)^N - 1     }      {  \left(  \dfrac{r}{1{,}200}    \right)       \left(  1 + \dfrac{r}{1{,}200}    \right)^N} m  $$     
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algrealeq-91'>
     <label for= 'o-algrealeq-91'>
       <input type='radio' name='option'  id='o-algrealeq-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( m=\left(\dfrac{1{,}200}{r}\right)P        \)
     </label>
     <span id='r-algrealeq-91'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algrealeq-92'>
     <label for= 'o-algrealeq-92'>
       <input type='radio' name='option'  id='o-algrealeq-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( m=-\left(\dfrac{1{,}200}{r}\right)P        \)
     </label>
     <span id='r-algrealeq-92'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algrealeq-93'>
     <label for= 'o-algrealeq-93'>
       <input type='radio' name='option' id='o-algrealeq-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( m = \frac{\left(  \normalsize 1+\dfrac{r}{1{,}200}           \right)^{\scriptsize N} - \normalsize 1     }      {  \left(  \dfrac{r}{1{,}200}    \right)       \left(  \normalsize1 + \dfrac{r}{1{,}200}    \right)^{\scriptsize N}} P  \)     
     </label>
     <span id='r-algrealeq-93'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algrealeq-94'>
     <label for= 'o-algrealeq-94'>
       <input type='radio' name='option' id='o-algrealeq-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( m = \frac {  \left(  \dfrac{r}{1{,}200}    \right)       \left( \normalsize 1 + \dfrac{r}{1{,}200}    \right)^{\scriptsize N}} {\left( \normalsize 1+\dfrac{r}{1{,}200} \right)^{\scriptsize N} - \normalsize 1     }     P  \)     
     </label>
     <span id='r-algrealeq-94'></span>
   </div>
@@ -78,13 +79,31 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+Concentrating on the big picture,
 </p>
+$$ P =    \dfrac{   \colorbox{aqua}{$ \left(  1+\dfrac{r}{1{,}200}\right)^N-1  $}      }{  \colorbox{yellow}{ $\left(  \dfrac{r}{1{,}200}    \right) $}  
+ \colorbox{chartreuse} {$  \left(  1 + \dfrac{r}{1{,}200}    \right)^N$}} m  $$     
+
+ <p>We can do the following algebraic moves</p>
+ $$ P=\frac{\colorbox{aqua}{A}}{\colorbox{yellow}{B}\colorbox{chartreuse}{C}}m $$
+ $$ P\cdot \colorbox{yellow}{B} \cdot \colorbox{chartreuse}{C} = \colorbox{aqua}{A}m $$
+ $$ \frac{\colorbox{yellow}{B}\colorbox{chartreuse}{C}}{\colorbox{aqua}{A}}P= m$$
+Which gets us,
+
+$$ \boxed {                                
 
 
+  m =    \dfrac{  \colorbox{yellow}{ $\left(  \dfrac{r}{1{,}200}    \right) $}  
+  \colorbox{chartreuse} {$  \left(  1 + \dfrac{r}{1{,}200}    \right)^N$}}{   \colorbox{aqua}{$ \left(  1+\dfrac{r}{1{,}200}\right)^N-1  $}      } P
+
+
+
+
+  
+                           } $$
 </div>
 
 

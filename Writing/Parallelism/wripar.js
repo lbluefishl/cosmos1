@@ -47,12 +47,14 @@
      if (document.getElementById('sa-wripar-1') != null) {
       wripar1But.onclick = function () {
         if (document.getElementById('o-wripar-11').checked) {
-          document.getElementById('r-wripar-11').style.color = 'blue'
-          document.getElementById('r-wripar-11').innerHTML = 'Correct!'
+          document.getElementById('r-wripar-11').style.color = 'red'
+          document.getElementById('r-wripar-11').innerHTML = 'Incorrect!'
+          document.getElementById('r-wripar-13').style.color = 'blue'
+          document.getElementById('r-wripar-13').innerHTML = 'Correct!'
     
-          document.getElementById('b-wripar-11').classList.add("correct")
+          document.getElementById('b-wripar-13').classList.add("correct")
           document.getElementById('b-wripar-12').classList.add("incorrect")
-          document.getElementById('b-wripar-13').classList.add("incorrect")
+          document.getElementById('b-wripar-11').classList.add("incorrect")
           document.getElementById('b-wripar-14').classList.add("incorrect")
     
           document.getElementById('sa-wripar-1').disabled = true;
@@ -61,19 +63,19 @@
           document.getElementById('o-wripar-13').disabled = true;
           document.getElementById('o-wripar-14').disabled = true;
           showExplanation1()
-          localStorage.setItem('wripar1', 1)
+          localStorage.setItem('wripar1', 0)
         }
     
         if (document.getElementById('o-wripar-12').checked) {
          
           document.getElementById('r-wripar-12').style.color = 'red'
           document.getElementById('r-wripar-12').innerHTML = 'Incorrect!'
-          document.getElementById('r-wripar-11').style.color = 'blue'
-          document.getElementById('r-wripar-11').innerHTML = 'Correct!'
+          document.getElementById('r-wripar-13').style.color = 'blue'
+          document.getElementById('r-wripar-13').innerHTML = 'Correct!'
     
-          document.getElementById('b-wripar-11').classList.add("correct")
+          document.getElementById('b-wripar-13').classList.add("correct")
           document.getElementById('b-wripar-12').classList.add("incorrect")
-          document.getElementById('b-wripar-13').classList.add("incorrect")
+          document.getElementById('b-wripar-11').classList.add("incorrect")
           document.getElementById('b-wripar-14').classList.add("incorrect")
     
           document.getElementById('sa-wripar-1').disabled = true;
@@ -85,14 +87,12 @@
           localStorage.setItem('wripar1', 0)
         }
         if (document.getElementById('o-wripar-13').checked) {
-          document.getElementById('r-wripar-13').style.color = 'red'
-          document.getElementById('r-wripar-13').innerHTML = 'Incorrect!'
-          document.getElementById('r-wripar-11').style.color = 'blue'
-          document.getElementById('r-wripar-11').innerHTML = 'Correct!'
+          document.getElementById('r-wripar-13').style.color = 'blue'
+          document.getElementById('r-wripar-13').innerHTML = 'Correct!'
           
-          document.getElementById('b-wripar-11').classList.add("correct")
+          document.getElementById('b-wripar-13').classList.add("correct")
           document.getElementById('b-wripar-12').classList.add("incorrect")
-          document.getElementById('b-wripar-13').classList.add("incorrect")
+          document.getElementById('b-wripar-11').classList.add("incorrect")
           document.getElementById('b-wripar-14').classList.add("incorrect")
     
           document.getElementById('sa-wripar-1').disabled = true;
@@ -101,17 +101,17 @@
           document.getElementById('o-wripar-13').disabled = true;
           document.getElementById('o-wripar-14').disabled = true;
           showExplanation1()
-          localStorage.setItem('wripar1', 0)
+          localStorage.setItem('wripar1', 1)
         }
         if (document.getElementById('o-wripar-14').checked) {
           document.getElementById('r-wripar-14').style.color = 'red'
           document.getElementById('r-wripar-14').innerHTML = 'Incorrect!'
-          document.getElementById('r-wripar-11').style.color = 'blue'
-          document.getElementById('r-wripar-11').innerHTML = 'Correct!'
+          document.getElementById('r-wripar-13').style.color = 'blue'
+          document.getElementById('r-wripar-13').innerHTML = 'Correct!'
           
-          document.getElementById('b-wripar-11').classList.add("correct")
+          document.getElementById('b-wripar-13').classList.add("correct")
           document.getElementById('b-wripar-12').classList.add("incorrect")
-          document.getElementById('b-wripar-13').classList.add("incorrect")
+          document.getElementById('b-wripar-11').classList.add("incorrect")
           document.getElementById('b-wripar-14').classList.add("incorrect")
     
           document.getElementById('sa-wripar-1').disabled = true;
