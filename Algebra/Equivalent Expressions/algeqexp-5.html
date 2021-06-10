@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+<title>Equivalent Expressions Problem 5</title> 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Which of the following equations is <strong>correct</strong>? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algeqexp-51'>
     <label for= 'o-algeqexp-51'>
       <input type='radio' name='option'  id='o-algeqexp-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \((a+b)^2=a^2+b^2\)
     </label>
     <span id='r-algeqexp-51'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algeqexp-52'>
     <label for= 'o-algeqexp-52'>
       <input type='radio' name='option'  id='o-algeqexp-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{1+AB}{B}=1+A   \)
     </label>
     <span id='r-algeqexp-52'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algeqexp-53'>
     <label for= 'o-algeqexp-53'>
       <input type='radio' name='option' id='o-algeqexp-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{1/x}{a/x-b/x} = \dfrac{1}{a-b}   \)
     </label>
     <span id='r-algeqexp-53'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algeqexp-54'>
     <label for= 'o-algeqexp-54'>
       <input type='radio' name='option' id='o-algeqexp-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( \sqrt{ab}=\sqrt{a}+\sqrt{b} \)
     </label>
     <span id='r-algeqexp-54'></span>
   </div>
@@ -78,11 +78,27 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
-<p>
-<!--             -->
-</p>
+
+The correct expansion for the first option:
+
+$$ (a+b)^2=(a+b)(a+b) $$
+$$ = a^2+ab+ab+b^2 $$
+$$ = a^2 + \textcolor{red}{2ab}+b^2 $$
+
+For the second option, we would only be able to cancel out the \(B\) if it were included in the first term, like the following:
+$$\frac{\textcolor{red}{B}+AB}{B} $$
+$$=\frac{\cancel{B}(1+A)}{\cancel{B}} $$
+$$ = 1+A $$
+
+Here are the correct steps for simplifying the third option:
+$$ \frac{1/x}{a/x-b/x} =\frac{\frac{1}{x}}{\frac{a}{x}-\frac{b}{x}} = \frac{\frac{1}{x}}{\frac{1}{x}(a-b)} $$
+$$  \frac{\cancel{\frac{1}{x}}}{\cancel{\frac{1}{x}}(a-b)} =\frac{1}{a-b} $$
+
+Last option:
+$$ \sqrt{ab}=\sqrt{a}\textcolor{red}{\cdot}\sqrt{b} $$
+
 
 
 

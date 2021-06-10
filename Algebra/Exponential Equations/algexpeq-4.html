@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Exponential Equations Problem 4</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,11 +19,13 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Suppose a population of bacteria is being grown in a homogenous nutrient medium. It was determined that the population doubled every 30 minutes.
+ If the initial population of the bacteria is given by \(P_0\), which of the following functions correctly represents
+the population \(P\) of the bacteria after \(t\) hours? 
 </p>
-!-->
+
 
  </h1>
 
@@ -35,7 +37,7 @@
   <div class="box" id='b-algexpeq-41'>
     <label for= 'o-algexpeq-41'>
       <input type='radio' name='option'  id='o-algexpeq-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( P=P_0(2)^{30t} \)
     </label>
     <span id='r-algexpeq-41'></span>
   </div>
@@ -43,7 +45,7 @@
   <div class="box" id='b-algexpeq-42'>
     <label for= 'o-algexpeq-42'>
       <input type='radio' name='option'  id='o-algexpeq-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( P=P_0(2)^{\frac{t}{30}} \)
     </label>
     <span id='r-algexpeq-42'></span>
   </div>
@@ -51,7 +53,7 @@
   <div class="box" id='b-algexpeq-43'>
     <label for= 'o-algexpeq-43'>
       <input type='radio' name='option' id='o-algexpeq-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( P=P_0(2)^{\frac{t}{2}} \)
     </label>
     <span id='r-algexpeq-43'></span>
   </div>
@@ -59,7 +61,7 @@
   <div class="box" id='b-algexpeq-44'>
     <label for= 'o-algexpeq-44'>
       <input type='radio' name='option' id='o-algexpeq-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( P=P_0(2)^{2t} \)
     </label>
     <span id='r-algexpeq-44'></span>
   </div>
@@ -80,7 +82,17 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+The only difference between the answer choices is the value of the exponent. Therefore, we just need to figure out what coefficient goes with \(t\). Calling this coefficient \(a\), we get this general equation:
+$$P=P_0(2)^{at} $$
+
+
+Because the bacteria population doubles every 30 minutes, we expect the population to double once every half-hour. 
+In other words, the population should double twice every hour. The population at the first hour should be quadruple of the initial population.
+$$ P(1)=4P(0)$$
+$$ P_0(2)^{a(1)}=4P_0(2)^{a(0)} $$
+$$ P_0(2)^a=4P_0(2)^{0} $$
+$$ 2^a=4(1) $$
+$$a=2$$
 </p>
 
 
