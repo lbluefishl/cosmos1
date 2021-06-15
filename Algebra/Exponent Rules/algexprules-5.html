@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+  <title>Exponent Rules Problem 5</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,11 +19,13 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Simplify:
 </p>
-!-->
+
+$$ \frac{\sqrt{a\sqrt{b}}}{\sqrt{ab}} $$
+
 
  </h1>
 
@@ -35,7 +37,7 @@
   <div class="box" id='b-algexprules-51'>
     <label for= 'o-algexprules-51'>
       <input type='radio' name='option'  id='o-algexprules-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(  \sqrt{b}  \)
     </label>
     <span id='r-algexprules-51'></span>
   </div>
@@ -43,7 +45,7 @@
   <div class="box" id='b-algexprules-52'>
     <label for= 'o-algexprules-52'>
       <input type='radio' name='option'  id='o-algexprules-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(    -\sqrt[4]{b}         \)
     </label>
     <span id='r-algexprules-52'></span>
   </div>
@@ -51,7 +53,7 @@
   <div class="box" id='b-algexprules-53'>
     <label for= 'o-algexprules-53'>
       <input type='radio' name='option' id='o-algexprules-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(     \dfrac{1}{\sqrt{b}}          \)
     </label>
     <span id='r-algexprules-53'></span>
   </div>
@@ -59,7 +61,7 @@
   <div class="box" id='b-algexprules-54'>
     <label for= 'o-algexprules-54'>
       <input type='radio' name='option' id='o-algexprules-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(     \dfrac{1}{\sqrt[4]{b}}          \)
     </label>
     <span id='r-algexprules-54'></span>
   </div>
@@ -77,18 +79,38 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+Rewrite terms with fractional exponents.
+
 </p>
+$$ \frac{\sqrt{a\sqrt{b}}}{\sqrt{ab}} = \frac{(ab^{\frac{1}{2}})^{\frac{1}{2}}}{(ab)^{\frac{1}{2}}} $$
+Using a few exponent rules,
+$$  \frac{(ab^{\frac{1}{2}})^{\frac{1}{2}}}{(ab)^{\frac{1}{2}}}  = \frac{a^{\frac{1}{2}}b^{\frac{1}{2}\cdot\frac{1}{2}}}{a^{\frac{1}{2}}b^{\frac{1}{2}}}$$
+
+$$ = \frac{\cancel{a^{\frac{1}{2}}}b^{\frac{1}{4}}}{\cancel{a^{\frac{1}{2}}}b^{\frac{1}{2}}}  = \frac{b^{\frac{1}{4}}}{b^{\frac{1}{2}}} $$
+
+$$ = b^{\frac{1}{4}-\frac{1}{2}} = b^{-\frac{1}{4}}$$
+
+$$ = \boxed{\frac{1}{\sqrt[4]{b}}} $$
 
 
+
+<h2>Approach 2</h2>
+<p>
+Looking at the individual factors underneath the square roots:
+</p>
+$$ \frac{\sqrt{a\sqrt{b}}}{\sqrt{ab}} = \frac{\cancel{\sqrt{a}}\cdot\sqrt{\sqrt{b}}}{\cancel{\sqrt{a}}\cdot\sqrt{b}} $$
+$$ = \frac{\sqrt{\sqrt{b}}}{\sqrt{b}} $$
+Like the first approach, the next part is much easier to simplify with fractional exponents.
+$$ = \frac{\sqrt{\sqrt{b}}}{\sqrt{b}} = \frac{(b^\frac{1}{2})^{\frac{1}{2}}}{b^{\frac{1}{2}}}$$
+$$ = \frac{b^{\frac{1}{4}}}{b^{\frac{1}{2}} } $$
+$$ = b^{\frac{1}{4}-\frac{1}{2}} = b^{-\frac{1}{4}}$$
+
+$$ = \boxed{\frac{1}{\sqrt[4]{b}}} $$
 
 </div>
-
-
-
 </body>
 
 </html> 

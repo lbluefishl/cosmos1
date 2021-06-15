@@ -82,20 +82,31 @@ the population \(P\) of the bacteria after \(t\) hours?
 <h2> Approach 1 </h2>
 
 <p>
-The only difference between the answer choices is the value of the exponent. Therefore, we just need to figure out what coefficient goes with \(t\). Calling this coefficient \(a\), we get this general equation:
-$$P=P_0(2)^{at} $$
+The only difference between the answer choices is the value of the exponent. Therefore, we just need to figure out what coefficient goes with \(t\). Calling
+ this coefficient \(a\), we get this general relationship:
+$$P(t)=P_0(2)^{at} $$
 
 
 Because the bacteria population doubles every 30 minutes, we expect the population to double once every half-hour. 
-In other words, the population should double twice every hour. The population at the first hour should be quadruple of the initial population.
-$$ P(1)=4P(0)$$
+In other words, the population should double twice every hour. The population at the first hour should be quadruple that of the initial population.
+$$ P(1)=4P(0) \tag*{comparing population at \(t=1\) vs \(t=0\)}$$
 $$ P_0(2)^{a(1)}=4P_0(2)^{a(0)} $$
 $$ P_0(2)^a=4P_0(2)^{0} $$
 $$ 2^a=4(1) $$
 $$a=2$$
+$$ \boxed{P=P_0(2)^{2t}} $$
 </p>
+<h2>Approach 2</h2>
 
+<p>
+Using a similar approach to the first, we can infer that after an hour, the population should double twice. If we were to plug in \(t=1\), we should obtain \(4P_0\). A quick inspection of the answer choices reveals:
+$$ \boxed{P=P_0(2)^{2t}} $$
+$$ P=P_0(2)^{2(1)} $$
+$$ P=P_0(2)^{2} $$
+$$ P=P_0(4) $$
+None of the other choices would result in the same relationship when \(t=1\) is substituted in.
 
+</p>
 
 
 </div>

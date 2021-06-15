@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Equivalent Expressions Problem 7</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+For \(x>0\), which of the following is equivalent to \(   \dfrac{1}{\frac{1}{2x}+\frac{1}{x+5}}      \) ?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algeqexp-71'>
     <label for= 'o-algeqexp-71'>
       <input type='radio' name='option'  id='o-algeqexp-71' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(   \dfrac{2x^2+10x}{3x+5} \)
     </label>
     <span id='r-algeqexp-71'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algeqexp-72'>
     <label for= 'o-algeqexp-72'>
       <input type='radio' name='option'  id='o-algeqexp-72' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(   \dfrac{3x+5}{2x^2+10x} \)
     </label>
     <span id='r-algeqexp-72'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algeqexp-73'>
     <label for= 'o-algeqexp-73'>
       <input type='radio' name='option' id='o-algeqexp-73' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(  2x^2+10x   \)
     </label>
     <span id='r-algeqexp-73'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algeqexp-74'>
     <label for= 'o-algeqexp-74'>
       <input type='radio' name='option' id='o-algeqexp-74' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( 3x+5 \)
     </label>
     <span id='r-algeqexp-74'></span>
   </div>
@@ -81,14 +81,45 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+Let's break the problem into individual parts. We can first deal with the following:
+
+$$  \frac{1}{\colorbox{aqua}{$\frac{1}{2x}+\frac{1}{x+5}$}}   $$
+$$ \frac{1}{2x}+\frac{1}{x+5}$$ 
+We add these fractions by finding a common denominator. 
+$$ \frac{x+5}{x+5}\left(\frac{1}{2x}\right)+ \frac{1}{x+5}\left(\frac{2x}{2x}\right) $$
+$$ = \frac{x+5}{2x(x+5)}+ \frac{2x}{2x(x+5)} $$
+$$ = \frac{x+5+2x}{2x(x+5)} $$
+$$ = \frac{3x+5}{2x^2+10x} $$
+Replacing this back into the initial expression:
+$$  \frac{1}{\colorbox{aqua}{$\frac{1}{2x}+\frac{1}{x+5}$}} =\frac{1}{\colorbox{aqua}{$\frac{3x+5}{2x^2+10x}$}} $$
+We can think of this expression as 1 divided by the denominator,
+$$ 1 \div \frac{3x+5}{2x^2+10x} $$
+Which is the same as:
+$$ 1 \times \frac{2x^2+10x}{3x+5} $$
+$$ = \boxed{\frac{2x^2+10x}{3x+5}} $$
 </p>
 
+
+
+<h2>Approach 2</h2>
+As always, we can always plug in values to obtain our answer or to check our solution. For example, using \(x=1\),
+$$ \frac{1}{\frac{1}{2x}+\frac{1}{x+5}}  $$
+$$  \frac{1}{\frac{1}{2(1)}+\frac{1}{(1)+5}}  $$
+$$ =\frac{1}{\frac{1}{2}+\frac{1}{6}}=\frac{1}{\frac{3}{6}+\frac{1}{6}}$$
+
+$$ =\frac{1}{\frac{4}{6} }= \frac{6}{4} $$
+
+$$ = \frac{3}{2} $$
+Try plugging in \(x=1\) into the answer chices to verify that the first option is equivalent whereas the others are not. 
+<br>
+<Br>
+Note that the method has caveats. There are some values we cannot use for this specific problem, such as \(x=0\), which results in an undefined expression. There is also a chance that multiple options work for certain values of \(x\).
+
+<h2>Sidenote</h2>
+Although approach 1 shows mastery of the math, for testing purposes it is almost always better to use approach 2 to save time. There is also less chance
+ of messing up the algebraic steps to deal with the fractions.
+<br>
 </div>
-
-
-
-
 
 </body>
 

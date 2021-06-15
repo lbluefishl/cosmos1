@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+  <title>Combining Functions Problem 1</title>  
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="precomfun.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+
+<p>
+Given that \(f(x)=\dfrac{1}{x}-2\) and \(g(x)=\sqrt{x+1}  \), find \(g\circ f\).
+</p>
+
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-precomfun-11'>
+    <label for= 'o-precomfun-11'>
+      <input type='radio' name='option'  id='o-precomfun-11' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(  \sqrt{x+1}+\dfrac{1}{x}-2   \)
+    </label>
+    <span id='r-precomfun-11'></span>
+  </div>
+
+  <div class="box" id='b-precomfun-12'>
+    <label for= 'o-precomfun-12'>
+      <input type='radio' name='option'  id='o-precomfun-12' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(  \sqrt{\dfrac{1}{x}-1}    \)
+    </label>
+    <span id='r-precomfun-12'></span>
+  </div>
+
+  <div class="box" id='b-precomfun-13'>
+    <label for= 'o-precomfun-13'>
+      <input type='radio' name='option' id='o-precomfun-13' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( \dfrac{1}{\sqrt{x+1}}-2      \)
+    </label>
+    <span id='r-precomfun-13'></span>
+  </div>
+
+  <div class="box" id='b-precomfun-14'>
+    <label for= 'o-precomfun-14'>
+      <input type='radio' name='option' id='o-precomfun-14' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+     \(     \dfrac{\sqrt{x+1}}{x}-2\sqrt{x+1}       \)
+    </label>
+    <span id='r-precomfun-14'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="precomfunsummary.html"><button  id= 'su-precomfun-1' >Summary</button></a>
+  <button  id= "sa-precomfun-1" >Submit Answer</button>
+  <a href="precomfun-2.html"><button class= 'nav' id= 'nq-precomfun-1' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-precomfun-1'>
+
+
+
+
+<h2> Approach  </h2>
+
+<p>
+The four options reflect the following function compositions:
+</p>
+
+\( \colorbox{aqua}{$g$} + \colorbox{yellow}{$f$} = \colorbox{aqua}{$\sqrt{x+1}$}+\colorbox{yellow}{$\dfrac{1}{x}-2$} = \sqrt{x+1}+\dfrac{1}{x}-2\\  \) 
+\( \colorbox{aqua}{$g$} \circ \colorbox{yellow}{$f$} = \colorbox{aqua}{$g(\colorbox{yellow}{$f(x)$})$} = 
+\colorbox{aqua}{$\sqrt{\colorbox{yellow}{$\left(\dfrac{1}{x}-2\right)$}+1}$} =\boxed{\sqrt{\dfrac{1}{x}-1}} \\  \)
+
+\( \colorbox{yellow}{$f$} \circ \colorbox{aqua}{$g$} = \colorbox{yellow}{$f(\colorbox{aqua}{$g(x)$})$} = \colorbox{yellow}{$\dfrac{1}{\colorbox{aqua}{$\sqrt{x+1}$}}-2$} =\dfrac{1}{\sqrt{x+1}}-2    \\ \)
+\( \colorbox{aqua}{$g$} \cdot \colorbox{yellow}{$f$} = \colorbox{aqua}{$\sqrt{x+1}$} \colorbox{yellow} {$\left( \dfrac{1}{x}-2    \right)$} =  \dfrac{\sqrt{x+1}}{x}-2\sqrt{x+1}    \)
+
+
+</div>
+
+
+
+</body>
+
+</html> 

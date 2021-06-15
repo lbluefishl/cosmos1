@@ -47,12 +47,14 @@
      if (document.getElementById('sa-wricomcolsem-1') != null) {
       wricomcolsem1But.onclick = function () {
         if (document.getElementById('o-wricomcolsem-11').checked) {
-          document.getElementById('r-wricomcolsem-11').style.color = 'blue'
-          document.getElementById('r-wricomcolsem-11').innerHTML = 'Correct!'
+          document.getElementById('r-wricomcolsem-11').style.color = 'red'
+          document.getElementById('r-wricomcolsem-11').innerHTML = 'Incorrect!'
+          document.getElementById('r-wricomcolsem-13').style.color = 'blue'
+          document.getElementById('r-wricomcolsem-13').innerHTML = 'Correct!'
     
-          document.getElementById('b-wricomcolsem-11').classList.add("correct")
+          document.getElementById('b-wricomcolsem-13').classList.add("correct")
           document.getElementById('b-wricomcolsem-12').classList.add("incorrect")
-          document.getElementById('b-wricomcolsem-13').classList.add("incorrect")
+          document.getElementById('b-wricomcolsem-11').classList.add("incorrect")
           document.getElementById('b-wricomcolsem-14').classList.add("incorrect")
     
           document.getElementById('sa-wricomcolsem-1').disabled = true;
@@ -61,19 +63,19 @@
           document.getElementById('o-wricomcolsem-13').disabled = true;
           document.getElementById('o-wricomcolsem-14').disabled = true;
           showExplanation1()
-          localStorage.setItem('wricomcolsem1', 1)
+          localStorage.setItem('wricomcolsem1', 0)
         }
     
         if (document.getElementById('o-wricomcolsem-12').checked) {
          
           document.getElementById('r-wricomcolsem-12').style.color = 'red'
           document.getElementById('r-wricomcolsem-12').innerHTML = 'Incorrect!'
-          document.getElementById('r-wricomcolsem-11').style.color = 'blue'
-          document.getElementById('r-wricomcolsem-11').innerHTML = 'Correct!'
+          document.getElementById('r-wricomcolsem-13').style.color = 'blue'
+          document.getElementById('r-wricomcolsem-13').innerHTML = 'Correct!'
     
-          document.getElementById('b-wricomcolsem-11').classList.add("correct")
+          document.getElementById('b-wricomcolsem-13').classList.add("correct")
           document.getElementById('b-wricomcolsem-12').classList.add("incorrect")
-          document.getElementById('b-wricomcolsem-13').classList.add("incorrect")
+          document.getElementById('b-wricomcolsem-11').classList.add("incorrect")
           document.getElementById('b-wricomcolsem-14').classList.add("incorrect")
     
           document.getElementById('sa-wricomcolsem-1').disabled = true;
@@ -85,14 +87,12 @@
           localStorage.setItem('wricomcolsem1', 0)
         }
         if (document.getElementById('o-wricomcolsem-13').checked) {
-          document.getElementById('r-wricomcolsem-13').style.color = 'red'
-          document.getElementById('r-wricomcolsem-13').innerHTML = 'Incorrect!'
-          document.getElementById('r-wricomcolsem-11').style.color = 'blue'
-          document.getElementById('r-wricomcolsem-11').innerHTML = 'Correct!'
+          document.getElementById('r-wricomcolsem-13').style.color = 'blue'
+          document.getElementById('r-wricomcolsem-13').innerHTML = 'Correct!'
           
-          document.getElementById('b-wricomcolsem-11').classList.add("correct")
+          document.getElementById('b-wricomcolsem-13').classList.add("correct")
           document.getElementById('b-wricomcolsem-12').classList.add("incorrect")
-          document.getElementById('b-wricomcolsem-13').classList.add("incorrect")
+          document.getElementById('b-wricomcolsem-11').classList.add("incorrect")
           document.getElementById('b-wricomcolsem-14').classList.add("incorrect")
     
           document.getElementById('sa-wricomcolsem-1').disabled = true;
@@ -101,17 +101,17 @@
           document.getElementById('o-wricomcolsem-13').disabled = true;
           document.getElementById('o-wricomcolsem-14').disabled = true;
           showExplanation1()
-          localStorage.setItem('wricomcolsem1', 0)
+          localStorage.setItem('wricomcolsem1', 1)
         }
         if (document.getElementById('o-wricomcolsem-14').checked) {
           document.getElementById('r-wricomcolsem-14').style.color = 'red'
           document.getElementById('r-wricomcolsem-14').innerHTML = 'Incorrect!'
-          document.getElementById('r-wricomcolsem-11').style.color = 'blue'
-          document.getElementById('r-wricomcolsem-11').innerHTML = 'Correct!'
+          document.getElementById('r-wricomcolsem-13').style.color = 'blue'
+          document.getElementById('r-wricomcolsem-13').innerHTML = 'Correct!'
           
-          document.getElementById('b-wricomcolsem-11').classList.add("correct")
+          document.getElementById('b-wricomcolsem-13').classList.add("correct")
           document.getElementById('b-wricomcolsem-12').classList.add("incorrect")
-          document.getElementById('b-wricomcolsem-13').classList.add("incorrect")
+          document.getElementById('b-wricomcolsem-11').classList.add("incorrect")
           document.getElementById('b-wricomcolsem-14').classList.add("incorrect")
     
           document.getElementById('sa-wricomcolsem-1').disabled = true;

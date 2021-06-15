@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+ <title>Polynomials Problem 1</title> 
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="algpoly.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+  <div style='text-align: center;'>
+
+    <embed width="500" height="480" src="../../d.svg" 
+   script=
+   'initPicture(-5.5,5.5,-20,30);
+   fontstyle= "normal";
+  fontsize="20"
+  xAxisVble = "x", yAxisVble = "y";
+   axes(1,40 ,"none" ,30);
+  
+   strokewidth="3"
+   plot(x^2(x+2)(x-3))
+
+   '
+   >
+  </div>
+
+<p>
+Which of the following could be an equation for the graph shown in the \(xy\)-plane above?
+</p>
+
+
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-algpoly-11'>
+    <label for= 'o-algpoly-11'>
+      <input type='radio' name='option'  id='o-algpoly-11' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+       \(y=x(x-2)(x+3) \)
+    </label>
+    <span id='r-algpoly-11'></span>
+  </div>
+
+  <div class="box" id='b-algpoly-12'>
+    <label for= 'o-algpoly-12'>
+      <input type='radio' name='option'  id='o-algpoly-12' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(y=x(x+2)(x-3) \)
+    </label>
+    <span id='r-algpoly-12'></span>
+  </div>
+
+  <div class="box" id='b-algpoly-13'>
+    <label for= 'o-algpoly-13'>
+      <input type='radio' name='option' id='o-algpoly-13' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(y=x^2(x-2)(x+3) \)
+    </label>
+    <span id='r-algpoly-13'></span>
+  </div>
+
+  <div class="box" id='b-algpoly-14'>
+    <label for= 'o-algpoly-14'>
+      <input type='radio' name='option' id='o-algpoly-14' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(y=x^2(x+2)(x-3) \)
+    </label>
+    <span id='r-algpoly-14'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algpolysummary.html"><button  id= 'su-algpoly-1' >Summary</button></a>
+  <button  id= "sa-algpoly-1" >Submit Answer</button>
+  <a href="algpoly-2.html"><button class= 'nav' id= 'nq-algpoly-1' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-algpoly-1'>
+
+
+
+
+<h2> Approach 1 </h2>
+
+<p>
+Using the graph, we identify the following zeroes (x-intercepts):
+</p>
+<div style='text-align: center;'>
+
+  <embed width="500" height="480" src="../../d.svg" 
+ script=
+ 'initPicture(-5.5,5.5,-20,30);
+ fontstyle= "normal";
+fontsize="20"
+xAxisVble = "x", yAxisVble = "y";
+ axes(1,40 ,"none" ,30);
+
+ strokewidth="3"
+ plot(x^2(x+2)(x-3))
+ dot([-2,0],"closed")
+ dot([0,0],"closed")
+ dot([3,0],"closed")
+ '
+ >
+</div>
+A polynomial with zeroes at \(x=-2,0,3\) must have the following factors. Because the graph bounces off the point \((0,0)\), the exponent of \(x\) must be even.
+$$ y=(x)^{\text{any even power}}(x+2)^{\text{any odd power}}(x-3)^{\text{any odd power}} $$
+Only one answer choice meets these requirements.
+$$ y=x^2(x+2)^1(x-3)^1 $$
+$$ \boxed{y=x^2(x+2)(x-3)} $$
+
+
+<h2>Approach 2</h2>
+<p>
+  We may choose an arbitrary point to test. For example, if we plug in \(x=2\), we expect a negative value. The first and third answer choices would be incompatible since they evaluate to 0.
+  <br>
+  <br>
+  Choosing another arbitrary point, such as \(x=-3\), we expect a positive value. Only the last option is compatible when we plug in \(x=-3\). 
+</p>
+<div style='text-align: center;'>
+
+  <embed width="500" height="480" src="../../d.svg" 
+ script=
+ 'initPicture(-5.5,5.5,-20,55);
+ fontstyle= "normal";
+fontsize="20"
+xAxisVble = "x", yAxisVble = "y";
+ axes(1,80 ,"none" ,30);
+
+ strokewidth="3"
+ plot(x^2(x+2)(x-3))
+
+ dot([2,-16],"closed")
+ dot([-3,54],"closed")
+ '
+ >
+</div>
+
+
+</div>
+
+</body>
+
+</html> 

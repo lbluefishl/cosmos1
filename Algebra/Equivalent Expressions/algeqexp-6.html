@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+  <title>Equivalent Expressions Problem 6</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Which of the following is equivalent to the expression \(2x^2y+2x+3xy+3 \) ?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algeqexp-61'>
     <label for= 'o-algeqexp-61'>
       <input type='radio' name='option'  id='o-algeqexp-61' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( (2x+1)(y+3)   \)
     </label>
     <span id='r-algeqexp-61'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algeqexp-62'>
     <label for= 'o-algeqexp-62'>
       <input type='radio' name='option'  id='o-algeqexp-62' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( (xy+1) (2x+3)  \)
     </label>
     <span id='r-algeqexp-62'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algeqexp-63'>
     <label for= 'o-algeqexp-63'>
       <input type='radio' name='option' id='o-algeqexp-63' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(   2x(x^2y+1)+3xy    \)
     </label>
     <span id='r-algeqexp-63'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algeqexp-64'>
     <label for= 'o-algeqexp-64'>
       <input type='radio' name='option' id='o-algeqexp-64' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( (x+3)(2xy+2+3y) \)
     </label>
     <span id='r-algeqexp-64'></span>
   </div>
@@ -81,9 +81,37 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+Typically, when given an expression with four terms, factor using grouping. Find common factors between pairs of terms:
+</p>
+$$ 2x^2y+2x+3xy+3 $$
+$$ \underbrace{2x^2y+2x}_\text{$2x$ in common} + \underbrace{3xy+3}_\text{$3$ in common} $$
+Factoring each pair,
+$$ 2x(xy+1)+3(xy+1) $$
+We are left with a single pair of terms, which have \(xy+1\) in common, which can be factored out.
+$$ \underbrace{2x(xy+1)+3(xy+1)}_\text{$xy+1$ in common} $$
+$$=\boxed{(xy+1) (2x+3)} $$
+
+
+<h2> Approach 2 </h2>
+<p>
+  Though tedious, we can expand the answer choices. We can demonstrate that the answer choice is suitable because it is equivalent when expanded.
+$$ (xy+1)(2x+3) $$
+$$ xy\cdot 2x + xy \cdot 3 + 1\cdot 2x + 1\cdot 3 $$
+$$ =2x^2y+3xy+2x+3 $$
+The other choices are not equivalent when expanded.
 </p>
 
+<h2>Approach 3</h2>
+<p>
+One way to answer this question or remove incorrect choices would be to substitute in a value of \(x\) and \(y\) into the expressions. For example, if we take \(x=0\) and \(y=0\), 
+the given expression evaluates to:
+$$2x^2y+2x+3xy+3 $$
+$$ 2(0)^2(0)+2(0)+3(0)(0)+3 $$
+$$ = 3 $$
+Using the same values of \(x\) and \(y\), we can quickly eliminate the last two answer choices since they do not evaluate to \(3\). 
+Repeating for different values of \(x\) and \(y\) allows us to decide which of the first two answer choices is correct.  
+
+</p>
 
 </div>
 
