@@ -129,13 +129,11 @@
     if (document.getElementById('sa-geolinang-2') != null) {
       geolinang2But.onclick = function() {
         if (document.getElementById('o-geolinang-21').checked) {
-          document.getElementById('r-geolinang-21').style.color = 'red'
-          document.getElementById('r-geolinang-21').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-23').style.color = 'blue'
-          document.getElementById('r-geolinang-23').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-21').style.color = 'blue'
+          document.getElementById('r-geolinang-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-23').classList.add("correct")
-          document.getElementById('b-geolinang-21').classList.add("incorrect")
+          document.getElementById('b-geolinang-21').classList.add("correct")
+          document.getElementById('b-geolinang-23').classList.add("incorrect")
           document.getElementById('b-geolinang-22').classList.add("incorrect")
           document.getElementById('b-geolinang-24').classList.add("incorrect")
     
@@ -145,16 +143,16 @@
           document.getElementById('o-geolinang-23').disabled = true;
           document.getElementById('o-geolinang-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('geolinang2', 0)
+          localStorage.setItem('geolinang2', 1)
         }
         if (document.getElementById('o-geolinang-22').checked) {
           document.getElementById('r-geolinang-22').style.color = 'red'
           document.getElementById('r-geolinang-22').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-23').style.color = 'blue'
-          document.getElementById('r-geolinang-23').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-21').style.color = 'blue'
+          document.getElementById('r-geolinang-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-23').classList.add("correct")
-          document.getElementById('b-geolinang-21').classList.add("incorrect")
+          document.getElementById('b-geolinang-21').classList.add("correct")
+          document.getElementById('b-geolinang-23').classList.add("incorrect")
           document.getElementById('b-geolinang-22').classList.add("incorrect")
           document.getElementById('b-geolinang-24').classList.add("incorrect")
     
@@ -167,11 +165,13 @@
           localStorage.setItem('geolinang2', 0)
         }
         if (document.getElementById('o-geolinang-23').checked) {
-          document.getElementById('r-geolinang-23').style.color = 'blue'
-          document.getElementById('r-geolinang-23').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-23').style.color = 'red'
+          document.getElementById('r-geolinang-23').innerHTML = 'Incorrect!'
+          document.getElementById('r-geolinang-21').style.color = 'blue'
+          document.getElementById('r-geolinang-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-23').classList.add("correct")
-          document.getElementById('b-geolinang-21').classList.add("incorrect")
+          document.getElementById('b-geolinang-21').classList.add("correct")
+          document.getElementById('b-geolinang-23').classList.add("incorrect")
           document.getElementById('b-geolinang-22').classList.add("incorrect")
           document.getElementById('b-geolinang-24').classList.add("incorrect")
     
@@ -181,16 +181,16 @@
           document.getElementById('o-geolinang-23').disabled = true;
           document.getElementById('o-geolinang-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('geolinang2', 1)
+          localStorage.setItem('geolinang2', 0)
         }
         if (document.getElementById('o-geolinang-24').checked) {
           document.getElementById('r-geolinang-24').style.color = 'red'
           document.getElementById('r-geolinang-24').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-23').style.color = 'blue'
-          document.getElementById('r-geolinang-23').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-21').style.color = 'blue'
+          document.getElementById('r-geolinang-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-23').classList.add("correct")
-          document.getElementById('b-geolinang-21').classList.add("incorrect")
+          document.getElementById('b-geolinang-21').classList.add("correct")
+          document.getElementById('b-geolinang-23').classList.add("incorrect")
           document.getElementById('b-geolinang-22').classList.add("incorrect")
           document.getElementById('b-geolinang-24').classList.add("incorrect")
     

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+<title>Conditional Probability Using Two-Way Tables Problem 4</title>
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="algconprotwotab.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+
+<p>
+A large study was done on sleep habits of preteens and teenagers. Each individual was asked about the number of hours of sleep they normally get on an average night. 
+</p>
+$$
+\begin{array} 
+{|c||c|c|c|c|} \hline
+ &  < \text{6 hours} & \text{6 to 8 hours} & >\text{8 hours} & \text{Total students} \\ \hline 
+\text{Males thirteen or younger} & 6{,}143 & 10{,}362 & 3{,}411 & 19{,}916 \\ \hline
+\text{Females thirteen or younger} & 4{,}722 & 13{,}152 & 5{,}151 & 23{,}025  \\ \hline
+\text{Males older than thirteen} & 1{,}747 & 8{,}122 & 1{,}720 & 11{,}589  \\ \hline
+\text{Females older than thirteen} & 4{,}555 & 13{,}112 & 7{,}921 & 25{,}588 \\ \hline
+\text{Total} & 17{,}167 & 44{,}748 & 18{,}201 & 80{,}118 \\ \hline
+\end{array}
+$$
+<p>
+Based on the table, what is the approximate probability that a preteen (thirteen years or younger) would normally sleep for 8 or less  hours? 
+
+
+</p>
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-algconprotwotab-41'>
+    <label for= 'o-algconprotwotab-41'>
+      <input type='radio' name='option'  id='o-algconprotwotab-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(0.43\)
+    </label>
+    <span id='r-algconprotwotab-41'></span>
+  </div>
+
+  <div class="box" id='b-algconprotwotab-42'>
+    <label for= 'o-algconprotwotab-42'>
+      <input type='radio' name='option'  id='o-algconprotwotab-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(0.55\)
+    </label>
+    <span id='r-algconprotwotab-42'></span>
+  </div>
+
+  <div class="box" id='b-algconprotwotab-43'>
+    <label for= 'o-algconprotwotab-43'>
+      <input type='radio' name='option' id='o-algconprotwotab-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(0.80\)
+    </label>
+    <span id='r-algconprotwotab-43'></span>
+  </div>
+
+  <div class="box" id='b-algconprotwotab-44'>
+    <label for= 'o-algconprotwotab-44'>
+      <input type='radio' name='option' id='o-algconprotwotab-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+     \(0.83\)
+    </label>
+    <span id='r-algconprotwotab-44'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algconprotwotabsummary.html"><button  id= 'su-algconprotwotab-4' >Summary</button></a>
+  <button  id= "sa-algconprotwotab-4" >Submit Answer</button>
+  <a href="algconprotwotab-5.html"><button class= 'nav' id= 'nq-algconprotwotab-4' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-algconprotwotab-4'>
+
+
+
+
+<h2> Approach </h2>
+
+<p>
+We want to find the following:
+</p>
+
+$$ \frac{\colorbox{aqua}{\text{a preteen that sleeps for 8 or less}}}{\colorbox{yellow}{\text{a preteen}}} $$
+
+$$
+\begin{array} 
+{|c||c|c|c|c|} \hline
+ &  < \text{6 hours} & \text{6 to 8 hours} & >\text{8 hours} & \text{Total students} \\ \hline 
+\text{Males thirteen or younger} & \colorbox{aqua}{$6{,}143$} & \colorbox{aqua}{$10{,}362$} & 3{,}411 & \colorbox{yellow}{$19{,}916$} \\ \hline
+\text{Females thirteen or younger} & \colorbox{aqua}{$4{,}722$} & \colorbox{aqua}{$13{,}152$} & 5{,}151 & \colorbox{yellow}{$23{,}025$}  \\ \hline
+\text{Males older than thirteen} & 1{,}747 & 8{,}122 & 1{,}720 & 11{,}589  \\ \hline
+\text{Females older than thirteen} & 4{,}555 & 13{,}112 & 7{,}921 & 25{,}588 \\ \hline
+\text{Total} & 17{,}167 & 44{,}748 & 18{,}201 & 80{,}118 \\ \hline
+\end{array}
+$$
+Note that because the question does not specify, we include both males and females.  Similarly, 8 or less hours include both the first two columns.
+$$ \frac{6{,}143+10{,}362+4{,}722+13{,}152}{19{,}916+23{,}025}$$
+$$ = \frac{34{,}379}{42{,}941} $$
+$$ \approx \boxed{0.80} $$
+</div>
+
+
+</body>
+
+</html> 

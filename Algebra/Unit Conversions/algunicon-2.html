@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+<title>Unit Conversions Problem 2</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+A doctor typically sees 10 patients in a 4-hour shift. If a doctor has two shifts per day, how many patients would the doctor expect to see over the course of a 5-day workweek?  
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algunicon-21'>
     <label for= 'o-algunicon-21'>
       <input type='radio' name='option'  id='o-algunicon-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+     \(20\)
     </label>
     <span id='r-algunicon-21'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algunicon-22'>
     <label for= 'o-algunicon-22'>
       <input type='radio' name='option'  id='o-algunicon-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(25\)
     </label>
     <span id='r-algunicon-22'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algunicon-23'>
     <label for= 'o-algunicon-23'>
       <input type='radio' name='option' id='o-algunicon-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(50\)
     </label>
     <span id='r-algunicon-23'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algunicon-24'>
     <label for= 'o-algunicon-24'>
       <input type='radio' name='option' id='o-algunicon-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \(100\)
     </label>
     <span id='r-algunicon-24'></span>
   </div>
@@ -78,14 +78,29 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+The given conversion factors and quantity:
 </p>
+<div style='columns: 3;'>
+<center><strong>Given rate</strong></center>
+$$ \frac{10 \text{ patients }}{1 \text{ shift }} $$
+<center><strong>Given rate</strong></center>
+$$ \frac{2 \text{ shifts }}{1 \text{ day }} $$
+<center><strong>Given quantity</strong></center>
+$$ 5 \text{ days} $$
+</div>
+
+<p>Through inspection, we can see that the units cancel out perfectly as written.</p>
+$$ \frac{10 \text{ patients }}{1 \cancel{\text{ shift }}}  \cdot \frac{2 \cancel{\text{ shifts }}}{1 \cancel{\text{ day }}} \cdot  5 \cancel{\text{ days}} $$
+$$ \frac{10}{1}\cdot \frac{2}{1} \cdot 5 \text{ patients} $$
+$$ = \boxed{100 \text{ patients}} $$
 
 
-
+<h2>Sidenote</h2>
+<p>Be cautious when writing the given rates. We could have written 10 patients per 4 hours, but then our units wouldn't cancel out.
+   In this problem, it is irrelevant how long a shift is since the doctor will have two shifts no matter what. SAT problems will usually only give you values and units needed for the question, but there are rare exceptions. In real-world situations, you will almost always get more information than you need!</p>
 </div>
 
 
