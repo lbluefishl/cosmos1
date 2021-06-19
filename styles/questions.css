@@ -37,6 +37,10 @@ div.box {
 }
 
 
+li {
+  margin: 1em;
+}
+
 .katex { font-size: 1em !important;
 } 
 
