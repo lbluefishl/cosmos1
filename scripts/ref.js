@@ -172,3 +172,32 @@ line([0,0],[0,240])
 '
 > 
 */
+
+
+
+
+
+
+
+/*        Simple graph no title with axis
+
+<div style="text-align: center;">
+  <embed width="580" height="380" src="../../d.svg" 
+script=
+'
+setBorder(1);
+initPicture(-10,16,-10,12);
+
+
+
+
+marker="arrow"
+line([-15,0],[14,0])
+line([0,-10],[0,10])
+
+text([14,0],"x",right)
+text([0,10],"y",above)
+'
+> 
+</div>
+*/

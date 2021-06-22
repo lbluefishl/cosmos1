@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Percents Problem 2</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,14 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+
 <p>
+A local store is running a buy one, get 30% off sale for one of its clothing products. If you buy two shirts, the store charges a regular price \(r\) dollars for the first
+ shirt and gives you a 30% discount on the second shirt. The sales tax on orders is 12%. Which of the following expressions gives the total, in dollars, one would expect to pay 
+ if someone were to buy two shirts during the sale?
 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,15 +39,15 @@
   <div class="box" id='b-algperc-21'>
     <label for= 'o-algperc-21'>
       <input type='radio' name='option'  id='o-algperc-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
-    </label>
+       \( 1.12(.70)(2)r \)
+          </label>
     <span id='r-algperc-21'></span>
   </div>
 
   <div class="box" id='b-algperc-22'>
     <label for= 'o-algperc-22'>
       <input type='radio' name='option'  id='o-algperc-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 1.12(r+0.30r)  \)
     </label>
     <span id='r-algperc-22'></span>
   </div>
@@ -52,7 +55,7 @@
   <div class="box" id='b-algperc-23'>
     <label for= 'o-algperc-23'>
       <input type='radio' name='option' id='o-algperc-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 1.12(r-0.30r)  \)
     </label>
     <span id='r-algperc-23'></span>
   </div>
@@ -60,7 +63,7 @@
   <div class="box" id='b-algperc-24'>
     <label for= 'o-algperc-24'>
       <input type='radio' name='option' id='o-algperc-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 1.12(r+0.70r)  \)
     </label>
     <span id='r-algperc-24'></span>
   </div>
@@ -78,13 +81,25 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+A \(30\%\) discount is equivalent to taking \(70\%\) of a number. The discounted shirt should cost:</p>
+$$ 0.70r $$
+We obtain this using the percent change equation, where the final value is equal to some initial value multiplied by the percent change:
+$$ \text{Final} = \text{Initial} \cdot (1\pm \text{percent change})  $$
+$$ \text{Discounted price} = \text{Original price} \cdot (1 - \text{discount}) $$
+$$ \text{Discounted price} = r \cdot (1-0.30) $$
+$$ \text{Discounted price} = 0.70r$$
+<p>
+  Therefore, the cost of the original shirt and the discounted shirt is: 
 </p>
-
-
+$$ r + 0.70r $$
+We can use the percent change equation again to calculate the cost after we apply the sales tax. 
+$$ \text{Final} = \text{Initial} \cdot (1\pm \text{percent change})  $$
+$$ \text{Price after tax} = \text{Price before tax} \cdot (1 + \text{tax}) $$
+$$ \text{Price after tax} = (r + 0.70r) \cdot (1+0.12) $$
+$$ = \boxed{1.12(r+0.70r)} $$
 
 </div>
 

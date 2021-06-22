@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Percents Problem 4</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,23 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
+$$ \begin{array} {|c|c|} \hline 
+\text{Types of fruits}  & \text{Percent of fruits} \\ \hline
+\text{Apples} & 30\% \\ \hline
+\text{Oranges} & 15 \% \\ \hline
+\text{Kiwis} & 20\% \\ \hline
+\text{Bananas} & 20\% \\ \hline
+\text{Watermelons} & 15\% \\ \hline
 
+\end{array}
+$$
+
+
+
+<p>
+The table above shows the distribution of the five types of fruit in a fruit stand. If there are 20 more kiwis than oranges, how many fruit are in the fruitstand? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +48,7 @@
   <div class="box" id='b-algperc-41'>
     <label for= 'o-algperc-41'>
       <input type='radio' name='option'  id='o-algperc-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( 100\)
     </label>
     <span id='r-algperc-41'></span>
   </div>
@@ -44,7 +56,7 @@
   <div class="box" id='b-algperc-42'>
     <label for= 'o-algperc-42'>
       <input type='radio' name='option'  id='o-algperc-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 200\)
     </label>
     <span id='r-algperc-42'></span>
   </div>
@@ -52,7 +64,7 @@
   <div class="box" id='b-algperc-43'>
     <label for= 'o-algperc-43'>
       <input type='radio' name='option' id='o-algperc-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 400\)
     </label>
     <span id='r-algperc-43'></span>
   </div>
@@ -60,7 +72,7 @@
   <div class="box" id='b-algperc-44'>
     <label for= 'o-algperc-44'>
       <input type='radio' name='option' id='o-algperc-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 800\)
     </label>
     <span id='r-algperc-44'></span>
   </div>
@@ -78,16 +90,65 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+Kiwis and oranges make up 20% and 15% of the total, respectively. Therefore, the difference between the two fruit is 5% of the total. 
 </p>
+$$ \begin{array} {|c|c|} \hline 
+\text{Types of fruits}  & \text{Percent of fruits} \\ \hline
+\text{Apples} & 30\% \\ \hline
+\colorbox{aqua}{\text{Oranges}} & 15 \% \\ \hline
+\colorbox{aqua}{\text{Kiwis}} & 20\% \\ \hline
+\text{Bananas} & 20\% \\ \hline
+\text{Watermelons} & 15\% \\ \hline
 
+\end{array}
+$$
+
+The question mentions that there are 20 more kiwis than oranges. Therefore,
+
+$$ 20 = 5\% \text{ of the total}$$
+$$ 20 = 0.05 \cdot \text{total} $$
+$$ 20 = \frac{1}{20} \cdot \text{total} $$
+$$ 20 \cdot 20 = \text{total} $$
+$$ \boxed{400} = \text{total} $$
+
+
+
+
+
+
+<h2> Approach 2</h2>
+
+<p>We can use the answer choices to solve this problem, or just to check our work.</p>
+
+<p>For example, here's how we would go about using the correct answer choice, \( \boxed{400} \).</p>
+
+<div id='col'>
+  <center>Oranges</center>
+$$ \text{Oranges} = 15\% \text { of total}$$
+$$ \text{Oranges} = 0.15 \cdot (400) $$
+$$ \text{Oranges} = 60 $$
+
+<center>Kiwis</center>
+$$ \text{Kiwis} = 20\% \text { of total}$$
+$$ \text{Kiwis} = 0.20 \cdot (400) $$
+$$ \text{Kiwis} = 80 $$
+
+</div>
+$$ \text{Kiwis} - \text{Oranges} = 20 $$
+$$ 80-60 = 20 \checkmark $$
 
 
 
 </div>
+
+
+
+
+
+
 
 
 </body>
