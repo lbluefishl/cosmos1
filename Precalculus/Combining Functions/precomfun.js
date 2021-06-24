@@ -766,13 +766,13 @@
         if (document.getElementById('o-precomfun-101').checked) {
           document.getElementById('r-precomfun-101').style.color = 'red'
           document.getElementById('r-precomfun-101').innerHTML = 'Incorrect!'
-          document.getElementById('r-precomfun-102').style.color = 'blue'
-          document.getElementById('r-precomfun-102').innerHTML = 'Correct!'
+          document.getElementById('r-precomfun-104').style.color = 'blue'
+          document.getElementById('r-precomfun-104').innerHTML = 'Correct!'
           
-          document.getElementById('b-precomfun-102').classList.add("correct")
+          document.getElementById('b-precomfun-104').classList.add("correct")
           document.getElementById('b-precomfun-101').classList.add("incorrect")
           document.getElementById('b-precomfun-103').classList.add("incorrect")
-          document.getElementById('b-precomfun-104').classList.add("incorrect")
+          document.getElementById('b-precomfun-102').classList.add("incorrect")
     
           document.getElementById('sa-precomfun-10').disabled = true;
           document.getElementById('o-precomfun-101').disabled = true;
@@ -783,13 +783,15 @@
           localStorage.setItem('precomfun10', 0)
         }
         if (document.getElementById('o-precomfun-102').checked) {
-          document.getElementById('r-precomfun-102').style.color = 'blue'
-          document.getElementById('r-precomfun-102').innerHTML = 'Correct!'
+          document.getElementById('r-precomfun-102').style.color = 'red'
+          document.getElementById('r-precomfun-102').innerHTML = 'Incorrect!'
+          document.getElementById('r-precomfun-104').style.color = 'blue'
+          document.getElementById('r-precomfun-104').innerHTML = 'Correct!'
           
-          document.getElementById('b-precomfun-102').classList.add("correct")
+          document.getElementById('b-precomfun-104').classList.add("correct")
           document.getElementById('b-precomfun-101').classList.add("incorrect")
           document.getElementById('b-precomfun-103').classList.add("incorrect")
-          document.getElementById('b-precomfun-104').classList.add("incorrect")
+          document.getElementById('b-precomfun-102').classList.add("incorrect")
     
           document.getElementById('sa-precomfun-10').disabled = true;
           document.getElementById('o-precomfun-101').disabled = true;
@@ -797,18 +799,18 @@
           document.getElementById('o-precomfun-103').disabled = true;
           document.getElementById('o-precomfun-104').disabled = true;
           showExplanation10()
-          localStorage.setItem('precomfun10', 1)
+          localStorage.setItem('precomfun10', 0)
         }
         if (document.getElementById('o-precomfun-103').checked) {
           document.getElementById('r-precomfun-103').style.color = 'red'
           document.getElementById('r-precomfun-103').innerHTML = 'Incorrect!'
-          document.getElementById('r-precomfun-102').style.color = 'blue'
-          document.getElementById('r-precomfun-102').innerHTML = 'Correct!'
+          document.getElementById('r-precomfun-104').style.color = 'blue'
+          document.getElementById('r-precomfun-104').innerHTML = 'Correct!'
           
-          document.getElementById('b-precomfun-102').classList.add("correct")
+          document.getElementById('b-precomfun-104').classList.add("correct")
           document.getElementById('b-precomfun-101').classList.add("incorrect")
           document.getElementById('b-precomfun-103').classList.add("incorrect")
-          document.getElementById('b-precomfun-104').classList.add("incorrect")
+          document.getElementById('b-precomfun-102').classList.add("incorrect")
     
           document.getElementById('sa-precomfun-10').disabled = true;
           document.getElementById('o-precomfun-101').disabled = true;
@@ -819,15 +821,13 @@
           localStorage.setItem('precomfun10', 0)
         }
         if (document.getElementById('o-precomfun-104').checked) {
-          document.getElementById('r-precomfun-104').style.color = 'red'
-          document.getElementById('r-precomfun-104').innerHTML = 'Incorrect!'
-          document.getElementById('r-precomfun-102').style.color = 'blue'
-          document.getElementById('r-precomfun-102').innerHTML = 'Correct!'
+          document.getElementById('r-precomfun-104').style.color = 'blue'
+          document.getElementById('r-precomfun-104').innerHTML = 'Correct!'
           
-          document.getElementById('b-precomfun-102').classList.add("correct")
+          document.getElementById('b-precomfun-104').classList.add("correct")
           document.getElementById('b-precomfun-101').classList.add("incorrect")
           document.getElementById('b-precomfun-103').classList.add("incorrect")
-          document.getElementById('b-precomfun-104').classList.add("incorrect")
+          document.getElementById('b-precomfun-102').classList.add("incorrect")
     
           document.getElementById('sa-precomfun-10').disabled = true;
           document.getElementById('o-precomfun-101').disabled = true;
@@ -835,7 +835,7 @@
           document.getElementById('o-precomfun-103').disabled = true;
           document.getElementById('o-precomfun-104').disabled = true;
           showExplanation10()
-          localStorage.setItem('precomfun10', 0)
+          localStorage.setItem('precomfun10', 1)
         }
       }
     }

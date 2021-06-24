@@ -201,3 +201,43 @@ text([0,10],"y",above)
 > 
 </div>
 */
+
+
+
+
+/*        Simple graph title no axis
+
+<div style="text-align: center;">
+  <embed width="580" height="380" src="../../d.svg" 
+script=
+'
+setBorder(1);
+initPicture(-30,95,-100,8000);
+
+
+fontstyle = "normal";
+
+text([45,-1,000], "Item price (dollars)");
+rotate([-15,120],"Profit (dollars)")
+
+
+
+
+
+line([-1,1000],[90,1000])
+line([-1,2000],[90,2000])
+line([-1,3000],[90,3000])
+line([-1,4000],[90,4000])
+line([-1,5000],[90,5000])
+line([-1,6000],[90,6000])
+line([-1,7000],[90,7000])
+
+line([0,0],[90,0])
+line([0,7000],[0,0])
+
+plot("-10(x^2+40)+6000",0,90)
+
+'
+> 
+</div>
+*/

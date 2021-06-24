@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Percents Problem 5</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+In a calculus course, 65% of the students were males. At the end of the class 80% of the males and 60% of the females passed the course.
 </p>
-!-->
+<p>What percentage of those who passed the class were females? (round to the nearest percent)</p>
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algperc-51'>
     <label for= 'o-algperc-51'>
       <input type='radio' name='option'  id='o-algperc-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( 21 \% \)
     </label>
     <span id='r-algperc-51'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algperc-52'>
     <label for= 'o-algperc-52'>
       <input type='radio' name='option'  id='o-algperc-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 29 \% \)
     </label>
     <span id='r-algperc-52'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algperc-53'>
     <label for= 'o-algperc-53'>
       <input type='radio' name='option' id='o-algperc-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(  35\% \)
     </label>
     <span id='r-algperc-53'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algperc-54'>
     <label for= 'o-algperc-54'>
       <input type='radio' name='option' id='o-algperc-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( 52 \% \)
     </label>
     <span id='r-algperc-54'></span>
   </div>
@@ -81,8 +81,39 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We don't know the total number of students. Using \(x\) as the total number of students, we can write an expression for the number of students that passed.
 </p>
+$$ x \tag*{total students}$$
+$$ x(0.65) \tag*{male students}$$
+$$ x(0.65)(0.80) \tag*{male students that passed}$$
+$$ x(1-0.65) \text{ or } x(0.35) \tag*{female students} $$
+ $$ x(0.35)(0.60) \tag*{female students that passed} $$
+To find the percent of female students among those that passed:
+$$ \frac{\text{female students that passed}}{\text{all students that passed}}$$
+$$ = \frac{x(0.35)(0.60)}{x(0.65)(0.80)+x(0.35)(0.60)} $$
+$$ = \frac{0.21x}{.52x+.21x} $$
+$$ = \frac{.21\cancel{x}}{.73\cancel{x}} $$
+$$ \approx .288 $$
+$$ = \boxed{29\%} $$
+
+<h2>Approach 2</h2>
+
+<p>We can pick an arbitrary number of students for the class. Since we're dealing with percents, we can pick 100 total students. Since 65% of the students are male, there will be 65 male students and 35 female students.
+Similarly, among the male students, 80% of them pass:
+$$ 65 \cdot (0.80) $$
+$$ = 52 \text{ male students pass}$$
+Doing the same for females:
+$$ 35 \cdot (0.60) $$
+$$ = 21 \text{ female students pass}$$
+To find the percent of female students among those that passed:
+$$ \frac{\text{female students that passed}}{\text{all students that passed}}$$
+$$ =\frac{21}{52+21} $$
+$$ =\frac{21}{73} $$
+$$ \approx .288 $$
+$$ = \boxed{29\%} $$
+
+</p>
+
 
 
 
