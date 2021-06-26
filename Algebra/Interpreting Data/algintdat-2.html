@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+<title>Interpreting Data Problem 2</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,97 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+  <div style="text-align: center;">
+    <embed width="780" height="580" src="../../d.svg" 
+  script=
+  '
+  setBorder(1);
+  initPicture(-7,25,-2,4.5);
+  
+  
+  fontstyle = "normal";
+  
+  text([13,-1], "Time (hours)");
+  rotate([-17,3.5],"Depth (feet)")
+  
+  
+  
+  strokewidth="2"
+  
+  line([-.3,0],[25,0])
+  line([0,.5],[25,.5])
+  line([-.3,1],[25,1])
+  line([0,1.5],[25,1.5])
+  line([-.3,2],[25,2])
+  line([0,2.5],[25,2.5])
+  line([-.3,3],[25,3])
+  line([0,3.5],[25,3.5])
+  line([-.3,4],[25,4])
+  
+  line([0,-0.1],[0,0.1])
+  line([1,0],[1,0.1])
+  line([2,-.1],[2,.1])
+  line([3,0],[3,.1])
+  line([4,-.1],[4,.1])
+  line([5,0],[5,.1])
+  line([6,-.1],[6,.1])
+  line([7,0],[7,.1])
+  line([8,-.1],[8,.1])
+  line([9,0],[9,.1])
+
+  line([10,-.1],[10,.1])
+  line([11,0],[11,.1])
+  line([12,-.1],[12,.1])
+  line([13,0],[13,.1])
+  line([14,-.1],[14,.1])
+  line([15,0],[15,.1])
+  line([16,-.1],[16,.1])
+  line([17,0],[17,.1])
+  line([18,-.1],[18,.1])
+  line([19,0],[19,.1])
+  line([20,-.1],[20,.1])
+  line([21,0],[21,.1])
+  line([22,-.1],[22,.1])
+  line([23,0],[23,.1])
+  line([24,-.1],[24,.1])
+
+  plot("2cos(.5x)+2",0,24)
+  
+  text([0,-.2],"0","below")
+  text([2,-.2],"2","below")
+  text([4,-.2],"4","below")
+  text([6,-.2],"6","below")
+  text([8,-.2],"8","below")
+  text([10,-.2],"10","below")
+  text([12,-.2],"12","below")
+  text([14,-.2],"14","below")
+  text([16,-.2],"16","below")
+  text([18,-.2],"18","below")
+  text([20,-.2],"20","below")
+  text([22,-.2],"22","below")
+  text([24,-.2],"24","below")
+  
+  text([0,0],"0","left")
+  text([0,1],"1","left")
+  text([0,2],"2","left")
+  text([0,3],"3","left")
+  text([0,4],"4","left")
+
+  line([0,0],[25,0])
+  line([0,0],[0,4])
+
+ 
+
+  
+  '
+  > 
+  </div>
+<p>
+The depth of an ocean close to the short varies daily as a result of changing tides. The graph above models the depth, in feet, 
+of an ocean near the shore of a certain coast over the course of a 24 hour period. During the 24-hour period, how many times is the ocean's depth exactly 3 feet? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +122,7 @@
   <div class="box" id='b-algintdat-21'>
     <label for= 'o-algintdat-21'>
       <input type='radio' name='option'  id='o-algintdat-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       One
     </label>
     <span id='r-algintdat-21'></span>
   </div>
@@ -44,7 +130,7 @@
   <div class="box" id='b-algintdat-22'>
     <label for= 'o-algintdat-22'>
       <input type='radio' name='option'  id='o-algintdat-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      Two
     </label>
     <span id='r-algintdat-22'></span>
   </div>
@@ -52,7 +138,7 @@
   <div class="box" id='b-algintdat-23'>
     <label for= 'o-algintdat-23'>
       <input type='radio' name='option' id='o-algintdat-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      Three
     </label>
     <span id='r-algintdat-23'></span>
   </div>
@@ -60,7 +146,7 @@
   <div class="box" id='b-algintdat-24'>
     <label for= 'o-algintdat-24'>
       <input type='radio' name='option' id='o-algintdat-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     Four
     </label>
     <span id='r-algintdat-24'></span>
   </div>
@@ -78,12 +164,99 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+Below are the points where the depth is exactly 3 meters. 
 </p>
+<div style="text-align: center;">
+  <embed width="780" height="580" src="../../d.svg" 
+script=
+'
+setBorder(1);
+initPicture(-7,25,-2,4.5);
 
+
+fontstyle = "normal";
+
+text([13,-1], "Time (hours)");
+rotate([-17,3.5],"Depth (feet)")
+
+
+
+strokewidth="2"
+
+line([-.3,0],[25,0])
+line([0,.5],[25,.5])
+line([-.3,1],[25,1])
+line([0,1.5],[25,1.5])
+line([-.3,2],[25,2])
+line([0,2.5],[25,2.5])
+line([-.3,3],[25,3])
+line([0,3.5],[25,3.5])
+line([-.3,4],[25,4])
+
+line([0,-0.1],[0,0.1])
+line([1,0],[1,0.1])
+line([2,-.1],[2,.1])
+line([3,0],[3,.1])
+line([4,-.1],[4,.1])
+line([5,0],[5,.1])
+line([6,-.1],[6,.1])
+line([7,0],[7,.1])
+line([8,-.1],[8,.1])
+line([9,0],[9,.1])
+
+line([10,-.1],[10,.1])
+line([11,0],[11,.1])
+line([12,-.1],[12,.1])
+line([13,0],[13,.1])
+line([14,-.1],[14,.1])
+line([15,0],[15,.1])
+line([16,-.1],[16,.1])
+line([17,0],[17,.1])
+line([18,-.1],[18,.1])
+line([19,0],[19,.1])
+line([20,-.1],[20,.1])
+line([21,0],[21,.1])
+line([22,-.1],[22,.1])
+line([23,0],[23,.1])
+line([24,-.1],[24,.1])
+
+plot("2cos(.5x)+2",0,24)
+
+text([0,-.2],"0","below")
+text([2,-.2],"2","below")
+text([4,-.2],"4","below")
+text([6,-.2],"6","below")
+text([8,-.2],"8","below")
+text([10,-.2],"10","below")
+text([12,-.2],"12","below")
+text([14,-.2],"14","below")
+text([16,-.2],"16","below")
+text([18,-.2],"18","below")
+text([20,-.2],"20","below")
+text([22,-.2],"22","below")
+text([24,-.2],"24","below")
+
+text([0,0],"0","left")
+text([0,1],"1","left")
+text([0,2],"2","left")
+text([0,3],"3","left")
+text([0,4],"4","left")
+
+line([0,0],[25,0])
+line([0,0],[0,4])
+
+stroke="red"
+dot([2.16,3],"closed")
+dot([10.45,3],"closed")
+dot([14.6,3],"closed")
+dot([23,3],"closed")
+
+'
+> 
+</div>
 
 
 </div>

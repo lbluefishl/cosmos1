@@ -211,13 +211,13 @@
         if (document.getElementById('o-algsolquaequ-31').checked) {
           document.getElementById('r-algsolquaequ-31').style.color = 'red'
           document.getElementById('r-algsolquaequ-31').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-32').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-32').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-34').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-32').classList.add("correct")
+          document.getElementById('b-algsolquaequ-34').classList.add("correct")
           document.getElementById('b-algsolquaequ-31').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-33').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-34').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-32').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-3').disabled = true;
           document.getElementById('o-algsolquaequ-31').disabled = true;
@@ -228,14 +228,15 @@
           localStorage.setItem('algsolquaequ3', 0)
         }
         if (document.getElementById('o-algsolquaequ-32').checked) {
-    
-          document.getElementById('r-algsolquaequ-32').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-32').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-32').style.color = 'red'
+          document.getElementById('r-algsolquaequ-32').innerHTML = 'Incorrect!'
+          document.getElementById('r-algsolquaequ-34').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-32').classList.add("correct")
+          document.getElementById('b-algsolquaequ-34').classList.add("correct")
           document.getElementById('b-algsolquaequ-31').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-33').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-34').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-32').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-3').disabled = true;
           document.getElementById('o-algsolquaequ-31').disabled = true;
@@ -243,18 +244,18 @@
           document.getElementById('o-algsolquaequ-33').disabled = true;
           document.getElementById('o-algsolquaequ-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('algsolquaequ3', 1)
+          localStorage.setItem('algsolquaequ3', 0)
         }
         if (document.getElementById('o-algsolquaequ-33').checked) {
           document.getElementById('r-algsolquaequ-33').style.color = 'red'
           document.getElementById('r-algsolquaequ-33').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-32').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-32').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-34').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-32').classList.add("correct")
+          document.getElementById('b-algsolquaequ-34').classList.add("correct")
           document.getElementById('b-algsolquaequ-31').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-33').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-34').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-32').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-3').disabled = true;
           document.getElementById('o-algsolquaequ-31').disabled = true;
@@ -265,15 +266,13 @@
           localStorage.setItem('algsolquaequ3', 0)
         }
         if (document.getElementById('o-algsolquaequ-34').checked) {
-          document.getElementById('r-algsolquaequ-34').style.color = 'red'
-          document.getElementById('r-algsolquaequ-34').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-32').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-32').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-34').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-32').classList.add("correct")
+          document.getElementById('b-algsolquaequ-34').classList.add("correct")
           document.getElementById('b-algsolquaequ-31').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-33').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-34').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-32').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-3').disabled = true;
           document.getElementById('o-algsolquaequ-31').disabled = true;
@@ -281,7 +280,7 @@
           document.getElementById('o-algsolquaequ-33').disabled = true;
           document.getElementById('o-algsolquaequ-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('algsolquaequ3', 0)
+          localStorage.setItem('algsolquaequ3', 1)
         }
       }
     }
@@ -340,7 +339,7 @@
           document.getElementById('sa-algsolquaequ-4').disabled = true;
           document.getElementById('o-algsolquaequ-41').disabled = true;
           document.getElementById('o-algsolquaequ-42').disabled = true;
-          document.getElementById('o-algsolquaequ-43').disabled = true;
+          document.getElementById('o-algsolquaequ-43').disabled = true; 
           document.getElementById('o-algsolquaequ-44').disabled = true;
           showExplanation4()
           localStorage.setItem('algsolquaequ4', 0)

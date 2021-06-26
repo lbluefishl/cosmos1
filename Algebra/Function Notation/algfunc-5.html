@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Function Notation Problem 5</title>
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+At the currency exchange, an individual can exchange 50 US dollars for 333 Chinese yuan. At this rate, which of the following functions is closest to the number of chinese yuan one could expect to receive in exchange 
+for \(d\) US dollars? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algfunc-51'>
     <label for= 'o-algfunc-51'>
       <input type='radio' name='option'  id='o-algfunc-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( f(d) =  0.15d  \)
     </label>
     <span id='r-algfunc-51'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algfunc-52'>
     <label for= 'o-algfunc-52'>
       <input type='radio' name='option'  id='o-algfunc-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( f(d) =  6.66d  \)
     </label>
     <span id='r-algfunc-52'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algfunc-53'>
     <label for= 'o-algfunc-53'>
       <input type='radio' name='option' id='o-algfunc-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( f(d) =  50d+333  \)
     </label>
     <span id='r-algfunc-53'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algfunc-54'>
     <label for= 'o-algfunc-54'>
       <input type='radio' name='option' id='o-algfunc-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( f(d) =  333d-50  \)
     </label>
     <span id='r-algfunc-54'></span>
   </div>
@@ -81,11 +82,34 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We want to find a function so that when we input \(d=50\), we expect to receive \(333\) as an ouput. In other words,
+
 </p>
+$$ f(50)= 333 $$
+<p> We can check each equation in the options to identify which is suitable. Here's the verification for the correct answer choice:</p>
+ $$ \boxed{f(d)=6.66d} $$
+ $$ f(50)=6.66(50) $$
+ $$ f(50)=333 &nbsp \checkmark $$
 
 
 
+
+
+ <h2>Approach 2</h2>
+
+<p>We can find the conversion rate for just 1 US dollar using a simple proportion:</p>
+
+$$ \frac{55 \text{ US dollars}}{333 \text{ Chinese yuan}} = \frac{1 \text{ US dollar}}{\text{? Chinese yuan}} $$
+
+$$ 1 \text{ US dollar} = 6.66 \text{ Chinese yuan} $$
+
+<p>We can set this proportion equal to the case where there is \(d\) dollars:</p>
+
+$$ \frac{1 \text{ US dollars}}{6.66 \text{ Chinese yuan}} = \frac{d \text{ US dollar}}{C \text{ Chinese yuan}} $$
+$$ C = 6.66d $$
+<p>Since the number of Chinese yuan is a function of the number of US dollars,</p>
+$$ C=\boxed{f(d)=6.66d} $$
+Note that the variable \(C\) was chosen arbitrarily. \(f(d)\) was also chosen arbitrary by the question, but functions can be given any names, such as \(C(d)\), depending on what is preferred. 
 </div>
 
 

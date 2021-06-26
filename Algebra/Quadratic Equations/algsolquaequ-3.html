@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Quadratic Equations Problem 3</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+  $$ x^2-8x+c=0 $$
+<p>
+In the quadratic equation above, \(c\) is a constant. If the equation has two unique solutions, which of the following CANNOT be the value of \(c\)? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algsolquaequ-31'>
     <label for= 'o-algsolquaequ-31'>
       <input type='radio' name='option'  id='o-algsolquaequ-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( 7 \)
     </label>
     <span id='r-algsolquaequ-31'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algsolquaequ-32'>
     <label for= 'o-algsolquaequ-32'>
       <input type='radio' name='option'  id='o-algsolquaequ-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 12 \)
     </label>
     <span id='r-algsolquaequ-32'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algsolquaequ-33'>
     <label for= 'o-algsolquaequ-33'>
       <input type='radio' name='option' id='o-algsolquaequ-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 15 \)
     </label>
     <span id='r-algsolquaequ-33'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algsolquaequ-34'>
     <label for= 'o-algsolquaequ-34'>
       <input type='radio' name='option' id='o-algsolquaequ-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(16  \)
     </label>
     <span id='r-algsolquaequ-34'></span>
   </div>
@@ -81,10 +82,51 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+It is important to be able to master factoring quadratics so you complete these questions efficiently. 
 </p>
 
+<div id='col'>
+<center>\(c=7\)</center>
+$$x^2-8x+7 =0$$
+$$ (x-7)(x-1)=0 $$
+$$ x=7 \text{ and } x=1 &nbsp \checkmark $$
+<center>\(c=12\)</center>
+$$x^2-8x+12 =0 $$
+$$ (x-6)(x-2)=0 $$
+$$ x=6 \text{ and } x=2&nbsp \checkmark $$
+<center>\(c=15\)</center>
+$$x^2-8x+15 =0 $$
+$$ (x-5)(x-3)=0 $$
+$$ x=5 \text{ and } x=3 &nbsp \checkmark$$
+<center>\(c=16\)</center>
+$$x^2-8x+16 =0$$
+$$ (x-4)(x-4)=0 $$
+$$ x=4  &nbsp &#10006; $$
+</div>
 
+<h2> Approach 2</h2>
+<p>
+We can inspect the discriminant of the quadratic (the portion under the square root of the quadratic formula):
+
+</p>
+
+$$ \text{Quadratic Formula} = \frac{-b\pm\sqrt{\colorbox{aqua}{$b^2-4ac$}}}{2a} $$
+$$ \text{Discriminant} = b^2-4ac$$
+
+<p>The cases for the discriminant are as follows:</p>
+<ul>
+  <li>\(D\gt0\): 2 real solutions</li>
+  <li>\(D=0\): 1 real solutions</li>
+  <li>\(D\lt0\): 0 real solutions</li>
+</ul>
+<p>We want \(D \gt 0 \) so that the equation has 2 unique solutions. </p>
+$$ x^2-8x+c=0 $$
+$$ b^2-4ac \gt 0 $$
+$$ (-8)^2-4(1)(c) \gt 0 $$
+$$ 64-4c \gt 0 $$
+$$ -4c \gt -64 $$
+$$ c \lt 16 $$
+<p>Three options satisfy this inequality, but \(\boxed{16}\) does not.</p>
 
 </div>
 
