@@ -48,7 +48,7 @@ li {
 
 body {
 	width: 20em auto;
-	margin: 5em ;
+	margin: 5em 15em ;
 	background-color: #ffffff;
 	padding: 2em ;
 	border: 10px solid rgb(226, 224, 224);
@@ -78,24 +78,25 @@ div.explanation {
 
 
 nav {
-  overflow: hidden;
-  white-space: nowrap;
+
   text-align: center;
+  margin: 1em;
 }
 
 
 button {
-  padding: 0;
-  margin: .3em .8em ;
-  font-size: 1vw ;
-  line-height: 1vh;
-  border-radius: 12em;
+
   background-color: rgb(231, 231, 231);
   font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  width:  30vh;
+  border-radius: 12em;
+  width: 10em;
   height: 3em;
   border: .1em solid;
+  padding: 1em;
+  margin: .5em .5em ;
+  font-size: 3vh ;
+  line-height: 1vh;
+
 }
 
 
