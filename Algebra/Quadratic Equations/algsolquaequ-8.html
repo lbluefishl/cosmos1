@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Quadratic Equations Problem 8</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+ $$ P(x)=2x^2+3x+k $$ 
+<p>
+In the function above, \(k\) is a constant. If 1 is a zero of the function, what is the value of \(k\)?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algsolquaequ-81'>
     <label for= 'o-algsolquaequ-81'>
       <input type='radio' name='option'  id='o-algsolquaequ-81' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(-5\)
     </label>
     <span id='r-algsolquaequ-81'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algsolquaequ-82'>
     <label for= 'o-algsolquaequ-82'>
       <input type='radio' name='option'  id='o-algsolquaequ-82' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(-\dfrac{5}{2}\)
     </label>
     <span id='r-algsolquaequ-82'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algsolquaequ-83'>
     <label for= 'o-algsolquaequ-83'>
       <input type='radio' name='option' id='o-algsolquaequ-83' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(-1\)
     </label>
     <span id='r-algsolquaequ-83'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algsolquaequ-84'>
     <label for= 'o-algsolquaequ-84'>
       <input type='radio' name='option' id='o-algsolquaequ-84' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( 5 \)
     </label>
     <span id='r-algsolquaequ-84'></span>
   </div>
@@ -78,18 +79,51 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+We can use the factor theorem, which basically says that if a polynomial has a zero at \(x=c\), then \(f(c)=0\). In other words, if we plug in the \(x\)-value of the zeros, we 
+should obtain an output of zero. 
 </p>
+$$ P(1)=0 $$
+$$ 2(1)^2+3(1)+k=0 $$
+$$ 2+3+k=0 $$
+$$ k=\boxed{-5} $$
 
 
+<h2>Approach 2</h2>
+<p>Since \(x=1\) is a zero, \((x-1)\) is a factor. We can use long division or synthetic division to obtain the other factor.   </p>
+
+$$ \begin{array}{r}
+2x+5\phantom{-10} \\
+x-1{\overline{\smash{\big)}\,2x^2+3x+k}} \\
+\underline{-2x^2+2x} \hphantom{-10}\\
+5x+k\phantom{} \\
+\underline{-5x+5} \phantom{} \\
+\end{array} $$
+$$ \text{ Remainder}=k+5 $$
+<p>The other possible factor for our quadratic equation is \(2x+5\). It is only a factor if there is no remainder, so \(k=\boxed{-5}\) </p>
+
+
+
+<h2>Approach 3</h2>
+
+<p>Since \((x-1)\) is a factor, we can anticipate what the other factor is to construct our quadratic \(P(x)=2x^2+3x+k \).</p>
+$$ (x-1)(ax+b)=2x^2+3x+k $$
+<p>Since we need to obtain \(2x^2\), \(a=2\).</p>
+$$ (x-1)(2x+b)=2x^2+3x+k $$
+<p>Expanding the left side allows us to identify the correct value for \(b\).</p>
+$$ 2x^2+\colorbox{aqua}{$bx-2x$}-b=2x^2+\colorbox{aqua}{$3x$}+k $$
+$$ bx-2x=3x $$
+$$ b=5 $$
+<p>We can substitute the values of \(a\) and \(b\) and expand to find the value of \(k\).</p>
+$$ (x-1)(ax+b)=2x^2+3x+k $$
+$$ (x-1)(2x+5)=2x^2+3x+k $$
+$$ 2x^2+3x-5=2x^2+3x+k $$
+$$ k=\boxed{-5 }$$
 
 </div>
-
-
-
 </body>
+
 
 </html> 

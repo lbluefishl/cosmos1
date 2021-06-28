@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Algebraic Models Problem 10</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,14 +19,102 @@
 
 <body>
 
-<h1 class="question"> 
-<!-- 
-<p>
-
-</p>
-!-->
-
- </h1>
+  <h1 class="question"> 
+    <div style="text-align: center; margin: 0%";>
+      
+      <embed width="680" height="680" src="../../d.svg" 
+     script=
+     '
+     setBorder(1);
+     initPicture(200,855,-0.25,1.25);
+     
+     fontstyle = "normal";
+     text([450,0.48], "(500, 0.38)", above);
+     text([365, 0.09], "(350, 0.19)", right );
+     text([500,0.78], "kyanite");
+     text([505, 0.19], "andalusite");
+     text([700, 0.45], "sillimanite");
+     text([745,.13], "(760, 0)", above);
+     text([795,.85], "(795, 1.0)", below);
+     text([572,1.2], "Phase Diagram for ");
+     text([572,1.1], "Alumninosilicate Polymorphs");
+     
+     text([572,-.2], "Temperature (&#176C)");
+     rotate([-155,1.15],"Pressure (GPA)")
+     
+     strokewidth="2"
+     marker="arrow"
+     line([380,.12],[350,.19]);
+     line([450,.49],[500,.39]);
+     line([785,.85],[793,.98]);
+     line([760,.14],[760,.01]);
+     
+     marker="none"
+     a=[350,0.19]
+     b=[500,0.38]
+     c=[795,1.0]
+     d=[760,0]
+     o=[350,0]
+     t=[0,1]
+     
+     strokewidth="2"
+     line(a,b)
+     line(b,c)
+     line(b,d);
+     
+     strokewidth="1"
+     plot("y=0.0",340,360)
+     plot("y=0.1",340,360)
+     plot("y=0.2",340,360)
+     plot("y=0.3",340,360)
+     plot("y=0.4",340,360)
+     plot("y=0.5",340,360)
+     plot("y=0.6",340,360)
+     plot("y=0.7",340,360)
+     plot("y=0.8",340,360)
+     plot("y=0.9",340,360)
+     plot("y=1.0",340,360)
+     
+     line([350,-0.02],[350,0.02])
+     line([400,-0.02],[400,0.02])
+     line([450,-0.02],[450,0.02])
+     line([500,-0.02],[500,0.02])
+     line([550,-0.02],[550,0.02])
+     line([600,-0.02],[600,0.02])
+     line([650,-0.02],[650,0.02])
+     line([700,-0.02],[700,0.02])
+     line([750,-0.02],[750,0.02])
+     line([800,-0.02],[800,0.02])
+     
+     text([345,0],"0",left);
+     text([345,0.2],"0.2",left);
+     text([345,0.4],"0.4",left);
+     text([345,0.6],"0.6",left);
+     text([345,0.8],"0.8",left);
+     text([345,1.0],"1.0",left);
+     
+     text([400,-0.02],"400",below)
+     text([500,-0.02],"500",below)
+     text([600,-0.02],"600",below)
+     text([700,-0.02],"700",below)
+     text([800,-0.02],"800",below)
+     
+     line([350,1],[800,1])
+     line([800,0],[800,.77])
+     line([800,.85],[800,1])
+     line([350,0],[800,0])
+     line([350,0],[350,1])
+     '
+     >
+     </div>
+  <p>The phase diagram above shows the conditions that are needed to form different aluminosilicate minerals. The temperature \(T\), in degrees Celcius (&#176C) is shown on the 
+    horizontal axis, and the pressure \(P\), in gigapascals (GPA), is shown on the vertical axis.
+     An equation of the boundary line between the andalusite and sillimanite
+    regions is approximated by the equation below. What is the meaning of the \(T\)-intercept of this line? 
+  $$P=-0.00146T+1.11$$
+  </p>
+  
+   </h1>
 
  
 <p>Choose 1 Answer:</p>  
@@ -36,7 +124,8 @@
   <div class="box" id='b-algmode-101'>
     <label for= 'o-algmode-101'>
       <input type='radio' name='option'  id='o-algmode-101' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      The maximum pressure at which both andalusite and sillimanite can form.
+
     </label>
     <span id='r-algmode-101'></span>
   </div>
@@ -44,7 +133,8 @@
   <div class="box" id='b-algmode-102'>
     <label for= 'o-algmode-102'>
       <input type='radio' name='option'  id='o-algmode-102' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      The temperature at which both andalusite and sillimanite can form when there is no pressure applied. 
+
     </label>
     <span id='r-algmode-102'></span>
   </div>
@@ -52,7 +142,8 @@
   <div class="box" id='b-algmode-103'>
     <label for= 'o-algmode-103'>
       <input type='radio' name='option' id='o-algmode-103' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      The number of degrees Celsius needed to remain on the boundary between andalusite and kyanite if the pressure is reduced by 1 GPa.
+
     </label>
     <span id='r-algmode-103'></span>
   </div>
@@ -60,7 +151,8 @@
   <div class="box" id='b-algmode-104'>
     <label for= 'o-algmode-104'>
       <input type='radio' name='option' id='o-algmode-104' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      The decrease in the number of gigapascals of pressure needed to remain on the boundary between andalusite and sillimanite if the temperature is increased by 1 &#176C.
+
     </label>
     <span id='r-algmode-104'></span>
   </div>
@@ -73,22 +165,135 @@
   <!-- <a href="algmode-11.html"><button class= 'nav' id= 'nq-algmode-10' >Next Question</button></a> -->
 </nav>
 
+
+
 <div class='explanation' id='e-algmode-10'>
 
 
-
-
-<h2> Approach 1 </h2>
-
-<p>
-<!--             -->
-</p>
-
-
-
-</div>
-
-
+  <h2> Approach 1 </h2>
+  
+  <p>
+  We can interpret the meaning of the \(T\)-intercept by comparing it to a more familiar scenario.
+  </p>
+  
+  <div id='col'>
+    <center>Pressure vs. Temperature </center>
+    $$\bold{P}=m\bold{T}+b$$
+    The \(T\)-intercept would be the point where the \(P\) value is equal to zero.
+  
+    <center>\(y\) vs. \(x\) </center>
+    $$\bold{y}=m\bold{x}+b$$
+    The \(x\)-intercept would be the point where the \(y\) value is equal to zero.
+  </div>
+  
+  
+   
+  <p>We can calculate this algebraically, but instead we can utilize the graph. There is only one point where the Pressure \(P\) is 0.</p>
+    
+  <div style="text-align: center; scale: .8">
+  <embed width="180" height="180" src="../../d1.svg"  
+  script=
+  'setBorder(5);
+  initPicture(435,785,-0.04,.5);
+  
+  fontstyle = "normal";
+  text([450,0.48], "(500, 0.38)", above);
+  text([365, 0.09], "(350, 0.19)", right );
+  text([500,0.78], "kyanite");
+  text([505, 0.19], "andalusite");
+  text([700, 0.45], "sillimanite");
+  
+  text([795,.85], "(795,1.0)", below);
+  text([572,1.2], "Phase Diagram for ");
+  text([572,1.1], "Alumninosilicate Polymorphs");
+  
+  text([572,-.2], "Temperature (&#176C)");
+  rotate([-195,1.25],"Pressure (GPA)")
+  
+  strokewidth="1"
+  marker="arrow"
+  line([380,.12],[350,.19]);
+  line([450,.49],[500,.39]);
+  line([785,.85],[793,.98]);
+  stroke="red"
+  line([760,.13],[760,.01]);
+  redtext([755,.13], "(760, 0)", above);
+  
+  stroke="black"
+  marker="none"
+  a=[350,0.19]
+  b=[500,0.38]
+  c=[795,1.0]
+  d=[760,0]
+  o=[350,0]
+  t=[0,1]
+  
+  strokewidth="2"
+  line(a,b)
+  line(b,c)
+  line(b,d);
+  
+  strokewidth="1"
+  plot("y=0.0",340,360)
+  plot("y=0.1",340,360)
+  plot("y=0.2",340,360)
+  plot("y=0.3",340,360)
+  plot("y=0.4",340,360)
+  plot("y=0.5",340,360)
+  plot("y=0.6",340,360)
+  plot("y=0.7",340,360)
+  plot("y=0.8",340,360)
+  plot("y=0.9",340,360)
+  plot("y=1.0",340,360)
+  
+  line([350,-0.02],[350,0.02])
+  line([400,-0.02],[400,0.02])
+  line([450,-0.02],[450,0.02])
+  line([500,-0.02],[500,0.02])
+  line([550,-0.02],[550,0.02])
+  line([600,-0.02],[600,0.02])
+  line([650,-0.02],[650,0.02])
+  line([700,-0.02],[700,0.02])
+  line([750,-0.02],[750,0.02])
+  line([800,-0.02],[800,0.02])
+  
+  text([345,0],"0",left);
+  text([345,0.2],"0.2",left);
+  text([345,0.4],"0.4",left);
+  text([345,0.6],"0.6",left);
+  text([345,0.8],"0.8",left);
+  text([345,1.0],"1.0",left);
+  
+  text([400,-0.02],"400",below)
+  text([500,-0.02],"500",below)
+  text([600,-0.02],"600",below)
+  text([700,-0.02],"700",below)
+  text([800,-0.02],"800",below)
+  
+  line([350,1],[800,1])
+  line([800,0],[800,.75])
+  line([800,.85],[800,1])
+  line([350,0],[800,0])
+  line([350,0],[350,1])
+  '
+  >
+  
+  </div>
+  </h1>
+  <p>This point seems to correspond to a point on the line where both sillimanite and andalusite can form (boundary line). 
+    The answer choice also emphasizes that it is when the pressure is zero:
+   </p>
+   <div>
+  <span text style="border: 1px; border-style: solid;  border-color: black;"> &#9675   The temperature at which both andalusite and 
+     sillimanite can form when there is <strong>no pressure applied</strong>. </span>
+   </div>
+  <h2>Approach 2</h2>
+  <p>The first choice refers to pressure, so it cannot be associated with the \(T\)-intercept, which would give a value related to temperature. The last two answer choices are described
+    as rates rather than a constant. They may be suitable answer choices if the question were asking for the meaning of something related to slope. The correct answer choice 
+    refers to temperature, which is correctly associated with the \(T\)-intercept.
+  </p>
+  
+  </div>
 
 </body>
 

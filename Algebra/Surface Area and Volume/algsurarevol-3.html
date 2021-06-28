@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title> Area and Volume Problem 3</title> 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+A 3D-printer produces a cube with a volume of 300 cubic centimeters (cm<sup>3</sup>).
+ If the printer is set to produce a second cube with side lengths doubled from the first cube. What is the volume of the second cube?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algsurarevol-31'>
     <label for= 'o-algsurarevol-31'>
       <input type='radio' name='option'  id='o-algsurarevol-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( 313 \text{ cm}^3 \)
     </label>
     <span id='r-algsurarevol-31'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algsurarevol-32'>
     <label for= 'o-algsurarevol-32'>
       <input type='radio' name='option'  id='o-algsurarevol-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 600 \text{ cm}^3 \)
     </label>
     <span id='r-algsurarevol-32'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algsurarevol-33'>
     <label for= 'o-algsurarevol-33'>
       <input type='radio' name='option' id='o-algsurarevol-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 1200 \text{ cm}^3 \)
     </label>
     <span id='r-algsurarevol-33'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algsurarevol-34'>
     <label for= 'o-algsurarevol-34'>
       <input type='radio' name='option' id='o-algsurarevol-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 2400 \text{ cm}^3 \)
     </label>
     <span id='r-algsurarevol-34'></span>
   </div>
@@ -78,18 +79,42 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+The volume of a cube is given by the following equation, where \(s\) is the side length.
 </p>
+
+$$ V=s^3 $$
+<p>If we double the side lenghts, we are effectively changing \(s\) into \(2s\).</p>
+$$ V=(2s)^3 $$
+$$ V=8s^3 $$
+<p> The value of \(V\) is 8 times larger than in the initial equation. Since the volume of the first cube was \(300\text{ cm}^3\), the volume of the new cube will be:</p>
+$$ 8 \cdot 300\text{ cm}^3 $$
+$$ = \boxed{2400\text{ cm}^3} $$
+
+<h2> Approach 2</h2>
+
+
+<p>We can solve for the side of the first cube. </p>
+$$ V_1=s_1^3 $$
+$$ 300 = s_1^3 $$
+$$ s_1=\sqrt[3]{300} $$
+<p>Doubling this side and finding the volume of the second cube:</p>
+$$ s_2=2\cdot \sqrt[3]{300} $$
+$$ s_2=2\sqrt[3]{300} $$
+$$ V_2 = s_2^3 $$
+$$ V_2= (2\sqrt[3]{300})^3 $$
+$$ V_2=2^3\cdot 300 $$
+$$ V_2=\boxed{2400} $$
+
+
+
+
 
 
 
 </div>
-
-
-
 </body>
 
 </html> 
