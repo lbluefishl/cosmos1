@@ -1,7 +1,7 @@
 html {
   background-color: rgb(207, 205, 205);
   font-family: 'Minion-Pro', sans-serif;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .intro {
@@ -43,10 +43,10 @@ vertical-align: 10px;
 }
 
 .nav {
-  padding: 5px;
-  margin: 16px;
+  padding: 1em;
+  margin: .3em;
   font-size: 1.3em;
-  border-radius: 5px;
+  border-radius: .1em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #4d9471;

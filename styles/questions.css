@@ -1,10 +1,10 @@
 html {
   background-color: rgb(207, 205, 205);
   font-family: "minion-pro", serif;
-font-size: 2.0em;
+font-size: 1em;
 }
 div.correct {
-  border: 3px solid #add8e6;
+  border: .1em solid #add8e6;
   background-color: #add8e6;
   border-style: dotted  ;
   border-color: rgb(94, 93, 93);
@@ -80,19 +80,20 @@ div.explanation {
 nav {
   overflow: hidden;
   white-space: nowrap;
+  text-align: center;
 }
 
 
 button {
   padding: 0;
   margin: .3em .8em ;
-  font-size: 5vh ;
-  line-height: 5vh;
+  font-size: 1vw ;
+  line-height: 1vh;
   border-radius: 12em;
   background-color: rgb(231, 231, 231);
   font-family: 'Lato', sans-serif;
   font-weight: 500;
-  width: 28%;
+  width:  30vh;
   height: 3em;
   border: .1em solid;
 }
