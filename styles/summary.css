@@ -36,6 +36,12 @@ div.explanation {
   display:none ;
 }
 
+div.buttons {
+margin: auto;
+display: block;
+text-align: center;
+}
+
 
 #col {
   column-count: 2;
@@ -43,6 +49,7 @@ vertical-align: 10px;
 }
 
 .nav {
+
   padding: 1em;
   margin: .3em;
   font-size: 1.3em;
