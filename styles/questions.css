@@ -1,7 +1,7 @@
 html {
   background-color: rgb(207, 205, 205);
   font-family: "minion-pro", serif;
-font-size: 1em;
+font-size: 2em;
 }
 div.correct {
   border: .1em solid #add8e6;
@@ -48,8 +48,8 @@ li {
 
 
 body {
-	width: 20em auto;
-	margin: 5em 15em ;
+	width: auto auto;
+	margin: 1em 1em ;
 	background-color: #ffffff;
 	padding: 2em ;
 	border: 10px solid rgb(226, 224, 224);
