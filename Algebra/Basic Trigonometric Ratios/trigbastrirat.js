@@ -130,14 +130,12 @@
     if (document.getElementById('sa-trigbastrirat-2') != null) {
       trigbastrirat2But.onclick = function() {
         if (document.getElementById('o-trigbastrirat-21').checked) {
-          document.getElementById('r-trigbastrirat-21').style.color = 'red'
-          document.getElementById('r-trigbastrirat-21').innerHTML = 'Incorrect!'
-          document.getElementById('r-trigbastrirat-23').style.color = 'blue'
-          document.getElementById('r-trigbastrirat-23').innerHTML = 'Correct!'
+          document.getElementById('r-trigbastrirat-21').style.color = 'blue'
+          document.getElementById('r-trigbastrirat-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-trigbastrirat-23').classList.add("correct")
+          document.getElementById('b-trigbastrirat-21').classList.add("correct")
           document.getElementById('b-trigbastrirat-21').classList.add("incorrect")
-          document.getElementById('b-trigbastrirat-22').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-23').classList.add("incorrect")
           document.getElementById('b-trigbastrirat-24').classList.add("incorrect")
     
           document.getElementById('sa-trigbastrirat-2').disabled = true;
@@ -146,17 +144,17 @@
           document.getElementById('o-trigbastrirat-23').disabled = true;
           document.getElementById('o-trigbastrirat-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('trigbastrirat2', 0)
+          localStorage.setItem('trigbastrirat2', 1)
         }
         if (document.getElementById('o-trigbastrirat-22').checked) {
           document.getElementById('r-trigbastrirat-22').style.color = 'red'
           document.getElementById('r-trigbastrirat-22').innerHTML = 'Incorrect!'
-          document.getElementById('r-trigbastrirat-23').style.color = 'blue'
-          document.getElementById('r-trigbastrirat-23').innerHTML = 'Correct!'
+          document.getElementById('r-trigbastrirat-21').style.color = 'blue'
+          document.getElementById('r-trigbastrirat-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-trigbastrirat-23').classList.add("correct")
-          document.getElementById('b-trigbastrirat-21').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-21').classList.add("correct")
           document.getElementById('b-trigbastrirat-22').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-23').classList.add("incorrect")
           document.getElementById('b-trigbastrirat-24').classList.add("incorrect")
     
           document.getElementById('sa-trigbastrirat-2').disabled = true;
@@ -168,12 +166,14 @@
           localStorage.setItem('trigbastrirat2', 0)
         }
         if (document.getElementById('o-trigbastrirat-23').checked) {
-          document.getElementById('r-trigbastrirat-23').style.color = 'blue'
-          document.getElementById('r-trigbastrirat-23').innerHTML = 'Correct!'
+          document.getElementById('r-trigbastrirat-23').style.color = 'red'
+          document.getElementById('r-trigbastrirat-23').innerHTML = 'Incorrect!'
+          document.getElementById('r-trigbastrirat-21').style.color = 'blue'
+          document.getElementById('r-trigbastrirat-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-trigbastrirat-23').classList.add("correct")
-          document.getElementById('b-trigbastrirat-21').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-21').classList.add("correct")
           document.getElementById('b-trigbastrirat-22').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-23').classList.add("incorrect")
           document.getElementById('b-trigbastrirat-24').classList.add("incorrect")
     
           document.getElementById('sa-trigbastrirat-2').disabled = true;
@@ -182,16 +182,16 @@
           document.getElementById('o-trigbastrirat-23').disabled = true;
           document.getElementById('o-trigbastrirat-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('trigbastrirat2', 1)
+          localStorage.setItem('trigbastrirat2', 0)
         }
         if (document.getElementById('o-trigbastrirat-24').checked) {
           document.getElementById('r-trigbastrirat-24').style.color = 'red'
           document.getElementById('r-trigbastrirat-24').innerHTML = 'Incorrect!'
-          document.getElementById('r-trigbastrirat-23').style.color = 'blue'
-          document.getElementById('r-trigbastrirat-23').innerHTML = 'Correct!'
+          document.getElementById('r-trigbastrirat-21').style.color = 'blue'
+          document.getElementById('r-trigbastrirat-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-trigbastrirat-23').classList.add("correct")
-          document.getElementById('b-trigbastrirat-21').classList.add("incorrect")
+          document.getElementById('b-trigbastrirat-21').classList.add("correct")
+          document.getElementById('b-trigbastrirat-23').classList.add("incorrect")
           document.getElementById('b-trigbastrirat-22').classList.add("incorrect")
           document.getElementById('b-trigbastrirat-24').classList.add("incorrect")
     

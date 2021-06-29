@@ -688,13 +688,13 @@
         if (document.getElementById('o-algsolquaequ-91').checked) {
           document.getElementById('r-algsolquaequ-91').style.color = 'red'
           document.getElementById('r-algsolquaequ-91').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-94').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-94').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-93').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-93').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-94').classList.add("correct")
+          document.getElementById('b-algsolquaequ-93').classList.add("correct")
           document.getElementById('b-algsolquaequ-91').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-92').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-93').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-94').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-9').disabled = true;
           document.getElementById('o-algsolquaequ-91').disabled = true;
@@ -705,15 +705,15 @@
           localStorage.setItem('algsolquaequ9', 0)
         }
         if (document.getElementById('o-algsolquaequ-92').checked) {
-          document.getElementById('r-algsolquaequ-91').style.color = 'red'
-          document.getElementById('r-algsolquaequ-91').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-94').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-94').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-92').style.color = 'red'
+          document.getElementById('r-algsolquaequ-92').innerHTML = 'Incorrect!'
+          document.getElementById('r-algsolquaequ-93').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-93').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-94').classList.add("correct")
+          document.getElementById('b-algsolquaequ-93').classList.add("correct")
           document.getElementById('b-algsolquaequ-91').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-92').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-93').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-94').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-9').disabled = true;
           document.getElementById('o-algsolquaequ-91').disabled = true;
@@ -724,32 +724,13 @@
           localStorage.setItem('algsolquaequ9', 0)
         }
         if (document.getElementById('o-algsolquaequ-93').checked) {
-          document.getElementById('r-algsolquaequ-91').style.color = 'red'
-          document.getElementById('r-algsolquaequ-91').innerHTML = 'Incorrect!'
-          document.getElementById('r-algsolquaequ-94').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-94').innerHTML = 'Correct!'
+          document.getElementById('r-algsolquaequ-93').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-93').innerHTML = 'Correct!'
           
-          document.getElementById('b-algsolquaequ-94').classList.add("correct")
+          document.getElementById('b-algsolquaequ-93').classList.add("correct")
           document.getElementById('b-algsolquaequ-91').classList.add("incorrect")
           document.getElementById('b-algsolquaequ-92').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-93').classList.add("incorrect")
-    
-          document.getElementById('sa-algsolquaequ-9').disabled = true;
-          document.getElementById('o-algsolquaequ-91').disabled = true;
-          document.getElementById('o-algsolquaequ-92').disabled = true;
-          document.getElementById('o-algsolquaequ-93').disabled = true;
-          document.getElementById('o-algsolquaequ-94').disabled = true;
-          showExplanation9()
-          localStorage.setItem('algsolquaequ9', 0)
-        }
-        if (document.getElementById('o-algsolquaequ-94').checked) {
-          document.getElementById('r-algsolquaequ-94').style.color = 'blue'
-          document.getElementById('r-algsolquaequ-94').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algsolquaequ-94').classList.add("correct")
-          document.getElementById('b-algsolquaequ-91').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-92').classList.add("incorrect")
-          document.getElementById('b-algsolquaequ-93').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-94').classList.add("incorrect")
     
           document.getElementById('sa-algsolquaequ-9').disabled = true;
           document.getElementById('o-algsolquaequ-91').disabled = true;
@@ -758,6 +739,25 @@
           document.getElementById('o-algsolquaequ-94').disabled = true;
           showExplanation9()
           localStorage.setItem('algsolquaequ9', 1)
+        }
+        if (document.getElementById('o-algsolquaequ-94').checked) {
+          document.getElementById('r-algsolquaequ-94').style.color = 'red'
+          document.getElementById('r-algsolquaequ-94').innerHTML = 'Incorrect!'
+          document.getElementById('r-algsolquaequ-93').style.color = 'blue'
+          document.getElementById('r-algsolquaequ-93').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algsolquaequ-93').classList.add("correct")
+          document.getElementById('b-algsolquaequ-91').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-92').classList.add("incorrect")
+          document.getElementById('b-algsolquaequ-94').classList.add("incorrect")
+    
+          document.getElementById('sa-algsolquaequ-9').disabled = true;
+          document.getElementById('o-algsolquaequ-91').disabled = true;
+          document.getElementById('o-algsolquaequ-92').disabled = true;
+          document.getElementById('o-algsolquaequ-93').disabled = true;
+          document.getElementById('o-algsolquaequ-94').disabled = true;
+          showExplanation9()
+          localStorage.setItem('algsolquaequ9', 0)
         }
       }
     }

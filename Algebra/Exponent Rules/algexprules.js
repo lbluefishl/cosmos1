@@ -528,13 +528,13 @@
         if (document.getElementById('o-algexprules-71').checked) {
           document.getElementById('r-algexprules-71').style.color = 'red'
           document.getElementById('r-algexprules-71').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-74').style.color = 'blue'
-          document.getElementById('r-algexprules-74').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-73').style.color = 'blue'
+          document.getElementById('r-algexprules-73').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-74').classList.add("correct")
+          document.getElementById('b-algexprules-73').classList.add("correct")
           document.getElementById('b-algexprules-71').classList.add("incorrect")
           document.getElementById('b-algexprules-72').classList.add("incorrect")
-          document.getElementById('b-algexprules-73').classList.add("incorrect")
+          document.getElementById('b-algexprules-74').classList.add("incorrect")
     
           document.getElementById('sa-algexprules-7').disabled = true;
           document.getElementById('o-algexprules-71').disabled = true;
@@ -547,13 +547,13 @@
         if (document.getElementById('o-algexprules-72').checked) {
           document.getElementById('r-algexprules-72').style.color = 'red'
           document.getElementById('r-algexprules-72').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-74').style.color = 'blue'
-          document.getElementById('r-algexprules-74').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-73').style.color = 'blue'
+          document.getElementById('r-algexprules-73').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-74').classList.add("correct")
+          document.getElementById('b-algexprules-73').classList.add("correct")
           document.getElementById('b-algexprules-71').classList.add("incorrect")
           document.getElementById('b-algexprules-72').classList.add("incorrect")
-          document.getElementById('b-algexprules-73').classList.add("incorrect")
+          document.getElementById('b-algexprules-74').classList.add("incorrect")
     
           document.getElementById('sa-algexprules-7').disabled = true;
           document.getElementById('o-algexprules-71').disabled = true;
@@ -564,32 +564,13 @@
           localStorage.setItem('algexprules7', 0)
         }
         if (document.getElementById('o-algexprules-73').checked) {
-          document.getElementById('r-algexprules-73').style.color = 'red'
-          document.getElementById('r-algexprules-73').innerHTML = 'Incorrect!'
-          document.getElementById('r-algexprules-74').style.color = 'blue'
-          document.getElementById('r-algexprules-74').innerHTML = 'Correct!'
+          document.getElementById('r-algexprules-73').style.color = 'blue'
+          document.getElementById('r-algexprules-73').innerHTML = 'Correct!'
           
-          document.getElementById('b-algexprules-74').classList.add("correct")
+          document.getElementById('b-algexprules-73').classList.add("correct")
           document.getElementById('b-algexprules-71').classList.add("incorrect")
           document.getElementById('b-algexprules-72').classList.add("incorrect")
-          document.getElementById('b-algexprules-73').classList.add("incorrect")
-    
-          document.getElementById('sa-algexprules-7').disabled = true;
-          document.getElementById('o-algexprules-71').disabled = true;
-          document.getElementById('o-algexprules-72').disabled = true;
-          document.getElementById('o-algexprules-73').disabled = true;
-          document.getElementById('o-algexprules-74').disabled = true;
-          showExplanation7()
-          localStorage.setItem('algexprules7', 0)
-        }
-        if (document.getElementById('o-algexprules-74').checked) {
-          document.getElementById('r-algexprules-74').style.color = 'blue'
-          document.getElementById('r-algexprules-74').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algexprules-74').classList.add("correct")
-          document.getElementById('b-algexprules-71').classList.add("incorrect")
-          document.getElementById('b-algexprules-72').classList.add("incorrect")
-          document.getElementById('b-algexprules-73').classList.add("incorrect")
+          document.getElementById('b-algexprules-74').classList.add("incorrect")
     
           document.getElementById('sa-algexprules-7').disabled = true;
           document.getElementById('o-algexprules-71').disabled = true;
@@ -598,6 +579,25 @@
           document.getElementById('o-algexprules-74').disabled = true;
           showExplanation7()
           localStorage.setItem('algexprules7', 1)
+        }
+        if (document.getElementById('o-algexprules-74').checked) {
+          document.getElementById('r-algexprules-74').style.color = 'red'
+          document.getElementById('r-algexprules-74').innerHTML = 'Incorrect!'
+          document.getElementById('r-algexprules-73').style.color = 'blue'
+          document.getElementById('r-algexprules-73').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algexprules-73').classList.add("correct")
+          document.getElementById('b-algexprules-71').classList.add("incorrect")
+          document.getElementById('b-algexprules-72').classList.add("incorrect")
+          document.getElementById('b-algexprules-74').classList.add("incorrect")
+    
+          document.getElementById('sa-algexprules-7').disabled = true;
+          document.getElementById('o-algexprules-71').disabled = true;
+          document.getElementById('o-algexprules-72').disabled = true;
+          document.getElementById('o-algexprules-73').disabled = true;
+          document.getElementById('o-algexprules-74').disabled = true;
+          showExplanation7()
+          localStorage.setItem('algexprules7', 0)
         }
       }
     }
