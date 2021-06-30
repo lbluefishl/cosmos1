@@ -101,7 +101,7 @@ if (localStorage.getItem('calcint9') == 1) {
 
   
 if (localStorage.getItem('calcint10') == 1) {
-  document.getElementById('calcintcalcintb10').style.background = '#7fff00';
+  document.getElementById('calcintb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('calcint10') == 0) {
   document.getElementById('calcintb10').style.background = 'red';

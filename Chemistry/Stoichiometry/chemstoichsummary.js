@@ -101,7 +101,7 @@ if (localStorage.getItem('chemstoich9') == 1) {
 
   
 if (localStorage.getItem('chemstoich10') == 1) {
-  document.getElementById('chemstoichchemstoichb10').style.background = '#7fff00';
+  document.getElementById('chemstoichb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('chemstoich10') == 0) {
   document.getElementById('chemstoichb10').style.background = 'red';

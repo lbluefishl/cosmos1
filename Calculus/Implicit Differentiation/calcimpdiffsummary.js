@@ -101,7 +101,7 @@ if (localStorage.getItem('calcimpdiff9') == 1) {
 
   
 if (localStorage.getItem('calcimpdiff10') == 1) {
-  document.getElementById('calcimpdiffcalcimpdiffb10').style.background = '#7fff00';
+  document.getElementById('calcimpdiffb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('calcimpdiff10') == 0) {
   document.getElementById('calcimpdiffb10').style.background = 'red';

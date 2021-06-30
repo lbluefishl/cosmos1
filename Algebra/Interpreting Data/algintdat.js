@@ -450,13 +450,13 @@
         if (document.getElementById('o-algintdat-61').checked) {
           document.getElementById('r-algintdat-61').style.color = 'red'
           document.getElementById('r-algintdat-61').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-64').style.color = 'blue'
-          document.getElementById('r-algintdat-64').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-63').style.color = 'blue'
+          document.getElementById('r-algintdat-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-64').classList.add("correct")
+          document.getElementById('b-algintdat-63').classList.add("correct")
           document.getElementById('b-algintdat-61').classList.add("incorrect")
           document.getElementById('b-algintdat-62').classList.add("incorrect")
-          document.getElementById('b-algintdat-63').classList.add("incorrect")
+          document.getElementById('b-algintdat-64').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-6').disabled = true;
           document.getElementById('o-algintdat-61').disabled = true;
@@ -469,13 +469,13 @@
         if (document.getElementById('o-algintdat-62').checked) {
           document.getElementById('r-algintdat-62').style.color = 'red'
           document.getElementById('r-algintdat-62').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-64').style.color = 'blue'
-          document.getElementById('r-algintdat-64').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-63').style.color = 'blue'
+          document.getElementById('r-algintdat-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-64').classList.add("correct")
+          document.getElementById('b-algintdat-63').classList.add("correct")
           document.getElementById('b-algintdat-61').classList.add("incorrect")
           document.getElementById('b-algintdat-62').classList.add("incorrect")
-          document.getElementById('b-algintdat-63').classList.add("incorrect")
+          document.getElementById('b-algintdat-64').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-6').disabled = true;
           document.getElementById('o-algintdat-61').disabled = true;
@@ -486,32 +486,13 @@
           localStorage.setItem('algintdat6', 0)
         }
         if (document.getElementById('o-algintdat-63').checked) {
-          document.getElementById('r-algintdat-63').style.color = 'red'
-          document.getElementById('r-algintdat-63').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-64').style.color = 'blue'
-          document.getElementById('r-algintdat-64').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-63').style.color = 'blue'
+          document.getElementById('r-algintdat-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-64').classList.add("correct")
+          document.getElementById('b-algintdat-63').classList.add("correct")
           document.getElementById('b-algintdat-61').classList.add("incorrect")
           document.getElementById('b-algintdat-62').classList.add("incorrect")
-          document.getElementById('b-algintdat-63').classList.add("incorrect")
-    
-          document.getElementById('sa-algintdat-6').disabled = true;
-          document.getElementById('o-algintdat-61').disabled = true;
-          document.getElementById('o-algintdat-62').disabled = true;
-          document.getElementById('o-algintdat-63').disabled = true;
-          document.getElementById('o-algintdat-64').disabled = true;
-          showExplanation6()
-          localStorage.setItem('algintdat6', 0)
-        }
-        if (document.getElementById('o-algintdat-64').checked) {
-          document.getElementById('r-algintdat-64').style.color = 'blue'
-          document.getElementById('r-algintdat-64').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algintdat-64').classList.add("correct")
-          document.getElementById('b-algintdat-61').classList.add("incorrect")
-          document.getElementById('b-algintdat-62').classList.add("incorrect")
-          document.getElementById('b-algintdat-63').classList.add("incorrect")
+          document.getElementById('b-algintdat-64').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-6').disabled = true;
           document.getElementById('o-algintdat-61').disabled = true;
@@ -521,6 +502,25 @@
           showExplanation6()
           localStorage.setItem('algintdat6', 1)
         }
+        if (document.getElementById('o-algintdat-64').checked) {
+          document.getElementById('r-algintdat-64').style.color = 'red'
+          document.getElementById('r-algintdat-64').innerHTML = 'Incorrect!'
+          document.getElementById('r-algintdat-63').style.color = 'blue'
+          document.getElementById('r-algintdat-63').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algintdat-63').classList.add("correct")
+          document.getElementById('b-algintdat-61').classList.add("incorrect")
+          document.getElementById('b-algintdat-62').classList.add("incorrect")
+          document.getElementById('b-algintdat-64').classList.add("incorrect")
+    
+          document.getElementById('sa-algintdat-6').disabled = true;
+          document.getElementById('o-algintdat-61').disabled = true;
+          document.getElementById('o-algintdat-62').disabled = true;
+          document.getElementById('o-algintdat-63').disabled = true;
+          document.getElementById('o-algintdat-64').disabled = true;
+          showExplanation6()
+          localStorage.setItem('algintdat6', 0)
+        }
       }
     }
     
@@ -529,12 +529,12 @@
         if (document.getElementById('o-algintdat-71').checked) {
           document.getElementById('r-algintdat-71').style.color = 'red'
           document.getElementById('r-algintdat-71').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-74').style.color = 'blue'
-          document.getElementById('r-algintdat-74').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-72').style.color = 'blue'
+          document.getElementById('r-algintdat-72').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-74').classList.add("correct")
+          document.getElementById('b-algintdat-72').classList.add("correct")
           document.getElementById('b-algintdat-71').classList.add("incorrect")
-          document.getElementById('b-algintdat-72').classList.add("incorrect")
+          document.getElementById('b-algintdat-74').classList.add("incorrect")
           document.getElementById('b-algintdat-73').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-7').disabled = true;
@@ -546,14 +546,12 @@
           localStorage.setItem('algintdat7', 0)
         }
         if (document.getElementById('o-algintdat-72').checked) {
-          document.getElementById('r-algintdat-72').style.color = 'red'
-          document.getElementById('r-algintdat-72').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-74').style.color = 'blue'
-          document.getElementById('r-algintdat-74').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-72').style.color = 'blue'
+          document.getElementById('r-algintdat-72').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-74').classList.add("correct")
+          document.getElementById('b-algintdat-72').classList.add("correct")
           document.getElementById('b-algintdat-71').classList.add("incorrect")
-          document.getElementById('b-algintdat-72').classList.add("incorrect")
+          document.getElementById('b-algintdat-74').classList.add("incorrect")
           document.getElementById('b-algintdat-73').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-7').disabled = true;
@@ -562,17 +560,17 @@
           document.getElementById('o-algintdat-73').disabled = true;
           document.getElementById('o-algintdat-74').disabled = true;
           showExplanation7()
-          localStorage.setItem('algintdat7', 0)
+          localStorage.setItem('algintdat7', 1)
         }
         if (document.getElementById('o-algintdat-73').checked) {
           document.getElementById('r-algintdat-73').style.color = 'red'
           document.getElementById('r-algintdat-73').innerHTML = 'Incorrect!'
-          document.getElementById('r-algintdat-74').style.color = 'blue'
-          document.getElementById('r-algintdat-74').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-72').style.color = 'blue'
+          document.getElementById('r-algintdat-72').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-74').classList.add("correct")
+          document.getElementById('b-algintdat-72').classList.add("correct")
           document.getElementById('b-algintdat-71').classList.add("incorrect")
-          document.getElementById('b-algintdat-72').classList.add("incorrect")
+          document.getElementById('b-algintdat-74').classList.add("incorrect")
           document.getElementById('b-algintdat-73').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-7').disabled = true;
@@ -584,12 +582,14 @@
           localStorage.setItem('algintdat7', 0)
         }
         if (document.getElementById('o-algintdat-74').checked) {
-          document.getElementById('r-algintdat-74').style.color = 'blue'
-          document.getElementById('r-algintdat-74').innerHTML = 'Correct!'
+          document.getElementById('r-algintdat-74').style.color = 'red'
+          document.getElementById('r-algintdat-74').innerHTML = 'Incorrect!'
+          document.getElementById('r-algintdat-72').style.color = 'blue'
+          document.getElementById('r-algintdat-72').innerHTML = 'Correct!'
           
-          document.getElementById('b-algintdat-74').classList.add("correct")
+          document.getElementById('b-algintdat-72').classList.add("correct")
           document.getElementById('b-algintdat-71').classList.add("incorrect")
-          document.getElementById('b-algintdat-72').classList.add("incorrect")
+          document.getElementById('b-algintdat-74').classList.add("incorrect")
           document.getElementById('b-algintdat-73').classList.add("incorrect")
     
           document.getElementById('sa-algintdat-7').disabled = true;
@@ -598,7 +598,7 @@
           document.getElementById('o-algintdat-73').disabled = true;
           document.getElementById('o-algintdat-74').disabled = true;
           showExplanation7()
-          localStorage.setItem('algintdat7', 1)
+          localStorage.setItem('algintdat7', 0)
         }
       }
     }

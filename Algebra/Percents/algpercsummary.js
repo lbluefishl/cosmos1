@@ -101,7 +101,7 @@ if (localStorage.getItem('algperc9') == 1) {
 
   
 if (localStorage.getItem('algperc10') == 1) {
-  document.getElementById('algpercalgpercb10').style.background = '#7fff00';
+  document.getElementById('algpercb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algperc10') == 0) {
   document.getElementById('algpercb10').style.background = 'red';

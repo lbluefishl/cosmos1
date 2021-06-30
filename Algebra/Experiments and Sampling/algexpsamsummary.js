@@ -101,7 +101,7 @@ if (localStorage.getItem('algexpsam9') == 1) {
 
   
 if (localStorage.getItem('algexpsam10') == 1) {
-  document.getElementById('algexpsamalgexpsamb10').style.background = '#7fff00';
+  document.getElementById('algexpsamb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algexpsam10') == 0) {
   document.getElementById('algexpsamb10').style.background = 'red';

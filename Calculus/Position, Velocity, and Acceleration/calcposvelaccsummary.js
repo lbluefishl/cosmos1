@@ -101,7 +101,7 @@ if (localStorage.getItem('calcposvelacc9') == 1) {
 
   
 if (localStorage.getItem('calcposvelacc10') == 1) {
-  document.getElementById('calcposvelacccalcposvelaccb10').style.background = '#7fff00';
+  document.getElementById('calcposvelaccb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('calcposvelacc10') == 0) {
   document.getElementById('calcposvelaccb10').style.background = 'red';

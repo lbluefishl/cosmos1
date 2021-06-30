@@ -101,7 +101,7 @@ if (localStorage.getItem('geolinang9') == 1) {
 
   
 if (localStorage.getItem('geolinang10') == 1) {
-  document.getElementById('geolinanggeolinangb10').style.background = '#7fff00';
+  document.getElementById('geolinangb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('geolinang10') == 0) {
   document.getElementById('geolinangb10').style.background = 'red';

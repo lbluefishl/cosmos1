@@ -101,7 +101,7 @@ if (localStorage.getItem('wrisubver9') == 1) {
 
   
 if (localStorage.getItem('wrisubver10') == 1) {
-  document.getElementById('wrisubverwrisubverb10').style.background = '#7fff00';
+  document.getElementById('wrisubverb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('wrisubver10') == 0) {
   document.getElementById('wrisubverb10').style.background = 'red';

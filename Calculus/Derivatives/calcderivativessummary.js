@@ -101,7 +101,7 @@ if (localStorage.getItem('calcderivatives9') == 1) {
 
   
 if (localStorage.getItem('calcderivatives10') == 1) {
-  document.getElementById('calcderivativescalcderivativesb10').style.background = '#7fff00';
+  document.getElementById('calcderivativesb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('calcderivatives10') == 0) {
   document.getElementById('calcderivativesb10').style.background = 'red';

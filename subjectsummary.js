@@ -101,7 +101,7 @@ if (localStorage.getItem('subject9') == 1) {
 
   
 if (localStorage.getItem('subject10') == 1) {
-  document.getElementById('subjectsubjectb10').style.background = '#7fff00';
+  document.getElementById('subjectb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('subject10') == 0) {
   document.getElementById('subjectb10').style.background = 'red';

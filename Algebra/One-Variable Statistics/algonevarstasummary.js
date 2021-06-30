@@ -101,7 +101,7 @@ if (localStorage.getItem('algonevarsta9') == 1) {
 
   
 if (localStorage.getItem('algonevarsta10') == 1) {
-  document.getElementById('algonevarstaalgonevarstab10').style.background = '#7fff00';
+  document.getElementById('algonevarstab10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algonevarsta10') == 0) {
   document.getElementById('algonevarstab10').style.background = 'red';

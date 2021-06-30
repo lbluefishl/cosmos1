@@ -101,7 +101,7 @@ if (localStorage.getItem('writrawor9') == 1) {
 
   
 if (localStorage.getItem('writrawor10') == 1) {
-  document.getElementById('writraworwritraworb10').style.background = '#7fff00';
+  document.getElementById('writraworb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('writrawor10') == 0) {
   document.getElementById('writraworb10').style.background = 'red';

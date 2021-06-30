@@ -101,7 +101,7 @@ if (localStorage.getItem('algpoly9') == 1) {
 
   
 if (localStorage.getItem('algpoly10') == 1) {
-  document.getElementById('algpolyalgpolyb10').style.background = '#7fff00';
+  document.getElementById('algpolyb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algpoly10') == 0) {
   document.getElementById('algpolyb10').style.background = 'red';

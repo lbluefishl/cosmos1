@@ -101,7 +101,7 @@ if (localStorage.getItem('algrealeq9') == 1) {
 
   
 if (localStorage.getItem('algrealeq10') == 1) {
-  document.getElementById('algrealeqalgrealeqb10').style.background = '#7fff00';
+  document.getElementById('algrealeqb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algrealeq10') == 0) {
   document.getElementById('algrealeqb10').style.background = 'red';

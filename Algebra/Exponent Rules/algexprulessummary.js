@@ -101,7 +101,7 @@ if (localStorage.getItem('algexprules9') == 1) {
 
   
 if (localStorage.getItem('algexprules10') == 1) {
-  document.getElementById('algexprulesalgexprulesb10').style.background = '#7fff00';
+  document.getElementById('algexprulesb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algexprules10') == 0) {
   document.getElementById('algexprulesb10').style.background = 'red';

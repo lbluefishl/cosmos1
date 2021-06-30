@@ -101,7 +101,7 @@ if (localStorage.getItem('chemisotopes9') == 1) {
 
   
 if (localStorage.getItem('chemisotopes10') == 1) {
-  document.getElementById('chemisotopeschemisotopesb10').style.background = '#7fff00';
+  document.getElementById('chemisotopesb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('chemisotopes10') == 0) {
   document.getElementById('chemisotopesb10').style.background = 'red';

@@ -101,7 +101,7 @@ if (localStorage.getItem('algunicon9') == 1) {
 
   
 if (localStorage.getItem('algunicon10') == 1) {
-  document.getElementById('alguniconalguniconb10').style.background = '#7fff00';
+  document.getElementById('alguniconb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algunicon10') == 0) {
   document.getElementById('alguniconb10').style.background = 'red';

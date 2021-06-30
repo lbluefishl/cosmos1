@@ -101,7 +101,7 @@ if (localStorage.getItem('algratpro9') == 1) {
 
   
 if (localStorage.getItem('algratpro10') == 1) {
-  document.getElementById('algratproalgratprob10').style.background = '#7fff00';
+  document.getElementById('algratprob10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algratpro10') == 0) {
   document.getElementById('algratprob10').style.background = 'red';

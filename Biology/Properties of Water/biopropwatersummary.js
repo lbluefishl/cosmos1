@@ -101,7 +101,7 @@ if (localStorage.getItem('biopropwater9') == 1) {
 
   
 if (localStorage.getItem('biopropwater10') == 1) {
-  document.getElementById('biopropwaterbiopropwaterb10').style.background = '#7fff00';
+  document.getElementById('biopropwaterb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('biopropwater10') == 0) {
   document.getElementById('biopropwaterb10').style.background = 'red';

@@ -101,7 +101,7 @@ if (localStorage.getItem('algmode9') == 1) {
 
   
 if (localStorage.getItem('algmode10') == 1) {
-  document.getElementById('algmodealgmodeb10').style.background = '#7fff00';
+  document.getElementById('algmodeb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algmode10') == 0) {
   document.getElementById('algmodeb10').style.background = 'red';

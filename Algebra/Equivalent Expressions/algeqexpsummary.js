@@ -101,7 +101,7 @@ if (localStorage.getItem('algeqexp9') == 1) {
 
   
 if (localStorage.getItem('algeqexp10') == 1) {
-  document.getElementById('algeqexpalgeqexpb10').style.background = '#7fff00';
+  document.getElementById('algeqexpb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algeqexp10') == 0) {
   document.getElementById('algeqexpb10').style.background = 'red';

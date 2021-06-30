@@ -101,7 +101,7 @@ if (localStorage.getItem('algsysworpro9') == 1) {
 
   
 if (localStorage.getItem('algsysworpro10') == 1) {
-  document.getElementById('algsysworproalgsysworprob10').style.background = '#7fff00';
+  document.getElementById('algsysworprob10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('algsysworpro10') == 0) {
   document.getElementById('algsysworprob10').style.background = 'red';

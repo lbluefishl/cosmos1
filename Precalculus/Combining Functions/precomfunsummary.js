@@ -101,7 +101,7 @@ if (localStorage.getItem('precomfun9') == 1) {
 
   
 if (localStorage.getItem('precomfun10') == 1) {
-  document.getElementById('precomfunprecomfunb10').style.background = '#7fff00';
+  document.getElementById('precomfunb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('precomfun10') == 0) {
   document.getElementById('precomfunb10').style.background = 'red';

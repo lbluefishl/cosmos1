@@ -660,6 +660,37 @@ function rotate(p,st,id,fontsty) {
   
 }
 
+function rotate45(p,st,id,fontsty) {
+  var textanchor = "middle";
+  var dx = 0; var dy = fontsize/3;
+
+  var node;
+  if (id!=null) node = doc.getElementById(id);
+  if (node==null) {
+    node = myCreateElementSVG("text");
+    node.setAttribute("id", id);
+    svgpicture.appendChild(node);
+    node.appendChild(doc.createTextNode(st));
+  }
+
+  node.lastChild.nodeValue = st;
+  
+  node.setAttribute("x",p[0]*xunitlength+origin[0]+dx);
+  node.setAttribute("y",height-p[1]*yunitlength-origin[1]+dy);
+  node.setAttribute("font-style",(fontsty!=null?fontsty:fontstyle));
+  node.setAttribute("font-family",fontfamily);
+  node.setAttribute("font-size",fontsize);
+  node.setAttribute("font-weight",fontweight);
+  node.setAttribute("text-anchor",textanchor);
+  node.setAttribute("transform","rotate(-45)");
+
+  if (fontstroke!="none") node.setAttribute("stroke",fontstroke);
+  if (fontfill!="none") node.setAttribute("fill",fontfill);
+  return p;
+  
+}
+
+
 
 function text(p,st,pos,id,fontsty) {
   var textanchor = "middle";

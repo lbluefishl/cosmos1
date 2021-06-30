@@ -101,7 +101,7 @@ if (localStorage.getItem('wripar9') == 1) {
 
   
 if (localStorage.getItem('wripar10') == 1) {
-  document.getElementById('wriparwriparb10').style.background = '#7fff00';
+  document.getElementById('wriparb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('wripar10') == 0) {
   document.getElementById('wriparb10').style.background = 'red';

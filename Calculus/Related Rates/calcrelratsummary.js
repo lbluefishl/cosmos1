@@ -101,7 +101,7 @@ if (localStorage.getItem('calcrelrat9') == 1) {
 
   
 if (localStorage.getItem('calcrelrat10') == 1) {
-  document.getElementById('calcrelratcalcrelratb10').style.background = '#7fff00';
+  document.getElementById('calcrelratb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('calcrelrat10') == 0) {
   document.getElementById('calcrelratb10').style.background = 'red';

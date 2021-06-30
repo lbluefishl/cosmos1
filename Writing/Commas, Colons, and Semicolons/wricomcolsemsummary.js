@@ -101,7 +101,7 @@ if (localStorage.getItem('wricomcolsem9') == 1) {
 
   
 if (localStorage.getItem('wricomcolsem10') == 1) {
-  document.getElementById('wricomcolsemwricomcolsemb10').style.background = '#7fff00';
+  document.getElementById('wricomcolsemb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('wricomcolsem10') == 0) {
   document.getElementById('wricomcolsemb10').style.background = 'red';

@@ -101,7 +101,7 @@ if (localStorage.getItem('trigbastrirat9') == 1) {
 
   
 if (localStorage.getItem('trigbastrirat10') == 1) {
-  document.getElementById('trigbastrirattrigbastriratb10').style.background = '#7fff00';
+  document.getElementById('trigbastriratb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('trigbastrirat10') == 0) {
   document.getElementById('trigbastriratb10').style.background = 'red';

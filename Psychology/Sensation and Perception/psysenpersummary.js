@@ -101,7 +101,7 @@ if (localStorage.getItem('psysenper9') == 1) {
 
   
 if (localStorage.getItem('psysenper10') == 1) {
-  document.getElementById('psysenperpsysenperb10').style.background = '#7fff00';
+  document.getElementById('psysenperb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('psysenper10') == 0) {
   document.getElementById('psysenperb10').style.background = 'red';

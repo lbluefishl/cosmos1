@@ -101,7 +101,7 @@ if (localStorage.getItem('biofbloop9') == 1) {
 
   
 if (localStorage.getItem('biofbloop10') == 1) {
-  document.getElementById('biofbloopbiofbloopb10').style.background = '#7fff00';
+  document.getElementById('biofbloopb10').style.background = '#7fff00';
 }
   else if (localStorage.getItem('biofbloop10') == 0) {
   document.getElementById('biofbloopb10').style.background = 'red';

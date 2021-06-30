@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>One-Variable Statistics Problem 4</title>
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,13 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+A group of 8 students played a certain game. Every player received a score equal to an integer from 1 to 10, inclusive. 
+For the 8 players, the mean score was 6. If more than half of the players received a score greater
+than 7, which of the following is true about the mean score of the remaining players?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +38,7 @@
   <div class="box" id='b-algonevarsta-41'>
     <label for= 'o-algonevarsta-41'>
       <input type='radio' name='option'  id='o-algonevarsta-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       It must be less than 6.
     </label>
     <span id='r-algonevarsta-41'></span>
   </div>
@@ -44,7 +46,7 @@
   <div class="box" id='b-algonevarsta-42'>
     <label for= 'o-algonevarsta-42'>
       <input type='radio' name='option'  id='o-algonevarsta-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      It must be equal to 6. 
     </label>
     <span id='r-algonevarsta-42'></span>
   </div>
@@ -52,7 +54,7 @@
   <div class="box" id='b-algonevarsta-43'>
     <label for= 'o-algonevarsta-43'>
       <input type='radio' name='option' id='o-algonevarsta-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      It must be between 6 and 7. 
     </label>
     <span id='r-algonevarsta-43'></span>
   </div>
@@ -60,7 +62,7 @@
   <div class="box" id='b-algonevarsta-44'>
     <label for= 'o-algonevarsta-44'>
       <input type='radio' name='option' id='o-algonevarsta-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+    It must be greater than 6.
     </label>
     <span id='r-algonevarsta-44'></span>
   </div>
@@ -81,12 +83,26 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We are given a mean score of 6. If more than half the players received a score greater than 7, our intuition
+ should tell us that the other scores must be rather low to 'cancel out' the higher scores.
+Only one option includes low scores for the remaining players.
 </p>
 
-
-
-
+<h2>Approach 2</h2>
+<p>
+  We can use the given information to create a sample set of scores. Since more than half the players received a score greater than 7, one option is:
+</p>
+<center>{8,8,8,8,8, a,b,c}</center>
+<p>Where \(a,b, \text{ and } c\) represent the other three students.</p>
+<p>The mean for all of the students is 6, which means that the total score is</p>
+$$ 6 &nbsp (\text{average}) \cdot 8 \text{ students} $$
+$$ =48 \text{ points} $$
+<p>We can sum up the scores of our sample set:</p>
+$$ 8+8+8+8+8+a+b+c=48 $$
+$$ a+b+c=8 $$
+<p>The mean of these three numbers is represented by:</p>
+$$ \frac{a+b+c}{3}=\frac{8}{3} $$
+<p>The mean for our sample set for the other students is \(\dfrac{8}{3} \), which is \( \boxed{\text{less than 6}}\).</p>
 </div>
 
 
