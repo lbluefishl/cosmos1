@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Triangles Problem 2</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p style="line-height: 220%;" >
+In triangle \(ABC\), angle A measures \(35\degree\), angle \(B\) measures \(75 \degree\), and angle \(C\) measaures \(70 \degree\). Triangle \(DEF\) is similar to triangle \(ABC\), such that
+\(\dfrac{DE}{AB}=\dfrac{EF}{BC}=\dfrac{DF}{AC}=2 \). What is the measure, in degrees, of angle \(E\)?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algtri-21'>
     <label for= 'o-algtri-21'>
       <input type='radio' name='option'  id='o-algtri-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( 70 \degree \)
     </label>
     <span id='r-algtri-21'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algtri-22'>
     <label for= 'o-algtri-22'>
       <input type='radio' name='option'  id='o-algtri-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 75 \degree \)
     </label>
     <span id='r-algtri-22'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algtri-23'>
     <label for= 'o-algtri-23'>
       <input type='radio' name='option' id='o-algtri-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 140 \degree \)
     </label>
     <span id='r-algtri-23'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algtri-24'>
     <label for= 'o-algtri-24'>
       <input type='radio' name='option' id='o-algtri-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 150 \degree \)
     </label>
     <span id='r-algtri-24'></span>
   </div>
@@ -78,13 +79,17 @@
 
 
 
-<h2> Approach 1 </h2>
-
+<h2> Approach </h2>
+$$\dfrac{D\colorbox{aqua}{$E$}}{A\colorbox{aqua}{$B$}}=\dfrac{\colorbox{aqua}{$E$}F}{\colorbox{aqua}{$B$}C}=\dfrac{DF}{AC}=2 $$
 <p>
-<!--             -->
+If we compare corresponding vertices, \(E\) corresponds to \(B\). Because the triangles are similar,
 </p>
 
 
+$$ m\angle E = m \angle B = 75 \degree$$
+$$ m \angle E = \boxed{75\degree}$$
+
+<p>Despite triangle \(DEF\) being twice the size of \(ABC\), the angles will still be congruent.</p>
 
 </div>
 

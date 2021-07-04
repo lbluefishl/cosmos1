@@ -289,6 +289,9 @@ use Firefox 1.5 preview (called Deerpark)");
  }
 }
 
+
+
+
 function switchTo(id) {
 //alert(id);
   picture = document.getElementById(id);
@@ -355,6 +358,8 @@ function showcode() { //do nothing
 
 function nobutton() { //do nothing
 }
+
+
 
 function setBorder(x) { border = x }
 

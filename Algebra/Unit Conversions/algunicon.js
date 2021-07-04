@@ -211,13 +211,13 @@
         if (document.getElementById('o-algunicon-31').checked) {
           document.getElementById('r-algunicon-31').style.color = 'red'
           document.getElementById('r-algunicon-31').innerHTML = 'Incorrect!'
-          document.getElementById('r-algunicon-32').style.color = 'blue'
-          document.getElementById('r-algunicon-32').innerHTML = 'Correct!'
+          document.getElementById('r-algunicon-34').style.color = 'blue'
+          document.getElementById('r-algunicon-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algunicon-32').classList.add("correct")
+          document.getElementById('b-algunicon-34').classList.add("correct")
           document.getElementById('b-algunicon-31').classList.add("incorrect")
           document.getElementById('b-algunicon-33').classList.add("incorrect")
-          document.getElementById('b-algunicon-34').classList.add("incorrect")
+          document.getElementById('b-algunicon-32').classList.add("incorrect")
     
           document.getElementById('sa-algunicon-3').disabled = true;
           document.getElementById('o-algunicon-31').disabled = true;
@@ -228,14 +228,15 @@
           localStorage.setItem('algunicon3', 0)
         }
         if (document.getElementById('o-algunicon-32').checked) {
-    
-          document.getElementById('r-algunicon-32').style.color = 'blue'
-          document.getElementById('r-algunicon-32').innerHTML = 'Correct!'
+          document.getElementById('r-algunicon-32').style.color = 'red'
+          document.getElementById('r-algunicon-32').innerHTML = 'Incorrect!'
+          document.getElementById('r-algunicon-34').style.color = 'blue'
+          document.getElementById('r-algunicon-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algunicon-32').classList.add("correct")
+          document.getElementById('b-algunicon-34').classList.add("correct")
           document.getElementById('b-algunicon-31').classList.add("incorrect")
           document.getElementById('b-algunicon-33').classList.add("incorrect")
-          document.getElementById('b-algunicon-34').classList.add("incorrect")
+          document.getElementById('b-algunicon-32').classList.add("incorrect")
     
           document.getElementById('sa-algunicon-3').disabled = true;
           document.getElementById('o-algunicon-31').disabled = true;
@@ -243,18 +244,18 @@
           document.getElementById('o-algunicon-33').disabled = true;
           document.getElementById('o-algunicon-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('algunicon3', 1)
+          localStorage.setItem('algunicon3', 0)
         }
         if (document.getElementById('o-algunicon-33').checked) {
           document.getElementById('r-algunicon-33').style.color = 'red'
           document.getElementById('r-algunicon-33').innerHTML = 'Incorrect!'
-          document.getElementById('r-algunicon-32').style.color = 'blue'
-          document.getElementById('r-algunicon-32').innerHTML = 'Correct!'
+          document.getElementById('r-algunicon-34').style.color = 'blue'
+          document.getElementById('r-algunicon-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algunicon-32').classList.add("correct")
+          document.getElementById('b-algunicon-34').classList.add("correct")
           document.getElementById('b-algunicon-31').classList.add("incorrect")
           document.getElementById('b-algunicon-33').classList.add("incorrect")
-          document.getElementById('b-algunicon-34').classList.add("incorrect")
+          document.getElementById('b-algunicon-32').classList.add("incorrect")
     
           document.getElementById('sa-algunicon-3').disabled = true;
           document.getElementById('o-algunicon-31').disabled = true;
@@ -265,15 +266,13 @@
           localStorage.setItem('algunicon3', 0)
         }
         if (document.getElementById('o-algunicon-34').checked) {
-          document.getElementById('r-algunicon-34').style.color = 'red'
-          document.getElementById('r-algunicon-34').innerHTML = 'Incorrect!'
-          document.getElementById('r-algunicon-32').style.color = 'blue'
-          document.getElementById('r-algunicon-32').innerHTML = 'Correct!'
+          document.getElementById('r-algunicon-34').style.color = 'blue'
+          document.getElementById('r-algunicon-34').innerHTML = 'Correct!'
           
-          document.getElementById('b-algunicon-32').classList.add("correct")
+          document.getElementById('b-algunicon-34').classList.add("correct")
           document.getElementById('b-algunicon-31').classList.add("incorrect")
           document.getElementById('b-algunicon-33').classList.add("incorrect")
-          document.getElementById('b-algunicon-34').classList.add("incorrect")
+          document.getElementById('b-algunicon-32').classList.add("incorrect")
     
           document.getElementById('sa-algunicon-3').disabled = true;
           document.getElementById('o-algunicon-31').disabled = true;
@@ -281,7 +280,7 @@
           document.getElementById('o-algunicon-33').disabled = true;
           document.getElementById('o-algunicon-34').disabled = true;
           showExplanation3()
-          localStorage.setItem('algunicon3', 0)
+          localStorage.setItem('algunicon3', 1)
         }
       }
     }

@@ -130,13 +130,11 @@
     if (document.getElementById('sa-algrate-2') != null) {
       algrate2But.onclick = function() {
         if (document.getElementById('o-algrate-21').checked) {
-          document.getElementById('r-algrate-21').style.color = 'red'
-          document.getElementById('r-algrate-21').innerHTML = 'Incorrect!'
-          document.getElementById('r-algrate-23').style.color = 'blue'
-          document.getElementById('r-algrate-23').innerHTML = 'Correct!'
+          document.getElementById('r-algrate-21').style.color = 'blue'
+          document.getElementById('r-algrate-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-algrate-23').classList.add("correct")
-          document.getElementById('b-algrate-21').classList.add("incorrect")
+          document.getElementById('b-algrate-21').classList.add("correct")
+          document.getElementById('b-algrate-23').classList.add("incorrect")
           document.getElementById('b-algrate-22').classList.add("incorrect")
           document.getElementById('b-algrate-24').classList.add("incorrect")
     
@@ -146,16 +144,16 @@
           document.getElementById('o-algrate-23').disabled = true;
           document.getElementById('o-algrate-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('algrate2', 0)
+          localStorage.setItem('algrate2', 1)
         }
         if (document.getElementById('o-algrate-22').checked) {
           document.getElementById('r-algrate-22').style.color = 'red'
           document.getElementById('r-algrate-22').innerHTML = 'Incorrect!'
-          document.getElementById('r-algrate-23').style.color = 'blue'
-          document.getElementById('r-algrate-23').innerHTML = 'Correct!'
+          document.getElementById('r-algrate-21').style.color = 'blue'
+          document.getElementById('r-algrate-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-algrate-23').classList.add("correct")
-          document.getElementById('b-algrate-21').classList.add("incorrect")
+          document.getElementById('b-algrate-21').classList.add("correct")
+          document.getElementById('b-algrate-23').classList.add("incorrect")
           document.getElementById('b-algrate-22').classList.add("incorrect")
           document.getElementById('b-algrate-24').classList.add("incorrect")
     
@@ -168,11 +166,13 @@
           localStorage.setItem('algrate2', 0)
         }
         if (document.getElementById('o-algrate-23').checked) {
-          document.getElementById('r-algrate-23').style.color = 'blue'
-          document.getElementById('r-algrate-23').innerHTML = 'Correct!'
+          document.getElementById('r-algrate-23').style.color = 'red'
+          document.getElementById('r-algrate-23').innerHTML = 'Incorrect!'
+          document.getElementById('r-algrate-21').style.color = 'blue'
+          document.getElementById('r-algrate-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-algrate-23').classList.add("correct")
-          document.getElementById('b-algrate-21').classList.add("incorrect")
+          document.getElementById('b-algrate-21').classList.add("correct")
+          document.getElementById('b-algrate-23').classList.add("incorrect")
           document.getElementById('b-algrate-22').classList.add("incorrect")
           document.getElementById('b-algrate-24').classList.add("incorrect")
     
@@ -182,16 +182,16 @@
           document.getElementById('o-algrate-23').disabled = true;
           document.getElementById('o-algrate-24').disabled = true;
           showExplanation2()
-          localStorage.setItem('algrate2', 1)
+          localStorage.setItem('algrate2', 0)
         }
         if (document.getElementById('o-algrate-24').checked) {
           document.getElementById('r-algrate-24').style.color = 'red'
           document.getElementById('r-algrate-24').innerHTML = 'Incorrect!'
-          document.getElementById('r-algrate-23').style.color = 'blue'
-          document.getElementById('r-algrate-23').innerHTML = 'Correct!'
+          document.getElementById('r-algrate-21').style.color = 'blue'
+          document.getElementById('r-algrate-21').innerHTML = 'Correct!'
           
-          document.getElementById('b-algrate-23').classList.add("correct")
-          document.getElementById('b-algrate-21').classList.add("incorrect")
+          document.getElementById('b-algrate-21').classList.add("correct")
+          document.getElementById('b-algrate-23').classList.add("incorrect")
           document.getElementById('b-algrate-22').classList.add("incorrect")
           document.getElementById('b-algrate-24').classList.add("incorrect")
     
