@@ -65,7 +65,6 @@
         }
     
         if (document.getElementById('o-subject-12').checked) {
-         
           document.getElementById('r-subject-12').style.color = 'red'
           document.getElementById('r-subject-12').innerHTML = 'Incorrect!'
           document.getElementById('r-subject-11').style.color = 'blue'
@@ -227,8 +226,7 @@
           showExplanation3()
           localStorage.setItem('subject3', 0)
         }
-        if (document.getElementById('o-subject-32').checked) {
-    
+        if (document.getElementById('o-subject-32').checked) {    
           document.getElementById('r-subject-32').style.color = 'blue'
           document.getElementById('r-subject-32').innerHTML = 'Correct!'
           

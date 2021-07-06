@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Ratios and Proportions Problem 4</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,12 +20,23 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+The table below shows how long a printer took to print pages for each of the 5 recent print jobs.
 </p>
-!-->
+$$ \begin{array} {|c|c|c|}
+\hline
+\text{Job} & \text{Number of } & \text{Total printing time} \\ 
+\text{number} & \text{pages printed} & \text{(seconds)} \\ \hline
+1 & 35 & 20 \\ \hline
+2 & 482 & 325 \\ \hline
+3 & 1{,}950 & 1{,}320 \\ \hline
+4 & 10 & 5 \\ \hline
+5 & 633 & 450 \\ \hline
 
+\end{array} 
+$$
+<p>At the rate that job number 3 was completed, how long would a print job of 500 pages take to complete?</p>
  </h1>
 
  
@@ -36,7 +47,7 @@
   <div class="box" id='b-algratpro-41'>
     <label for= 'o-algratpro-41'>
       <input type='radio' name='option'  id='o-algratpro-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( 5 \text{ minutes } 38 \text{ seconds}\)
     </label>
     <span id='r-algratpro-41'></span>
   </div>
@@ -44,7 +55,8 @@
   <div class="box" id='b-algratpro-42'>
     <label for= 'o-algratpro-42'>
       <input type='radio' name='option'  id='o-algratpro-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 12 \text{ minutes } 19 \text{ seconds}\)
+    
     </label>
     <span id='r-algratpro-42'></span>
   </div>
@@ -52,7 +64,7 @@
   <div class="box" id='b-algratpro-43'>
     <label for= 'o-algratpro-43'>
       <input type='radio' name='option' id='o-algratpro-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 85 \text{ minutes } 48 \text{ seconds}\)
     </label>
     <span id='r-algratpro-43'></span>
   </div>
@@ -60,7 +72,7 @@
   <div class="box" id='b-algratpro-44'>
     <label for= 'o-algratpro-44'>
       <input type='radio' name='option' id='o-algratpro-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 338 \text{ minutes } 46 \text{ seconds}\)
     </label>
     <span id='r-algratpro-44'></span>
   </div>
@@ -78,14 +90,36 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+Use the appropriate information from the table to set up a proportion.
 </p>
+$$ \begin{array} {|c|c|c|}
+\hline
+\text{Job} & \text{Number of } & \text{Total printing time} \\ 
+\text{number} & \text{pages printed} & \text{(seconds)} \\ \hline
+1 & 35 & 20 \\ \hline
+2 & 482 & 325 \\ \hline
+3 & \colorbox{aqua}{$1{,}950$} & \colorbox{aqua}{$1{,}320$} \\ \hline
+4 & 10 & 5 \\ \hline
+5 & 633 & 450 \\ \hline
 
+\end{array} 
+$$
 
+$$ \frac{1{,}950 \text{ pages}}{1{,}320 \text{ seconds}} = \frac{500 \text{ pages}}{x \text{ seconds}} $$
+$$ 1{,}950\cdot x=500\cdot 1{,}320 $$
+$$ x \approx 338.46 \text{ seconds}$$
 
+<p>We need to convert this into seconds. See <a href="../../Algebra/Unit Conversions/algunicon-1.html" target="blank">Unit Conversions</a> if the steps below are unfamiliar to you.  </p>
+
+$$ 338.46 \text{ seconds} \cdot \frac{1 \text{ minute}}{60 \text{ seconds}} $$
+$$ \approx 5.64 \text{ minutes} $$
+$$ (0.64) \text{ of a minute} = 0.64 \cdot 60 \text{ seconds}$$
+$$ \approx 38 \text{ seconds} $$
+
+<p>Alternatively, we know that there are 300 seconds in 5 minutes, which means 338.46 seconds is approximately 5 minutes and 38 seconds.</p>
 
 </div>
 

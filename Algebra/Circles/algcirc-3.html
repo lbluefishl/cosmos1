@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Circles Problem 3</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+A circle in the \(xy\)-plane has center \((5,3) \), and the point \( (10,-9) \) is on the circle. Which of the following is an equation of the circle? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algcirc-31'>
     <label for= 'o-algcirc-31'>
       <input type='radio' name='option'  id='o-algcirc-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(  (x+5)^2+(y+3)^2=676                \)
     </label>
     <span id='r-algcirc-31'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algcirc-32'>
     <label for= 'o-algcirc-32'>
       <input type='radio' name='option'  id='o-algcirc-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(  (x-5)^2+(y-3)^2=676                \)
     </label>
     <span id='r-algcirc-32'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algcirc-33'>
     <label for= 'o-algcirc-33'>
       <input type='radio' name='option' id='o-algcirc-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(  (x-5)^2+(y-3)^2=169                \)
     </label>
     <span id='r-algcirc-33'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algcirc-34'>
     <label for= 'o-algcirc-34'>
       <input type='radio' name='option' id='o-algcirc-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(  (x-5)^2+(y-3)^2=13                \)
     </label>
     <span id='r-algcirc-34'></span>
   </div>
@@ -78,14 +78,23 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We need to find the standard form of the circle.
 </p>
+$$ (x-h)^2+(y-k)^2=r^2, \text{ where } (h,k) \text{ is the center and } r \text{ is the radius} $$
+We are given the center \((5,3) \) but must find the square of the radius through distance formula or pythagorean theorem.
+$$r^2=(x_1-x_2)^2+(y_1-y_2)^2 $$
+$$ r^2= (x_1-x_2)^2+(y_1-y_2)^2$$
+$$ r^2 = (5-10)^2+(3-(-9))^2$$
+$$ r^2 = 25+144 $$
 
+$$ r^2=169 $$
+<p>Therefore,</p>
 
-
+$$ (x-\colorbox{aqua}{$5$})^2+(y-\colorbox{aqua}{$3$})^2=\colorbox{aqua}{$169$} $$
+$$ = \boxed{(x-5)^2+(y-3)^2=169     } $$
 </div>
 
 

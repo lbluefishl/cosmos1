@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Polynomials Problem 2</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+$$ p(t)=2t+3$$
+$$ r(t)=t^2+1 $$
+$$ s(t)=2t^2-5$$
 <p>
-
+The polynomial functions \(p, r,\) and \(s\) are defined above. Which of the following is equivalent to \(3p(t)-2r(t)-4s(t) \) ?
 </p>
-!-->
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algpoly-21'>
     <label for= 'o-algpoly-21'>
       <input type='radio' name='option'  id='o-algpoly-21' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( &nbsp  &nbsp &nbsp  &nbsp &nbsp 3t^2+2t-1\)
     </label>
     <span id='r-algpoly-21'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algpoly-22'>
     <label for= 'o-algpoly-22'>
       <input type='radio' name='option'  id='o-algpoly-22' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( -10t^2+6t+9\)
     </label>
     <span id='r-algpoly-22'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algpoly-23'>
     <label for= 'o-algpoly-23'>
       <input type='radio' name='option' id='o-algpoly-23' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( -10t^2+6t+19   \)
     </label>
     <span id='r-algpoly-23'></span>
   </div>
@@ -60,8 +61,8 @@
   <div class="box" id='b-algpoly-24'>
     <label for= 'o-algpoly-24'>
       <input type='radio' name='option' id='o-algpoly-24' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
-    </label>
+      \( -10t^2+6t+27   \)
+        </label>
     <span id='r-algpoly-24'></span>
   </div>
 
@@ -81,10 +82,37 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+$$ 3p(t)-2r(t)-4s(t) $$
+$$ =3(2t+3)-2(t^2+1)-4(2t^2-5) $$
+$$ =6t+9-2t^2-2-8t^2+20$$
+$$ =\boxed{-10t^2+6t+27} $$
 </p>
 
+<h2>Approach 2</h2>
+<p>
+We can try substituting an arbitrary value of \(t\). For example, substituting \(t=0\):
+</p>
+<div style="columns: 3;">
+  <center>&nbsp</center>
+$$ p(t)=2t+3$$ 
+$$ p(0)=2(0)+3 $$
+$$ p(0)=3$$
+<center>&nbsp</center>
+$$ r(t)=t^2+1 $$
+$$ r(0)=(0)^2+1 $$
+$$ r(0)=1 $$
+<center>&nbsp</center>
+$$ s(t)=2t^2-5 $$
+$$ s(0)=2(0)^2-5 $$
+$$ s(0)=-5$$
+</div>
+$$ 3p(t)-2r(t)-4s(t) $$
+$$ 3p(0)-2r(0)-4s(0) $$
+$$ =3(3)-2(1)-4(-5) $$
+$$ =9-2+20$$
+$$ = 27 $$
 
+<p>Browsing the answer choices, only the last option evaluates to \(27\) when \(t=0\).</p>
 
 </div>
 

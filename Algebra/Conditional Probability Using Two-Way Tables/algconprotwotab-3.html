@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-<title>Conditional Probability Using Two-Way Tables Problem 3</title> 
+<title>Conditional Probability Problem 3</title> 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,19 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Mike recorded whether it rained each weekday and weekend day for 10 weeks. His results are summarized in the table below. 
 </p>
-!-->
+$$ \text{Weekday and Weekend Day Rain for 10 Weeks} $$
+$$\begin{array} {|l|c|c|c|} \hline
+& \text{Rain} & \text{No rain} & \text{Total} \\ \hline
+\text{Number of weekdays} & 9 & 41 & 50 \\ \hline
+\text{Number of weekend days} & 5 & 15 & 20 \\ \hline
+\text{Total} & 14 & 56 & 70 \\ \hline
+\end{array}
+$$
+<p>If one of the days on which there was rain is selected at random, what is the probability the day was a weekend?</p>
 
  </h1>
 
@@ -36,7 +44,7 @@
   <div class="box" id='b-algconprotwotab-31'>
     <label for= 'o-algconprotwotab-31'>
       <input type='radio' name='option'  id='o-algconprotwotab-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( \dfrac{9}{14}  \)
     </label>
     <span id='r-algconprotwotab-31'></span>
   </div>
@@ -44,7 +52,7 @@
   <div class="box" id='b-algconprotwotab-32'>
     <label for= 'o-algconprotwotab-32'>
       <input type='radio' name='option'  id='o-algconprotwotab-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{5}{14}  \)
     </label>
     <span id='r-algconprotwotab-32'></span>
   </div>
@@ -52,7 +60,7 @@
   <div class="box" id='b-algconprotwotab-33'>
     <label for= 'o-algconprotwotab-33'>
       <input type='radio' name='option' id='o-algconprotwotab-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{1}{4}  \)
     </label>
     <span id='r-algconprotwotab-33'></span>
   </div>
@@ -60,7 +68,7 @@
   <div class="box" id='b-algconprotwotab-34'>
     <label for= 'o-algconprotwotab-34'>
       <input type='radio' name='option' id='o-algconprotwotab-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( \dfrac{1}{14}  \)
     </label>
     <span id='r-algconprotwotab-34'></span>
   </div>
@@ -78,14 +86,25 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We need to find the following from the table:
 </p>
+$$ \frac{\text{weekend}}{\text{days with rain}} $$
 
 
+$$ \text{Weekday and Weekend Day Rain for 10 Weeks} $$
+$$\begin{array} {|l|c|c|c|} \hline
+& \text{Rain} & \text{No rain} & \text{Total} \\ \hline
+\text{Number of weekdays} & 9 & 41 & 50 \\ \hline
+\text{Number of weekend days} & \colorbox{yellow}{$5$} & 15 & 20 \\ \hline
+\text{Total} & \colorbox{aqua}{$14$} & 56 & 70 \\ \hline
+\end{array}
+$$
 
+
+<p>Out of the 14 days where there was rain, 5 was on a weekend.</p>
 </div>
 
 

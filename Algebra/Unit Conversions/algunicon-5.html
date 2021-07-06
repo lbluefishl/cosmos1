@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Unit Conversions Problem 5</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
+<p>
+Mike has 1,000 pesos he will convert to US dollars using a currency exchange service. At this time, the currency exchange rate is 1 peso = 0.05 US dollars. The exchange service will charge
+Mike a 3% fee on the converted US dollar amount. How many US dollars will Mike receive from the currency exchange after the 3% fee is applied? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algunicon-51'>
     <label for= 'o-algunicon-51'>
       <input type='radio' name='option'  id='o-algunicon-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( \$48.50 \)
     </label>
     <span id='r-algunicon-51'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algunicon-52'>
     <label for= 'o-algunicon-52'>
       <input type='radio' name='option'  id='o-algunicon-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \$50.00 \)
     </label>
     <span id='r-algunicon-52'></span>
   </div>
@@ -52,15 +53,15 @@
   <div class="box" id='b-algunicon-53'>
     <label for= 'o-algunicon-53'>
       <input type='radio' name='option' id='o-algunicon-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
-    </label>
+      \( \$51.50 \)
+        </label>
     <span id='r-algunicon-53'></span>
   </div>
 
   <div class="box" id='b-algunicon-54'>
     <label for= 'o-algunicon-54'>
       <input type='radio' name='option' id='o-algunicon-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( \$19{,}400.00 \)
     </label>
     <span id='r-algunicon-54'></span>
   </div>
@@ -81,13 +82,21 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We first convert the pesos to US dollars using standard conversion techniques:
 </p>
+$$ 1{,}000 \text{ pesos} \cdot \frac{0.05 \text{ US dollars}}{1 \text{ peso}} $$
+$$ = 1{,}000\cdot 0.05 $$
+$$ = 50 \text{ US dollars} $$
 
 
-
+<p>We apply a 3% fee, which is equivalent to taking 97% of the current amount.</p>
+$$ 50 \cdot (0.97)$$
+$$ = \boxed{48.5}$$
+<p>If the previous step is unfamiliar to you, I recommend reviewing and mastering <a href="../../Algebra/Percents/algperc-1.html" target="blank">Percents</a>.</p>
 </div>
 
+<h2>Approach 2</h2>
+<p>Technically, there is no need to calculate the percent fee. If $50 is the amount after the conversion, it would only make sense that a nonzero fee will result in an amount lower than 50 US dollars. Only the first option is reasonable. </p>
 
 
 </body>

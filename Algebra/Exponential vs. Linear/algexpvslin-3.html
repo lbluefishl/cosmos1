@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+<head>
+    <meta charset="utf-8">
+ <title>Exponential vs. Linear Problem 3</title>    
+<link href="../../styles/questions.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.typekit.net/kzi4upq.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/mhchem.min.js" integrity="sha384-LIgAiYlGSAdpNC9+YDjDPF6JeS/RRIumtNo0CmyQERZ/+g0h9MbuYQwf/5pQ4Y4M"  crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+<script src="algexpvslin.js" defer></script>
+<script type="text/javascript" src="../../scripts/ASCIIsvg.js" defer></script>
+</head>
+
+
+<body>
+
+<h1 class="question"> 
+ 
+<p>
+Mike cooked some steak, and when he took it off the stove, the internal temperature of the steak was \(135 \degree \text{F}\).
+ The temperature of the room in which Mike put the steak to cool down was 
+\(70\degree \text{F}\). He measured the internal temperature of the steak every 10 minutes and recorded his observations in the table below.
+</p>
+
+$$ \begin{array} {|c|c|} \hline
+\text{Time (minutes)} & \text{Temperature} \\ \hline
+0 & 135\degree \text{F} \\ \hline
+10 & 94\degree \text{F} \\ \hline
+20 & 82\degree \text{F} \\ \hline
+30 & 75\degree \text{F} \\ \hline
+40 & 73\degree \text{F} \\ \hline
+50 & 72\degree \text{F} \\ \hline
+
+\end{array}
+$$
+<p>Which of the following best models the relationship between the time \(t\), in minutes, since the food was removed from the stove and the temperature \(T\), 
+  in degrees Fahrenheit, of the steak?</p>
+ </h1>
+
+ 
+<p>Choose 1 Answer:</p>  
+
+<hr/> 
+
+  <div class="box" id='b-algexpvslin-31'>
+    <label for= 'o-algexpvslin-31'>
+      <input type='radio' name='option'  id='o-algexpvslin-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \(  T=135- 4.1t \)
+    </label>
+    <span id='r-algexpvslin-31'></span>
+  </div>
+
+  <div class="box" id='b-algexpvslin-32'>
+    <label for= 'o-algexpvslin-32'>
+      <input type='radio' name='option'  id='o-algexpvslin-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( T=135 - 1.3t \)
+    </label>
+    <span id='r-algexpvslin-32'></span>
+  </div>
+
+  <div class="box" id='b-algexpvslin-33'>
+    <label for= 'o-algexpvslin-33'>
+      <input type='radio' name='option' id='o-algexpvslin-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( T=70+135(0.9)^t   \)
+    </label>
+    <span id='r-algexpvslin-33'></span>
+  </div>
+
+  <div class="box" id='b-algexpvslin-34'>
+    <label for= 'o-algexpvslin-34'>
+      <input type='radio' name='option' id='o-algexpvslin-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
+      \( T=70+65(0.9)^t   \)
+    </label>
+    <span id='r-algexpvslin-34'></span>
+  </div>
+
+<hr/>
+
+<nav> 
+  <a href="algexpvslinsummary.html"><button  id= 'su-algexpvslin-3' >Summary</button></a>
+  <button  id= "sa-algexpvslin-3" >Submit Answer</button>
+  <a href="algexpvslin-4.html"><button class= 'nav' id= 'nq-algexpvslin-3' >Next Question</button></a> 
+</nav>
+
+<div class='explanation' id='e-algexpvslin-3'>
+
+
+
+
+<h2> Approach </h2>
+
+<p>
+Since the rate of decrease of the temperature is not constant per 10 minutes, our model cannot be linear. It appears that the temperature decreases sharply first,
+ but slows down as the temperature approaches room temperature.
+</p>
+<p>The only difference between the exponential models is the coefficient of the exponential portion. We may be tempted to pick \(135\), but be careful.
+   We want to find a model that gets us \(T=135\) when \(t=0\).</p>
+<div style="columns: 2;">
+<center>&nbsp </center>
+$$ T=70+135(0.9)^t   $$
+$$ 135 = 70 +135(0.9)^0 $$
+$$ 135=70+135(1) $$
+$$ 135=205 &nbsp &#10006;  $$
+<center>&nbsp </center>
+$$ T=70+65(0.9)^t   $$
+$$ 135 = 70 +65(0.9)^0 $$
+$$ 135 = 70+65(1) $$
+$$ 135=135 &nbsp \checkmark $$
+</div>
+
+
+
+
+<h2>Sidenote</h2>
+<p>
+Realistically, the internal temperature of steak usually rises a bit after it is taken off the stove. The heat from the outer layers transfer to the inner layers of the steak, raising the 
+doneness of a steak. The steak in our question would probably be medium \((140\degree \text{F} )\) rather than medium rare \((135\degree \text{F} )\) after resting in a covered container for approximately 10 minutes.
+
+</p>
+<p>The external temperature would likely follow a similar exponential model.</p>
+
+</div>
+</body>
+
+</html> 

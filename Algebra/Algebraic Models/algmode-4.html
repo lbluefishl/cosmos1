@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
- <title>Algebraic Models Problem 4</title>  
+ <title>Interpreting Algebraic Models Problem 4</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -21,11 +21,6 @@
 
 <h1 class="question"> 
 
-<p>
-A chemist is mixing a 20% \( \ce{NaCl} \) solution with a 35% \( \ce{NaCl} \) solution. The chemist wishes to make a mixture that is at least 30% \( \ce{NaCl} \) 
-but no more than 2 liters from the two types of solutions. 
-Let \(a\) be the volume of 20% \( \ce {NaCl}\), in liters, and \(b\) be the volume of 35% \( \ce{NaCl} \), in liters, in the mixture. Which of the following systems represents all of the constraints
-that \(a\) and \(b\) must satisfy?
 
 
  </h1>
@@ -38,15 +33,7 @@ that \(a\) and \(b\) must satisfy?
   <div class="box" id='b-algmode-41'>
     <label for= 'o-algmode-41'>
       <input type='radio' name='option'  id='o-algmode-41' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       \(   
-       \begin{cases}
-       a>0 \\
-       b>0   \\
-       a+b =2 \\ 
-       20a+35b \leq 30
-
-       \end{cases}
-       \)
+    
     </label>
     <span id='r-algmode-41'></span>
   </div>
@@ -54,15 +41,7 @@ that \(a\) and \(b\) must satisfy?
   <div class="box" id='b-algmode-42'>
     <label for= 'o-algmode-42'>
       <input type='radio' name='option'  id='o-algmode-42' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      \(   
-        \begin{cases}
-        a>0 \\
-        b>0   \\
-        a+b \geq 2 \\ 
-        20a+35b \geq 30
- 
-        \end{cases}
-        \)
+     
     </label>
     <span id='r-algmode-42'></span>
   </div>
@@ -70,15 +49,7 @@ that \(a\) and \(b\) must satisfy?
   <div class="box" id='b-algmode-43'>
     <label for= 'o-algmode-43'>
       <input type='radio' name='option' id='o-algmode-43' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      \(   
-       \begin{cases}
-       a>0 \\
-       b>0   \\
-       a+b  \leq 2 \\ 
-       20a+35b \geq 30(a+b)
-
-       \end{cases}
-       \)
+     
     </label>
     <span id='r-algmode-43'></span>
   </div>
@@ -86,15 +57,7 @@ that \(a\) and \(b\) must satisfy?
   <div class="box" id='b-algmode-44'>
     <label for= 'o-algmode-44'>
       <input type='radio' name='option' id='o-algmode-44' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      \(   
-       \begin{cases}
-       0 \lt a \lt2 \\
-       0 \lt b \lt 2   \\
-       a+b \leq 2 \\ 
-       20a+35b \geq 30(a+b)
-
-       \end{cases}
-       \)
+      
     </label>
     <span id='r-algmode-44'></span>
   </div>
@@ -114,52 +77,12 @@ that \(a\) and \(b\) must satisfy?
 
 <h2> Approach </h2>
 
-<p>
-Let's break apart the meaning of the correct option:
-</p>
 
-$$ 
-  \begin{cases} 
-  a>0 & \text{we need some amount of the 20\% NaCl solution; it cannot be negative}  \\ 
-  b>0  &\text{we need some amount of the 35\% NaCl solution; it cannot be negative} \\
-  a+b\leq 2  &\text{the combined volume of solution is no more than 2 liters} \\ 
-  20a+35b \geq 30(a+b) & \text{the combined volume of NaCl needs to be greater than 30\%}
 
-  \end{cases}
- $$
+
  
-
-<p>
-  Perhaps the most confusing relationship involves the volume of NaCl:
-</p>
-  $$20a+35b \geq 30(a+b)$$
-
-  In cases like this, we need to make sure the corresponding parts make sense as a whole. 
-
-  $$\colorbox{aqua}{$20$}\colorbox{yellow}{$a$}+\colorbox{aqua}{$35$}\colorbox{yellow}{$b$} \geq \colorbox{aqua}{$30$}\colorbox{yellow}{$(a+b)$}  \checkmark $$
-
-Looking at structure is very important in mathematics. You've done it plenty of times, though it may be done without you expliciting thinking it. For example, would this be reasonable as written?
-
-$$ 12 \text{ inches} + 5 \text{ inches} \ge 10 \text{ feet} $$ 
-
-Similarly, the first two choices do not seem reasonable by the same logic. 
-
-$$ \colorbox{aqua}{$20$}\colorbox{yellow}{$a$}+\colorbox{aqua}{$35$}\colorbox{yellow}{$b$} \leq \colorbox{aqua}{$30$} &nbsp &#10006;$$
-
-
-<h2> Sidenote</h2>
-Mixture problems show up rarely on the SAT. It is not entirely necessary to memorize a seperate formula for it. Instead, treat it like a system of equations. 
-Make one equation for the total volume of solution and one equation for the total volume of the solute or identifiable substance (NaCl in our case). 
-
-$$ a + b \gt 2 \tag*{\tiny volume of solution}$$
-The volume of NaCl is taken by multiplying the percent concentration with the volume of the solution. For example, 20% of solution \(a\) is NaCl. Therefore,
-$$ 0.20\cdot a = \text{volume of NaCl in the 20\% solution} $$
-Accordingly, the volume of NaCl equation:
-$$ 0.20a+0.35b \geq .30(a+b) \tag*{\tiny volume of NaCl only} $$
-We can multiply each term by 100 to avoid working with decimals.
-$$ 20a+35b \geq 30(a+b) $$
-
 </div>
+
 
 
 </body>

@@ -132,13 +132,13 @@
         if (document.getElementById('o-algpoly-21').checked) {
           document.getElementById('r-algpoly-21').style.color = 'red'
           document.getElementById('r-algpoly-21').innerHTML = 'Incorrect!'
-          document.getElementById('r-algpoly-23').style.color = 'blue'
-          document.getElementById('r-algpoly-23').innerHTML = 'Correct!'
+          document.getElementById('r-algpoly-24').style.color = 'blue'
+          document.getElementById('r-algpoly-24').innerHTML = 'Correct!'
           
-          document.getElementById('b-algpoly-23').classList.add("correct")
+          document.getElementById('b-algpoly-24').classList.add("correct")
           document.getElementById('b-algpoly-21').classList.add("incorrect")
           document.getElementById('b-algpoly-22').classList.add("incorrect")
-          document.getElementById('b-algpoly-24').classList.add("incorrect")
+          document.getElementById('b-algpoly-23').classList.add("incorrect")
     
           document.getElementById('sa-algpoly-2').disabled = true;
           document.getElementById('o-algpoly-21').disabled = true;
@@ -151,13 +151,13 @@
         if (document.getElementById('o-algpoly-22').checked) {
           document.getElementById('r-algpoly-22').style.color = 'red'
           document.getElementById('r-algpoly-22').innerHTML = 'Incorrect!'
-          document.getElementById('r-algpoly-23').style.color = 'blue'
-          document.getElementById('r-algpoly-23').innerHTML = 'Correct!'
+          document.getElementById('r-algpoly-24').style.color = 'blue'
+          document.getElementById('r-algpoly-24').innerHTML = 'Correct!'
           
-          document.getElementById('b-algpoly-23').classList.add("correct")
+          document.getElementById('b-algpoly-24').classList.add("correct")
           document.getElementById('b-algpoly-21').classList.add("incorrect")
           document.getElementById('b-algpoly-22').classList.add("incorrect")
-          document.getElementById('b-algpoly-24').classList.add("incorrect")
+          document.getElementById('b-algpoly-23').classList.add("incorrect")
     
           document.getElementById('sa-algpoly-2').disabled = true;
           document.getElementById('o-algpoly-21').disabled = true;
@@ -168,32 +168,15 @@
           localStorage.setItem('algpoly2', 0)
         }
         if (document.getElementById('o-algpoly-23').checked) {
-          document.getElementById('r-algpoly-23').style.color = 'blue'
-          document.getElementById('r-algpoly-23').innerHTML = 'Correct!'
+          document.getElementById('r-algpoly-23').style.color = 'red'
+          document.getElementById('r-algpoly-23').innerHTML = 'Incorrect!'
+          document.getElementById('r-algpoly-24').style.color = 'blue'
+          document.getElementById('r-algpoly-24').innerHTML = 'Correct!'
           
-          document.getElementById('b-algpoly-23').classList.add("correct")
+          document.getElementById('b-algpoly-24').classList.add("correct")
           document.getElementById('b-algpoly-21').classList.add("incorrect")
           document.getElementById('b-algpoly-22').classList.add("incorrect")
-          document.getElementById('b-algpoly-24').classList.add("incorrect")
-    
-          document.getElementById('sa-algpoly-2').disabled = true;
-          document.getElementById('o-algpoly-21').disabled = true;
-          document.getElementById('o-algpoly-22').disabled = true;
-          document.getElementById('o-algpoly-23').disabled = true;
-          document.getElementById('o-algpoly-24').disabled = true;
-          showExplanation2()
-          localStorage.setItem('algpoly2', 1)
-        }
-        if (document.getElementById('o-algpoly-24').checked) {
-          document.getElementById('r-algpoly-24').style.color = 'red'
-          document.getElementById('r-algpoly-24').innerHTML = 'Incorrect!'
-          document.getElementById('r-algpoly-23').style.color = 'blue'
-          document.getElementById('r-algpoly-23').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algpoly-23').classList.add("correct")
-          document.getElementById('b-algpoly-21').classList.add("incorrect")
-          document.getElementById('b-algpoly-22').classList.add("incorrect")
-          document.getElementById('b-algpoly-24').classList.add("incorrect")
+          document.getElementById('b-algpoly-23').classList.add("incorrect")
     
           document.getElementById('sa-algpoly-2').disabled = true;
           document.getElementById('o-algpoly-21').disabled = true;
@@ -202,6 +185,23 @@
           document.getElementById('o-algpoly-24').disabled = true;
           showExplanation2()
           localStorage.setItem('algpoly2', 0)
+        }
+        if (document.getElementById('o-algpoly-24').checked) {
+          document.getElementById('r-algpoly-24').style.color = 'blue'
+          document.getElementById('r-algpoly-24').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algpoly-24').classList.add("correct")
+          document.getElementById('b-algpoly-21').classList.add("incorrect")
+          document.getElementById('b-algpoly-22').classList.add("incorrect")
+          document.getElementById('b-algpoly-23').classList.add("incorrect")
+    
+          document.getElementById('sa-algpoly-2').disabled = true;
+          document.getElementById('o-algpoly-21').disabled = true;
+          document.getElementById('o-algpoly-22').disabled = true;
+          document.getElementById('o-algpoly-23').disabled = true;
+          document.getElementById('o-algpoly-24').disabled = true;
+          showExplanation2()
+          localStorage.setItem('algpoly2', 1)
         }
       }
     }
