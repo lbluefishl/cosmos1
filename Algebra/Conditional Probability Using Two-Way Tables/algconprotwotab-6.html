@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-   <title>Conditional Probability Using Two-Way Tables Problem 6</title> 
+   <title>Conditional Probability Problem 6</title> 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,12 +20,27 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+
 <p>
-
+A researcher interviewed randomly selected US Congress members and asked about their views on the use of nuclear energy. The table above summarizes the responses of the interviewees.
 </p>
-!-->
 
+$$ \text{Views on Nuclear Energy Use} $$
+
+$$
+\begin{array} {|l|c|} \hline
+\hphantom{1em} \text{Response} & \text{Frequency} \\ \hline
+\text{Strongly favor} & 5 \\ \hline
+\text{Somewhat favor} & 11 \\ \hline
+\text{Neutral} & 18 \\ \hline
+\text{Somewhat oppose} & 14 \\ \hline
+\text{Strongly oppose} & 2 \\ \hline
+
+\end{array}
+$$
+<p>According to the table,
+  \(p\) percent of the interviewees responded "neutral" when asked about their views on the use of nuclear energy. What is the value of \(p\)?
+</p>
  </h1>
 
  
@@ -36,7 +51,7 @@
   <div class="box" id='b-algconprotwotab-61'>
     <label for= 'o-algconprotwotab-61'>
       <input type='radio' name='option'  id='o-algconprotwotab-61' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(9\)
     </label>
     <span id='r-algconprotwotab-61'></span>
   </div>
@@ -44,7 +59,7 @@
   <div class="box" id='b-algconprotwotab-62'>
     <label for= 'o-algconprotwotab-62'>
       <input type='radio' name='option'  id='o-algconprotwotab-62' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+   \(18\)
     </label>
     <span id='r-algconprotwotab-62'></span>
   </div>
@@ -52,7 +67,7 @@
   <div class="box" id='b-algconprotwotab-63'>
     <label for= 'o-algconprotwotab-63'>
       <input type='radio' name='option' id='o-algconprotwotab-63' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(36\)
     </label>
     <span id='r-algconprotwotab-63'></span>
   </div>
@@ -60,7 +75,7 @@
   <div class="box" id='b-algconprotwotab-64'>
     <label for= 'o-algconprotwotab-64'>
       <input type='radio' name='option' id='o-algconprotwotab-64' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \(50\)
     </label>
     <span id='r-algconprotwotab-64'></span>
   </div>
@@ -78,13 +93,30 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We are asked to find the percent of all interviewees that responded "neutral".
 </p>
 
+$$ \text{Views on Nuclear Energy Use} $$
 
+$$
+\begin{array} {|l|c|} \hline
+\text{Response} & \text{Frequency} \\ \hline
+\text{Strongly favor} & 5 \\ \hline
+\text{Somewhat favor} & 11 \\ \hline
+\text{Neutral} & \colorbox{aqua}{$18$} \\ \hline
+\text{Somewhat oppose} & 14 \\ \hline
+\text{Strongly oppose} & 2 \\ \hline
+
+\end{array}
+$$
+$$ \frac{\text{responded neutral}}{\text{all interviewees}}$$
+$$ =\frac{18}{5+11+18+14+2} $$
+$$ = \frac{18}{50} $$
+$$ = \frac{36}{100} $$
+$$ = \boxed{36} \text{ percent} $$
 </div>
 
 

@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Research Methods and Sampling Problem 3</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,12 +20,31 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+
 <p>
+A researcher interviewed 425 randomly selected US residents and asked about their views on the current climate change consensus. The table below summarizes the responses of the interviewees.
+</p>
+
+$$ \text{Views on Climate Change} $$
+
+$$
+\begin{array} {|l|c|} \hline
+\hphantom{1em}\text{Response} & \text{Frequency} \\ \hline
+\text{Strongly agrees} & 141 \\ \hline
+\text{Somewhat agrees} & 205 \\ \hline
+\text{Neutral} & 33 \\ \hline
+\text{Somewhat disagrees} & 25 \\ \hline
+\text{Strongly disagrees} & 21 \\ \hline
+
+\end{array}
+$$
+
+<p>
+If the population of the United States was 450 million when the survey was given, based on the sample day for the 425 US residents, what is the best estimate, in <u>millions</u>, of the difference between the number
+of US residents who somewhat agrees to the current climate change consensus and the number of US residents who somewhat disagrees or strongly disagrees 
+to the current climate change consensus?
 
 </p>
-!-->
-
  </h1>
 
  
@@ -36,7 +55,7 @@
   <div class="box" id='b-algexpsam-31'>
     <label for= 'o-algexpsam-31'>
       <input type='radio' name='option'  id='o-algexpsam-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(150\)
     </label>
     <span id='r-algexpsam-31'></span>
   </div>
@@ -44,7 +63,7 @@
   <div class="box" id='b-algexpsam-32'>
     <label for= 'o-algexpsam-32'>
       <input type='radio' name='option'  id='o-algexpsam-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(159\)
     </label>
     <span id='r-algexpsam-32'></span>
   </div>
@@ -52,7 +71,7 @@
   <div class="box" id='b-algexpsam-33'>
     <label for= 'o-algexpsam-33'>
       <input type='radio' name='option' id='o-algexpsam-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 168  \)
     </label>
     <span id='r-algexpsam-33'></span>
   </div>
@@ -60,7 +79,7 @@
   <div class="box" id='b-algexpsam-34'>
     <label for= 'o-algexpsam-34'>
       <input type='radio' name='option' id='o-algexpsam-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+    \( 217 \)
     </label>
     <span id='r-algexpsam-34'></span>
   </div>
@@ -78,12 +97,33 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+Let's find the difference between those who somewhat agree and those that somewhat or strong disagree.
 </p>
 
+$$ \text{Views on Climate Change} $$
+
+$$
+\begin{array} {|l|c|} \hline
+\hphantom{1em}\text{Response} & \text{Frequency} \\ \hline
+\text{Strongly agrees} & 141 \\ \hline
+\text{Somewhat agrees} & \colorbox{aqua}{$205$} \\ \hline
+\text{Neutral} & 33 \\ \hline
+\text{Somewhat disagrees} & \colorbox{yellow}{$25$} \\ \hline
+\text{Strongly disagrees} & \colorbox{yellow}{$21$} \\ \hline
+
+\end{array}
+$$
+
+$$ \text{Difference}=205-(25+21) $$
+$$ = 159 $$
+<p>The difference is based off of 425 US residents. We can use a proportion to scale it up to the entire US population.</p>
+
+$$ \frac{159}{425}=\frac{x}{450 \text{ million}} $$
+$$ 159(450)=425x $$
+$$ x \approx 168 \text{ million}$$
 
 
 </div>
