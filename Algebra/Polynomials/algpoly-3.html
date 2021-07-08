@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Polynomials Problem 3</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ $$ y = (x+h)^3(x-h)^2(x-k)(x+k) $$
 <p>
-
+The equation above is graphed in the \(xy\)-plane. If \(h\) and \(k\) are positive constants and \(h \neq k\), how many distinct \(x\)-intercepts does the graph have?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,7 @@
   <div class="box" id='b-algpoly-31'>
     <label for= 'o-algpoly-31'>
       <input type='radio' name='option'  id='o-algpoly-31' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(2\)
     </label>
     <span id='r-algpoly-31'></span>
   </div>
@@ -44,7 +44,7 @@
   <div class="box" id='b-algpoly-32'>
     <label for= 'o-algpoly-32'>
       <input type='radio' name='option'  id='o-algpoly-32' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(4\)
     </label>
     <span id='r-algpoly-32'></span>
   </div>
@@ -52,7 +52,7 @@
   <div class="box" id='b-algpoly-33'>
     <label for= 'o-algpoly-33'>
       <input type='radio' name='option' id='o-algpoly-33' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(5\)
     </label>
     <span id='r-algpoly-33'></span>
   </div>
@@ -60,7 +60,7 @@
   <div class="box" id='b-algpoly-34'>
     <label for= 'o-algpoly-34'>
       <input type='radio' name='option' id='o-algpoly-34' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(7\)
     </label>
     <span id='r-algpoly-34'></span>
   </div>
@@ -78,14 +78,18 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+The \(x\)-intercepts are the values that cause any of the binomial factors to equal 0. 
 </p>
 
-
-
+$$ (x+h)=0 $$
+$$ (x-h)=0 $$
+$$ (x-k)=0 $$
+$$ (x+k)=0 $$
+$$ x = -h, h, k, \text{ and } -k $$
+<p>Because \(h \neq k\) and the values are positive (not zero), we get \( \boxed{4}\) distinct solutions. The exponents change the multiplicity of the factor, but does not affect the value.</p> 
 </div>
 
 

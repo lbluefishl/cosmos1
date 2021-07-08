@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Exponential Growth and Decay Problem 7</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,12 +19,21 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+Radioactive substances decay over time. The mass \(M\), in grams, of a particular radioactive substance \(d\) days after the beginning of an experiment is shown in the table below.
 </p>
-!-->
+$$\begin{array}{|c|c|} \hline
+\text{Number of days, } d & \text{Mass}, M \text{ (grams)} \\ \hline
+0 & 45.00 \\ \hline
+30 & 40.57 \\ \hline
+60 & 36.58 \\ \hline
+90 & 32.98 \\ \hline
 
+\end{array}
+$$
+
+<p>If this relationship is modeled by the function \(M(d)=a\cdot 10^{bd}  \), which of the following could be the values of \(a\) and \(b\)?</p>
  </h1>
 
  
@@ -35,7 +44,7 @@
   <div class="box" id='b-algexpeq-71'>
     <label for= 'o-algexpeq-71'>
       <input type='radio' name='option'  id='o-algexpeq-71' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \( a=4.5 \text{ and } b=0.020 \)
     </label>
     <span id='r-algexpeq-71'></span>
   </div>
@@ -43,7 +52,7 @@
   <div class="box" id='b-algexpeq-72'>
     <label for= 'o-algexpeq-72'>
       <input type='radio' name='option'  id='o-algexpeq-72' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( a=4.5 \text{ and } b=-0.020 \)
     </label>
     <span id='r-algexpeq-72'></span>
   </div>
@@ -51,7 +60,7 @@
   <div class="box" id='b-algexpeq-73'>
     <label for= 'o-algexpeq-73'>
       <input type='radio' name='option' id='o-algexpeq-73' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( a=45 \text{ and } b=0.0015 \)
     </label>
     <span id='r-algexpeq-73'></span>
   </div>
@@ -59,7 +68,7 @@
   <div class="box" id='b-algexpeq-74'>
     <label for= 'o-algexpeq-74'>
       <input type='radio' name='option' id='o-algexpeq-74' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( a=45 \text{ and } b=-0.0015 \)
     </label>
     <span id='r-algexpeq-74'></span>
   </div>
@@ -77,11 +86,41 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We can first use the row \(d=0, M=45\) to find the value of \(a\):
 </p>
+$$ M(0)=45 $$
+$$M(d)=a\cdot 10^{bd}$$
+$$ 45 = a \cdot 10^{b(0)} $$
+$$ 45 = a \cdot 10^0 $$
+$$ 45 = a $$
+<p>Substitute this value back into the initial equation:</p>
+$$M(d)=45\cdot 10^{bd}$$
+<p>We can use another point, such as \(d=30, M=40.57\) to find the value of \(b\):</p>
+$$ M(30)=40.57 $$
+$$40.57=45\cdot 10^{b(30)}$$
+$$ 40.57 = 45 \cdot 10^{30b} $$
+$$ \frac{40.57}{45}=10^{30b} $$
+$$ 0.90=10^{30b} $$
+<p>We can test options 3 and 4 to confirm which one is the correct choice, or we can use logarithms.</p>
+<div style="columns: 2;">
+<center>Option 3</center>
+$$ 0.90=10^{30b} $$
+$$ 0.90=10^{30(0.0015)} $$
+$$ 0.90 \neq 1.11 &nbsp &#10006; $$
+<center>Option 4</center>
+$$ 0.90=10^{30b} $$
+$$ 0.90=10^{30(-0.0015)} $$
+$$ 0.90=0.90 &nbsp \checkmark $$
+</div>
+<p>Solving with logarithms:</p>
+$$ 0.90=10^{30b} $$
+$$ \log{0.90}=\log{10^{30b}} $$
+$$ \log{0.90}=30b $$
+$$ b = \frac{\log{0.90}}{30} $$
+$$ b \approx -0.0015 $$
 
 </div>
 

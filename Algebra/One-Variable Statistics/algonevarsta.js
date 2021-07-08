@@ -526,13 +526,11 @@
     if (document.getElementById('sa-algonevarsta-7') != null) {
       algonevarsta7But.onclick = function() {
         if (document.getElementById('o-algonevarsta-71').checked) {
-          document.getElementById('r-algonevarsta-71').style.color = 'red'
-          document.getElementById('r-algonevarsta-71').innerHTML = 'Incorrect!'
-          document.getElementById('r-algonevarsta-74').style.color = 'blue'
-          document.getElementById('r-algonevarsta-74').innerHTML = 'Correct!'
+          document.getElementById('r-algonevarsta-71').style.color = 'blue'
+          document.getElementById('r-algonevarsta-71').innerHTML = 'Correct!'
           
-          document.getElementById('b-algonevarsta-74').classList.add("correct")
-          document.getElementById('b-algonevarsta-71').classList.add("incorrect")
+          document.getElementById('b-algonevarsta-71').classList.add("correct")
+          document.getElementById('b-algonevarsta-74').classList.add("incorrect")
           document.getElementById('b-algonevarsta-72').classList.add("incorrect")
           document.getElementById('b-algonevarsta-73').classList.add("incorrect")
     
@@ -542,16 +540,16 @@
           document.getElementById('o-algonevarsta-73').disabled = true;
           document.getElementById('o-algonevarsta-74').disabled = true;
           showExplanation7()
-          localStorage.setItem('algonevarsta7', 0)
+          localStorage.setItem('algonevarsta7', 1)
         }
         if (document.getElementById('o-algonevarsta-72').checked) {
           document.getElementById('r-algonevarsta-72').style.color = 'red'
           document.getElementById('r-algonevarsta-72').innerHTML = 'Incorrect!'
-          document.getElementById('r-algonevarsta-74').style.color = 'blue'
-          document.getElementById('r-algonevarsta-74').innerHTML = 'Correct!'
+          document.getElementById('r-algonevarsta-71').style.color = 'blue'
+          document.getElementById('r-algonevarsta-71').innerHTML = 'Correct!'
           
-          document.getElementById('b-algonevarsta-74').classList.add("correct")
-          document.getElementById('b-algonevarsta-71').classList.add("incorrect")
+          document.getElementById('b-algonevarsta-71').classList.add("correct")
+          document.getElementById('b-algonevarsta-74').classList.add("incorrect")
           document.getElementById('b-algonevarsta-72').classList.add("incorrect")
           document.getElementById('b-algonevarsta-73').classList.add("incorrect")
     
@@ -566,11 +564,11 @@
         if (document.getElementById('o-algonevarsta-73').checked) {
           document.getElementById('r-algonevarsta-73').style.color = 'red'
           document.getElementById('r-algonevarsta-73').innerHTML = 'Incorrect!'
-          document.getElementById('r-algonevarsta-74').style.color = 'blue'
-          document.getElementById('r-algonevarsta-74').innerHTML = 'Correct!'
+          document.getElementById('r-algonevarsta-71').style.color = 'blue'
+          document.getElementById('r-algonevarsta-71').innerHTML = 'Correct!'
           
-          document.getElementById('b-algonevarsta-74').classList.add("correct")
-          document.getElementById('b-algonevarsta-71').classList.add("incorrect")
+          document.getElementById('b-algonevarsta-71').classList.add("correct")
+          document.getElementById('b-algonevarsta-74').classList.add("incorrect")
           document.getElementById('b-algonevarsta-72').classList.add("incorrect")
           document.getElementById('b-algonevarsta-73').classList.add("incorrect")
     
@@ -583,11 +581,13 @@
           localStorage.setItem('algonevarsta7', 0)
         }
         if (document.getElementById('o-algonevarsta-74').checked) {
-          document.getElementById('r-algonevarsta-74').style.color = 'blue'
-          document.getElementById('r-algonevarsta-74').innerHTML = 'Correct!'
+          document.getElementById('r-algonevarsta-74').style.color = 'red'
+          document.getElementById('r-algonevarsta-74').innerHTML = 'Incorrect!'
+          document.getElementById('r-algonevarsta-71').style.color = 'blue'
+          document.getElementById('r-algonevarsta-71').innerHTML = 'Correct!'
           
-          document.getElementById('b-algonevarsta-74').classList.add("correct")
-          document.getElementById('b-algonevarsta-71').classList.add("incorrect")
+          document.getElementById('b-algonevarsta-71').classList.add("correct")
+          document.getElementById('b-algonevarsta-74').classList.add("incorrect")
           document.getElementById('b-algonevarsta-72').classList.add("incorrect")
           document.getElementById('b-algonevarsta-73').classList.add("incorrect")
     
@@ -597,7 +597,7 @@
           document.getElementById('o-algonevarsta-73').disabled = true;
           document.getElementById('o-algonevarsta-74').disabled = true;
           showExplanation7()
-          localStorage.setItem('algonevarsta7', 1)
+          localStorage.setItem('algonevarsta7', 0)
         }
       }
     }
