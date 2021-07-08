@@ -15,7 +15,7 @@ p {
 
 body {
 	width: auto;
-	margin: 3em 10em ;
+	margin: 3em  ;
 	background-color: #ffffff;
 	padding: .75em;
 	border: 10px solid rgb(226, 224, 224);
@@ -51,16 +51,16 @@ vertical-align: 10px;
 
 .nav {
 
-  padding: 1em;
+  
   margin: .3em;
-  font-size: 1.3em;
+  font-size: 1em;
   border-radius: .1em;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #4d9471;
   text-shadow: .02em .02em .02em black;
-  width: 4.77em;
-  height: 4em;
+  width: 2em;
+  height: 2em;
 }
 
 button.clear {
