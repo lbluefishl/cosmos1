@@ -289,13 +289,13 @@
         if (document.getElementById('o-geolinang-41').checked) {
           document.getElementById('r-geolinang-41').style.color = 'red'
           document.getElementById('r-geolinang-41').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-44').style.color = 'blue'
-          document.getElementById('r-geolinang-44').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-43').style.color = 'blue'
+          document.getElementById('r-geolinang-43').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-44').classList.add("correct")
+          document.getElementById('b-geolinang-43').classList.add("correct")
           document.getElementById('b-geolinang-41').classList.add("incorrect")
           document.getElementById('b-geolinang-42').classList.add("incorrect")
-          document.getElementById('b-geolinang-43').classList.add("incorrect")
+          document.getElementById('b-geolinang-44').classList.add("incorrect")
     
           document.getElementById('sa-geolinang-4').disabled = true;
           document.getElementById('o-geolinang-41').disabled = true;
@@ -308,13 +308,13 @@
         if (document.getElementById('o-geolinang-42').checked) {
           document.getElementById('r-geolinang-42').style.color = 'red'
           document.getElementById('r-geolinang-42').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-44').style.color = 'blue'
-          document.getElementById('r-geolinang-44').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-43').style.color = 'blue'
+          document.getElementById('r-geolinang-43').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-44').classList.add("correct")
+          document.getElementById('b-geolinang-43').classList.add("correct")
           document.getElementById('b-geolinang-41').classList.add("incorrect")
           document.getElementById('b-geolinang-42').classList.add("incorrect")
-          document.getElementById('b-geolinang-43').classList.add("incorrect")
+          document.getElementById('b-geolinang-44').classList.add("incorrect")
     
           document.getElementById('sa-geolinang-4').disabled = true;
           document.getElementById('o-geolinang-41').disabled = true;
@@ -325,32 +325,13 @@
           localStorage.setItem('geolinang4', 0)
         }
         if (document.getElementById('o-geolinang-43').checked) {
-          document.getElementById('r-geolinang-43').style.color = 'red'
-          document.getElementById('r-geolinang-43').innerHTML = 'Incorrect!'
-          document.getElementById('r-geolinang-44').style.color = 'blue'
-          document.getElementById('r-geolinang-44').innerHTML = 'Correct!'
+          document.getElementById('r-geolinang-43').style.color = 'blue'
+          document.getElementById('r-geolinang-43').innerHTML = 'Correct!'
           
-          document.getElementById('b-geolinang-44').classList.add("correct")
+          document.getElementById('b-geolinang-43').classList.add("correct")
           document.getElementById('b-geolinang-41').classList.add("incorrect")
           document.getElementById('b-geolinang-42').classList.add("incorrect")
-          document.getElementById('b-geolinang-43').classList.add("incorrect")
-    
-          document.getElementById('sa-geolinang-4').disabled = true;
-          document.getElementById('o-geolinang-41').disabled = true;
-          document.getElementById('o-geolinang-42').disabled = true;
-          document.getElementById('o-geolinang-43').disabled = true;
-          document.getElementById('o-geolinang-44').disabled = true;
-          showExplanation4()
-          localStorage.setItem('geolinang4', 0)
-        }
-        if (document.getElementById('o-geolinang-44').checked) {
-          document.getElementById('r-geolinang-44').style.color = 'blue'
-          document.getElementById('r-geolinang-44').innerHTML = 'Correct!'
-          
-          document.getElementById('b-geolinang-44').classList.add("correct")
-          document.getElementById('b-geolinang-41').classList.add("incorrect")
-          document.getElementById('b-geolinang-42').classList.add("incorrect")
-          document.getElementById('b-geolinang-43').classList.add("incorrect")
+          document.getElementById('b-geolinang-44').classList.add("incorrect")
     
           document.getElementById('sa-geolinang-4').disabled = true;
           document.getElementById('o-geolinang-41').disabled = true;
@@ -359,6 +340,25 @@
           document.getElementById('o-geolinang-44').disabled = true;
           showExplanation4()
           localStorage.setItem('geolinang4', 1)
+        }
+        if (document.getElementById('o-geolinang-44').checked) {
+          document.getElementById('r-geolinang-44').style.color = 'red'
+          document.getElementById('r-geolinang-44').innerHTML = 'Incorrect!'
+          document.getElementById('r-geolinang-43').style.color = 'blue'
+          document.getElementById('r-geolinang-43').innerHTML = 'Correct!'
+          
+          document.getElementById('b-geolinang-43').classList.add("correct")
+          document.getElementById('b-geolinang-41').classList.add("incorrect")
+          document.getElementById('b-geolinang-42').classList.add("incorrect")
+          document.getElementById('b-geolinang-44').classList.add("incorrect")
+    
+          document.getElementById('sa-geolinang-4').disabled = true;
+          document.getElementById('o-geolinang-41').disabled = true;
+          document.getElementById('o-geolinang-42').disabled = true;
+          document.getElementById('o-geolinang-43').disabled = true;
+          document.getElementById('o-geolinang-44').disabled = true;
+          showExplanation4()
+          localStorage.setItem('geolinang4', 0)
         }
       }
     }

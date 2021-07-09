@@ -20,8 +20,10 @@
 <body>
 
 <h1 class="question"> 
+$$ 27 + 13k = 446 $$
 
-
+<p>The California condor is the largest North American land bird. In 1987, it was declared extinct in the wild and only 27 birds remained in captivity. The population \(k\) years after 1987 was 446, and \(k\) satisfies the equation above.
+  Which of the following is the best interpretation of the number 13 in this context? </p>
 
  </h1>
 
@@ -33,7 +35,7 @@
   <div class="box" id='b-algmode-51'>
     <label for= 'o-algmode-51'>
       <input type='radio' name='option'  id='o-algmode-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-
+The population \(k\) years after 1987.
     </label>
     <span id='r-algmode-51'></span>
   </div>
@@ -41,7 +43,7 @@
   <div class="box" id='b-algmode-52'>
     <label for= 'o-algmode-52'>
       <input type='radio' name='option'  id='o-algmode-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-
+The value of \(k\) when the population was 446.
     </label>
     <span id='r-algmode-52'></span>
   </div>
@@ -49,7 +51,7 @@
   <div class="box" id='b-algmode-53'>
     <label for= 'o-algmode-53'>
       <input type='radio' name='option' id='o-algmode-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-
+The difference between the population in 1962 and the population \(k\) years after 1962.
     </label>
     <span id='r-algmode-53'></span>
   </div>
@@ -58,7 +60,7 @@
     <label for= 'o-algmode-54'>
       <input type='radio' name='option' id='o-algmode-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
 
-
+The average increase in the population per year from 1987 to \(k\) years after 1987.
     </label>
     <span id='r-algmode-54'></span>
   </div>
@@ -86,11 +88,35 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+Compare our equation to the standard linear model:
 </p>
+<div style="columns: 2;">
+<Center>Condor population</Center>
+$$ 446=13k+27 $$
+$$ \text{slope}=\frac{\text{population}}{\text{year}} $$
 
 
 
+  <Center>Slope-intercept form</Center>
+  $$ y=mx+b $$
+$$ \text{slope}=\frac{y}{x} $$
+
+
+</div>
+<p>Only the last answer choice refers to a change in population over time.</p>
+
+
+
+<h2>Approach 2</h2>
+<p>We can use dimensional analysis:</p>
+
+$$ 446 \text{ birds}=(13 \text{ years})(k \text{ units})+27 \text{ birds} $$
+$$ \colorbox{aqua}{\text{birds}}= (\colorbox{yellow}{\text{ years}})(\text {units}) + \colorbox{aqua}{\text{ birds}}              $$
+<p>In order for this equation to make sense, we need a unit to convert <strong>years</strong> into <Strong>birds</Strong>.</p>
+$$ \colorbox{aqua}{\text{birds}}= (\colorbox{yellow}{\text{ years}})\left(\frac{\colorbox{aqua}{\text{birds}}}{\colorbox{yellow}{\text{years}}}\right) + \colorbox{aqua}{\text{ birds}}              $$
+$$ \text{birds}=  (\cancel{\text{years}})\left(       \frac{\text{birds}}{\cancel{\text{years}}} \right) + \text{birds} $$
+$$ \text{birds} =  \text{birds}+  \text{birds} &nbsp \checkmark $$
+<p>Therefore, the units for \(k\) must be <strong>birds per year</strong>. Only the last answer choice reflects this.</p>
 </div>
 </body>
 

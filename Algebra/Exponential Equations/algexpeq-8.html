@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Exponential Growth and Decay Problem 8</title>    
+ 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
+  $$ P=34(1.001)^{\frac{t}{4}} $$
 <p>
-
+The equation above can be used to model the population, in thousands, of a certain city \(t\) years after 2020. According to the model, the population is prediced to increase 0.1% every \(n\) months. What is the value of \(n\)?
 </p>
-!-->
+
 
  </h1>
 
@@ -35,7 +37,7 @@
   <div class="box" id='b-algexpeq-81'>
     <label for= 'o-algexpeq-81'>
       <input type='radio' name='option'  id='o-algexpeq-81' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(3\)
     </label>
     <span id='r-algexpeq-81'></span>
   </div>
@@ -43,7 +45,7 @@
   <div class="box" id='b-algexpeq-82'>
     <label for= 'o-algexpeq-82'>
       <input type='radio' name='option'  id='o-algexpeq-82' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(4\)
     </label>
     <span id='r-algexpeq-82'></span>
   </div>
@@ -51,7 +53,7 @@
   <div class="box" id='b-algexpeq-83'>
     <label for= 'o-algexpeq-83'>
       <input type='radio' name='option' id='o-algexpeq-83' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(12\)
     </label>
     <span id='r-algexpeq-83'></span>
   </div>
@@ -59,7 +61,7 @@
   <div class="box" id='b-algexpeq-84'>
     <label for= 'o-algexpeq-84'>
       <input type='radio' name='option' id='o-algexpeq-84' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \(48\)
     </label>
     <span id='r-algexpeq-84'></span>
   </div>
@@ -77,13 +79,30 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach 1</h2>
 
 <p>
-<!--             -->
+Through inspection, we know that when \(t=4\), the population will increase by 0.1%.
 </p>
+$$ P=34(1.001)^{\frac{t}{4}} $$
+$$ P=34(1.001)^{\frac{4}{4}} $$
+$$ P=34(1.001)^1 $$
+$$ =\underbrace{34}_\text{initial population} \cdot \underbrace{(1.001)}_\text{0.1\% increase} $$
 
 
+<p>There are \(\boxed{48} \) months in 4 years. </p>
+
+<h2>Approach 2</h2>
+<p>Inspect the units of the exponent.</p>
+$$ P=34(1.001)^{\frac{t}{4}} $$
+$$ \frac{t \text{ years}}{4 \text{ years}} $$
+<p>If instead we want a model which uses \(n\) months rather than \(t\) years, </p>
+$$ \frac{n \text{ months}}{4 \text{ years}} $$
+<p>The units do no cancel out, unless we convert the denominator:</p>
+$$ \frac{n \text{ months}}{4 \cancel{\text{ years}}} \cdot \frac{1 \cancel{\text{ year}}}{12 \text{ months}} $$
+$$ = \frac{n \text{ months}}{ 48 \text{ months}} $$
+$$ P=34(1.001)^{\frac{n}{48}} $$
+<p>Inspecting this equation, we know that when \(n=\boxed{48}\), the initial population will increase by \(0.1\%\).</p>
 
 </div>
 

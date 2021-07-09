@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+ <title>Interpreting Data Problem 9</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,12 +20,22 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+The number of people who went to a certain store each day of the week is shown in the table below.
 </p>
-!-->
-
+$$ \begin{array}{|l|c|} \hline
+\hspace{2em} \text{Day} & \text{Number of customers} \\ \hline
+\text{ Monday} & 113 \\ \hline
+\text{ Tuesday} & 93 \\ \hline
+\text{ Wednesday} & 85 \\ \hline
+\text{ Thursday} & 90 \\ \hline
+\text{ Friday} & 67 \\ \hline
+\text{ Saturday} & 132 \\ \hline
+\text{ Sunday} & 55 \\ \hline
+\end{array}
+$$
+<p>Which of the following is true based on these data?</p>
  </h1>
 
  
@@ -36,7 +46,7 @@
   <div class="box" id='b-algintdat-91'>
     <label for= 'o-algintdat-91'>
       <input type='radio' name='option'  id='o-algintdat-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       The store had the most customers on Monday.
     </label>
     <span id='r-algintdat-91'></span>
   </div>
@@ -44,7 +54,7 @@
   <div class="box" id='b-algintdat-92'>
     <label for= 'o-algintdat-92'>
       <input type='radio' name='option'  id='o-algintdat-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      Each day from Monday through Friday, the number of customers in the store was lower than the previous day.
     </label>
     <span id='r-algintdat-92'></span>
   </div>
@@ -52,7 +62,7 @@
   <div class="box" id='b-algintdat-93'>
     <label for= 'o-algintdat-93'>
       <input type='radio' name='option' id='o-algintdat-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      The two days with the lowest number of customers were Friday and Sunday.
     </label>
     <span id='r-algintdat-93'></span>
   </div>
@@ -60,7 +70,7 @@
   <div class="box" id='b-algintdat-94'>
     <label for= 'o-algintdat-94'>
       <input type='radio' name='option' id='o-algintdat-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     The number of customers in the store on Wednesday and Thursday combined is more than the number of customers in the store on Friday and Saturday combined. 
     </label>
     <span id='r-algintdat-94'></span>
   </div>
@@ -78,13 +88,16 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+Rather than risking a careless mistake, we should confirm that three choices are incorrect.
 </p>
+<p>The store had most of its customers on Saturday.</p>
 
+<p>From Monday to Friday, the number of customers increased from Wednesday to Thursday.</p>
 
+<p>The number of customers on Wednesday and Thursday combined is \(85+90=175\). The number of customers on Friday and Saturday combined is \(67+132=199\).</p>
 </div>
 
 

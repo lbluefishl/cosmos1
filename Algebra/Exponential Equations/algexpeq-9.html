@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Exponential Growth and Decay Problem 9</title>    
+ 
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+A certain colony of bacteria began with one cell, and the population tripled every 40 minutes. What was the population of the colony after 2 <u>hours</u>?
 </p>
-!-->
+
 
  </h1>
 
@@ -35,7 +36,7 @@
   <div class="box" id='b-algexpeq-91'>
     <label for= 'o-algexpeq-91'>
       <input type='radio' name='option'  id='o-algexpeq-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(3\)
     </label>
     <span id='r-algexpeq-91'></span>
   </div>
@@ -43,7 +44,7 @@
   <div class="box" id='b-algexpeq-92'>
     <label for= 'o-algexpeq-92'>
       <input type='radio' name='option'  id='o-algexpeq-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(9\)
     </label>
     <span id='r-algexpeq-92'></span>
   </div>
@@ -51,7 +52,7 @@
   <div class="box" id='b-algexpeq-93'>
     <label for= 'o-algexpeq-93'>
       <input type='radio' name='option' id='o-algexpeq-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(27\)
     </label>
     <span id='r-algexpeq-93'></span>
   </div>
@@ -59,7 +60,7 @@
   <div class="box" id='b-algexpeq-94'>
     <label for= 'o-algexpeq-94'>
       <input type='radio' name='option' id='o-algexpeq-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \(81\)
     </label>
     <span id='r-algexpeq-94'></span>
   </div>
@@ -80,10 +81,27 @@
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We can approach this problem without setting up an exponential equation. Here's a simple table, which we make with mental math.
 </p>
+$$ \begin{array} {|c|c|} \hline
+\text{ population} & \text{time (minutes)} \\ \hline
+1 & 0 \\ \hline
+3 & 40 \\ \hline
+9 & 80 \\ \hline
+27 & 120 \\ \hline
+\end{array}
+$$ 
+<p>At 120 minutes (2 hours), the population is \(\boxed{27}\).</p>
 
-
+<h2>Approach 2</h2>
+<p>We can create a simple exponential equation:</p>
+$$ P = 1\cdot 3^t $$
+<p>Since we want for the population to triple every 40 minutes,</p>
+$$ P=1\cdot 3^{\frac{t}{40}} $$
+<p>There are 120 minutes in 2 hours:</p>
+$$ P = 1\cdot 3^{\frac{120}{40}} $$
+$$ P=3^{3} $$
+$$ P=\boxed{27} $$
 </div>
 
 

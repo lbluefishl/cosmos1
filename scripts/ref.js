@@ -1,4 +1,65 @@
 
+/* progress bar
+
+
+
+
+
+
+
+ if (subjectprogress == 0) {
+    subjectprogress = 1;
+    var subjectbar = document.getElementById("subjectprogress");
+    var subjectwidth = 1;
+    var subjectid = setInterval(subjectframe, 10);
+    function subjectframe() {
+      if (subjectwidth >= subjectprogressmax) {
+        clearInterval(subjectid);
+        subjectprogress = 0;
+      } else {
+        subjectwidth++;
+        subjectbar.style.width = subjectwidth + "%";
+      }
+    }
+  }
+
+
+let subjectprogressmax = (parseInt(localStorage.getItem('subject1')||0) + parseInt(localStorage.getItem('subject2')||0) +parseInt(localStorage.getItem('subject3')||0) +parseInt(localStorage.getItem('subject4')||0) +parseInt(localStorage.getItem('subject5')||0) +parseInt(localStorage.getItem('subject6')||0) +parseInt(localStorage.getItem('subject7')||0) +parseInt(localStorage.getItem('subject8')||0) +parseInt(localStorage.getItem('subject9')||0) +parseInt(localStorage.getItem('subject10')||0))*10
+
+
+
+
+var subjectprogress = 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*        phase diagram
  <embed width="680" height="680" src="../../d.svg" 

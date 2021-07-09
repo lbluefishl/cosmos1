@@ -290,12 +290,12 @@
         if (document.getElementById('o-algtri-41').checked) {
           document.getElementById('r-algtri-41').style.color = 'red'
           document.getElementById('r-algtri-41').innerHTML = 'Incorrect!'
-          document.getElementById('r-algtri-44').style.color = 'blue'
-          document.getElementById('r-algtri-44').innerHTML = 'Correct!'
+          document.getElementById('r-algtri-42').style.color = 'blue'
+          document.getElementById('r-algtri-42').innerHTML = 'Correct!'
           
-          document.getElementById('b-algtri-44').classList.add("correct")
+          document.getElementById('b-algtri-42').classList.add("correct")
           document.getElementById('b-algtri-41').classList.add("incorrect")
-          document.getElementById('b-algtri-42').classList.add("incorrect")
+          document.getElementById('b-algtri-44').classList.add("incorrect")
           document.getElementById('b-algtri-43').classList.add("incorrect")
     
           document.getElementById('sa-algtri-4').disabled = true;
@@ -307,14 +307,12 @@
           localStorage.setItem('algtri4', 0)
         }
         if (document.getElementById('o-algtri-42').checked) {
-          document.getElementById('r-algtri-42').style.color = 'red'
-          document.getElementById('r-algtri-42').innerHTML = 'Incorrect!'
-          document.getElementById('r-algtri-44').style.color = 'blue'
-          document.getElementById('r-algtri-44').innerHTML = 'Correct!'
+          document.getElementById('r-algtri-42').style.color = 'blue'
+          document.getElementById('r-algtri-42').innerHTML = 'Correct!'
           
-          document.getElementById('b-algtri-44').classList.add("correct")
+          document.getElementById('b-algtri-42').classList.add("correct")
           document.getElementById('b-algtri-41').classList.add("incorrect")
-          document.getElementById('b-algtri-42').classList.add("incorrect")
+          document.getElementById('b-algtri-44').classList.add("incorrect")
           document.getElementById('b-algtri-43').classList.add("incorrect")
     
           document.getElementById('sa-algtri-4').disabled = true;
@@ -323,17 +321,17 @@
           document.getElementById('o-algtri-43').disabled = true;
           document.getElementById('o-algtri-44').disabled = true;
           showExplanation4()
-          localStorage.setItem('algtri4', 0)
+          localStorage.setItem('algtri4', 1)
         }
         if (document.getElementById('o-algtri-43').checked) {
           document.getElementById('r-algtri-43').style.color = 'red'
           document.getElementById('r-algtri-43').innerHTML = 'Incorrect!'
-          document.getElementById('r-algtri-44').style.color = 'blue'
-          document.getElementById('r-algtri-44').innerHTML = 'Correct!'
+          document.getElementById('r-algtri-42').style.color = 'blue'
+          document.getElementById('r-algtri-42').innerHTML = 'Correct!'
           
-          document.getElementById('b-algtri-44').classList.add("correct")
+          document.getElementById('b-algtri-42').classList.add("correct")
           document.getElementById('b-algtri-41').classList.add("incorrect")
-          document.getElementById('b-algtri-42').classList.add("incorrect")
+          document.getElementById('b-algtri-44').classList.add("incorrect")
           document.getElementById('b-algtri-43').classList.add("incorrect")
     
           document.getElementById('sa-algtri-4').disabled = true;
@@ -345,12 +343,14 @@
           localStorage.setItem('algtri4', 0)
         }
         if (document.getElementById('o-algtri-44').checked) {
-          document.getElementById('r-algtri-44').style.color = 'blue'
-          document.getElementById('r-algtri-44').innerHTML = 'Correct!'
+          document.getElementById('r-algtri-44').style.color = 'red'
+          document.getElementById('r-algtri-44').innerHTML = 'Incorrect!'
+          document.getElementById('r-algtri-42').style.color = 'blue'
+          document.getElementById('r-algtri-42').innerHTML = 'Correct!'
           
-          document.getElementById('b-algtri-44').classList.add("correct")
+          document.getElementById('b-algtri-42').classList.add("correct")
           document.getElementById('b-algtri-41').classList.add("incorrect")
-          document.getElementById('b-algtri-42').classList.add("incorrect")
+          document.getElementById('b-algtri-44').classList.add("incorrect")
           document.getElementById('b-algtri-43').classList.add("incorrect")
     
           document.getElementById('sa-algtri-4').disabled = true;
@@ -359,7 +359,7 @@
           document.getElementById('o-algtri-43').disabled = true;
           document.getElementById('o-algtri-44').disabled = true;
           showExplanation4()
-          localStorage.setItem('algtri4', 1)
+          localStorage.setItem('algtri4', 0)
         }
       }
     }

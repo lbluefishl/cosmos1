@@ -449,13 +449,13 @@
         if (document.getElementById('o-algineq-61').checked) {
           document.getElementById('r-algineq-61').style.color = 'red'
           document.getElementById('r-algineq-61').innerHTML = 'Incorrect!'
-          document.getElementById('r-algineq-64').style.color = 'blue'
-          document.getElementById('r-algineq-64').innerHTML = 'Correct!'
+          document.getElementById('r-algineq-63').style.color = 'blue'
+          document.getElementById('r-algineq-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algineq-64').classList.add("correct")
+          document.getElementById('b-algineq-63').classList.add("correct")
           document.getElementById('b-algineq-61').classList.add("incorrect")
           document.getElementById('b-algineq-62').classList.add("incorrect")
-          document.getElementById('b-algineq-63').classList.add("incorrect")
+          document.getElementById('b-algineq-64').classList.add("incorrect")
     
           document.getElementById('sa-algineq-6').disabled = true;
           document.getElementById('o-algineq-61').disabled = true;
@@ -468,13 +468,13 @@
         if (document.getElementById('o-algineq-62').checked) {
           document.getElementById('r-algineq-62').style.color = 'red'
           document.getElementById('r-algineq-62').innerHTML = 'Incorrect!'
-          document.getElementById('r-algineq-64').style.color = 'blue'
-          document.getElementById('r-algineq-64').innerHTML = 'Correct!'
+          document.getElementById('r-algineq-63').style.color = 'blue'
+          document.getElementById('r-algineq-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algineq-64').classList.add("correct")
+          document.getElementById('b-algineq-63').classList.add("correct")
           document.getElementById('b-algineq-61').classList.add("incorrect")
           document.getElementById('b-algineq-62').classList.add("incorrect")
-          document.getElementById('b-algineq-63').classList.add("incorrect")
+          document.getElementById('b-algineq-64').classList.add("incorrect")
     
           document.getElementById('sa-algineq-6').disabled = true;
           document.getElementById('o-algineq-61').disabled = true;
@@ -485,32 +485,13 @@
           localStorage.setItem('algineq6', 0)
         }
         if (document.getElementById('o-algineq-63').checked) {
-          document.getElementById('r-algineq-63').style.color = 'red'
-          document.getElementById('r-algineq-63').innerHTML = 'Incorrect!'
-          document.getElementById('r-algineq-64').style.color = 'blue'
-          document.getElementById('r-algineq-64').innerHTML = 'Correct!'
+          document.getElementById('r-algineq-63').style.color = 'blue'
+          document.getElementById('r-algineq-63').innerHTML = 'Correct!'
           
-          document.getElementById('b-algineq-64').classList.add("correct")
+          document.getElementById('b-algineq-63').classList.add("correct")
           document.getElementById('b-algineq-61').classList.add("incorrect")
           document.getElementById('b-algineq-62').classList.add("incorrect")
-          document.getElementById('b-algineq-63').classList.add("incorrect")
-    
-          document.getElementById('sa-algineq-6').disabled = true;
-          document.getElementById('o-algineq-61').disabled = true;
-          document.getElementById('o-algineq-62').disabled = true;
-          document.getElementById('o-algineq-63').disabled = true;
-          document.getElementById('o-algineq-64').disabled = true;
-          showExplanation6()
-          localStorage.setItem('algineq6', 0)
-        }
-        if (document.getElementById('o-algineq-64').checked) {
-          document.getElementById('r-algineq-64').style.color = 'blue'
-          document.getElementById('r-algineq-64').innerHTML = 'Correct!'
-          
-          document.getElementById('b-algineq-64').classList.add("correct")
-          document.getElementById('b-algineq-61').classList.add("incorrect")
-          document.getElementById('b-algineq-62').classList.add("incorrect")
-          document.getElementById('b-algineq-63').classList.add("incorrect")
+          document.getElementById('b-algineq-64').classList.add("incorrect")
     
           document.getElementById('sa-algineq-6').disabled = true;
           document.getElementById('o-algineq-61').disabled = true;
@@ -519,6 +500,25 @@
           document.getElementById('o-algineq-64').disabled = true;
           showExplanation6()
           localStorage.setItem('algineq6', 1)
+        }
+        if (document.getElementById('o-algineq-64').checked) {
+          document.getElementById('r-algineq-64').style.color = 'red'
+          document.getElementById('r-algineq-64').innerHTML = 'Incorrect!'
+          document.getElementById('r-algineq-63').style.color = 'blue'
+          document.getElementById('r-algineq-63').innerHTML = 'Correct!'
+          
+          document.getElementById('b-algineq-63').classList.add("correct")
+          document.getElementById('b-algineq-61').classList.add("incorrect")
+          document.getElementById('b-algineq-62').classList.add("incorrect")
+          document.getElementById('b-algineq-64').classList.add("incorrect")
+    
+          document.getElementById('sa-algineq-6').disabled = true;
+          document.getElementById('o-algineq-61').disabled = true;
+          document.getElementById('o-algineq-62').disabled = true;
+          document.getElementById('o-algineq-63').disabled = true;
+          document.getElementById('o-algineq-64').disabled = true;
+          showExplanation6()
+          localStorage.setItem('algineq6', 0)
         }
       }
     }
