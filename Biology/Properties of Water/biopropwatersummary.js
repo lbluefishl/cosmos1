@@ -3,20 +3,20 @@
 
 
 if (localStorage.getItem('biopropwater1') == 1) {
-  document.getElementById('biopropwaterb1').style.background = '#7fff00';
+  document.getElementById('biopropwaterb1').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater1') == 0) {
-  document.getElementById('biopropwaterb1').style.background = 'red';
+  document.getElementById('biopropwaterb1').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb1').style.background = 'white';
   }
 
 if (localStorage.getItem('biopropwater2') == 1) {
-    document.getElementById('biopropwaterb2').style.background = '#7fff00';
+    document.getElementById('biopropwaterb2').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('biopropwater2') == 0) {
-    document.getElementById('biopropwaterb2').style.background = 'red';
+    document.getElementById('biopropwaterb2').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('biopropwaterb2').style.background = 'white';
@@ -24,10 +24,10 @@ if (localStorage.getItem('biopropwater2') == 1) {
   
 
 if (localStorage.getItem('biopropwater3') == 1) {
-  document.getElementById('biopropwaterb3').style.background = '#7fff00';
+  document.getElementById('biopropwaterb3').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater3') == 0) {
-  document.getElementById('biopropwaterb3').style.background = 'red';
+  document.getElementById('biopropwaterb3').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb3').style.background = 'white';
@@ -35,10 +35,10 @@ if (localStorage.getItem('biopropwater3') == 1) {
 
   
 if (localStorage.getItem('biopropwater4') == 1) {
-  document.getElementById('biopropwaterb4').style.background = '#7fff00';
+  document.getElementById('biopropwaterb4').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater4') == 0) {
-  document.getElementById('biopropwaterb4').style.background = 'red';
+  document.getElementById('biopropwaterb4').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb4').style.background = 'white';
@@ -46,10 +46,10 @@ if (localStorage.getItem('biopropwater4') == 1) {
 
 
   if (localStorage.getItem('biopropwater5') == 1) {
-    document.getElementById('biopropwaterb5').style.background = '#7fff00';
+    document.getElementById('biopropwaterb5').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('biopropwater5') == 0) {
-    document.getElementById('biopropwaterb5').style.background = 'red';
+    document.getElementById('biopropwaterb5').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('biopropwaterb5').style.background = 'white';
@@ -57,10 +57,10 @@ if (localStorage.getItem('biopropwater4') == 1) {
 
 
 if (localStorage.getItem('biopropwater6') == 1) {
-  document.getElementById('biopropwaterb6').style.background = '#7fff00';
+  document.getElementById('biopropwaterb6').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater6') == 0) {
-  document.getElementById('biopropwaterb6').style.background = 'red';
+  document.getElementById('biopropwaterb6').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb6').style.background = 'white';
@@ -68,10 +68,10 @@ if (localStorage.getItem('biopropwater6') == 1) {
 
 
 if (localStorage.getItem('biopropwater7') == 1) {
-  document.getElementById('biopropwaterb7').style.background = '#7fff00';
+  document.getElementById('biopropwaterb7').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater7') == 0) {
-  document.getElementById('biopropwaterb7').style.background = 'red';
+  document.getElementById('biopropwaterb7').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb7').style.background = 'white';
@@ -79,10 +79,10 @@ if (localStorage.getItem('biopropwater7') == 1) {
 
   
 if (localStorage.getItem('biopropwater8') == 1) {
-  document.getElementById('biopropwaterb8').style.background = '#7fff00';
+  document.getElementById('biopropwaterb8').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater8') == 0) {
-  document.getElementById('biopropwaterb8').style.background = 'red';
+  document.getElementById('biopropwaterb8').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb8').style.background = 'white';
@@ -90,10 +90,10 @@ if (localStorage.getItem('biopropwater8') == 1) {
 
   
 if (localStorage.getItem('biopropwater9') == 1) {
-  document.getElementById('biopropwaterb9').style.background = '#7fff00';
+  document.getElementById('biopropwaterb9').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater9') == 0) {
-  document.getElementById('biopropwaterb9').style.background = 'red';
+  document.getElementById('biopropwaterb9').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb9').style.background = 'white';
@@ -101,10 +101,10 @@ if (localStorage.getItem('biopropwater9') == 1) {
 
   
 if (localStorage.getItem('biopropwater10') == 1) {
-  document.getElementById('biopropwaterb10').style.background = '#7fff00';
+  document.getElementById('biopropwaterb10').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('biopropwater10') == 0) {
-  document.getElementById('biopropwaterb10').style.background = 'red';
+  document.getElementById('biopropwaterb10').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('biopropwaterb10').style.background = 'white';

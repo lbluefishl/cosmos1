@@ -10,9 +10,8 @@ h1 {
   font-size: 1.5em;
   text-align: center;
 margin: 0;
-color: #4d9471;
   text-shadow: .02em .02em .02em black;
-
+color:rgb(17, 148, 148);
 }
 
 p, li {
@@ -78,7 +77,7 @@ border-radius: 1em;
   height: 100%;
   left:0;
   top:0;
-  background: rgb(66, 199, 199);
+  background: rgb(181, 238, 238);
   
 }
 

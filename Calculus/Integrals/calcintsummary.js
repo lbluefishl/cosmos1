@@ -3,20 +3,20 @@
 
 
 if (localStorage.getItem('calcint1') == 1) {
-  document.getElementById('calcintb1').style.background = '#7fff00';
+  document.getElementById('calcintb1').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint1') == 0) {
-  document.getElementById('calcintb1').style.background = 'red';
+  document.getElementById('calcintb1').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb1').style.background = 'white';
   }
 
 if (localStorage.getItem('calcint2') == 1) {
-    document.getElementById('calcintb2').style.background = '#7fff00';
+    document.getElementById('calcintb2').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('calcint2') == 0) {
-    document.getElementById('calcintb2').style.background = 'red';
+    document.getElementById('calcintb2').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('calcintb2').style.background = 'white';
@@ -24,10 +24,10 @@ if (localStorage.getItem('calcint2') == 1) {
   
 
 if (localStorage.getItem('calcint3') == 1) {
-  document.getElementById('calcintb3').style.background = '#7fff00';
+  document.getElementById('calcintb3').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint3') == 0) {
-  document.getElementById('calcintb3').style.background = 'red';
+  document.getElementById('calcintb3').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb3').style.background = 'white';
@@ -35,10 +35,10 @@ if (localStorage.getItem('calcint3') == 1) {
 
   
 if (localStorage.getItem('calcint4') == 1) {
-  document.getElementById('calcintb4').style.background = '#7fff00';
+  document.getElementById('calcintb4').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint4') == 0) {
-  document.getElementById('calcintb4').style.background = 'red';
+  document.getElementById('calcintb4').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb4').style.background = 'white';
@@ -46,10 +46,10 @@ if (localStorage.getItem('calcint4') == 1) {
 
 
   if (localStorage.getItem('calcint5') == 1) {
-    document.getElementById('calcintb5').style.background = '#7fff00';
+    document.getElementById('calcintb5').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('calcint5') == 0) {
-    document.getElementById('calcintb5').style.background = 'red';
+    document.getElementById('calcintb5').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('calcintb5').style.background = 'white';
@@ -57,10 +57,10 @@ if (localStorage.getItem('calcint4') == 1) {
 
 
 if (localStorage.getItem('calcint6') == 1) {
-  document.getElementById('calcintb6').style.background = '#7fff00';
+  document.getElementById('calcintb6').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint6') == 0) {
-  document.getElementById('calcintb6').style.background = 'red';
+  document.getElementById('calcintb6').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb6').style.background = 'white';
@@ -68,10 +68,10 @@ if (localStorage.getItem('calcint6') == 1) {
 
 
 if (localStorage.getItem('calcint7') == 1) {
-  document.getElementById('calcintb7').style.background = '#7fff00';
+  document.getElementById('calcintb7').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint7') == 0) {
-  document.getElementById('calcintb7').style.background = 'red';
+  document.getElementById('calcintb7').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb7').style.background = 'white';
@@ -79,10 +79,10 @@ if (localStorage.getItem('calcint7') == 1) {
 
   
 if (localStorage.getItem('calcint8') == 1) {
-  document.getElementById('calcintb8').style.background = '#7fff00';
+  document.getElementById('calcintb8').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint8') == 0) {
-  document.getElementById('calcintb8').style.background = 'red';
+  document.getElementById('calcintb8').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb8').style.background = 'white';
@@ -90,10 +90,10 @@ if (localStorage.getItem('calcint8') == 1) {
 
   
 if (localStorage.getItem('calcint9') == 1) {
-  document.getElementById('calcintb9').style.background = '#7fff00';
+  document.getElementById('calcintb9').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint9') == 0) {
-  document.getElementById('calcintb9').style.background = 'red';
+  document.getElementById('calcintb9').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb9').style.background = 'white';
@@ -101,10 +101,10 @@ if (localStorage.getItem('calcint9') == 1) {
 
   
 if (localStorage.getItem('calcint10') == 1) {
-  document.getElementById('calcintb10').style.background = '#7fff00';
+  document.getElementById('calcintb10').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcint10') == 0) {
-  document.getElementById('calcintb10').style.background = 'red';
+  document.getElementById('calcintb10').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcintb10').style.background = 'white';

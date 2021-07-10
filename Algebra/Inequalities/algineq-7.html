@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Inequalities Problem 7</title>  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+A certain rhino weighs 150 pounds at birth and gains more than 1.2 but less than 2.6 pounds per day during its first year. Which of the following represents the possible weights \(w\), in pounds,
+for the rhino 365 days after its birth? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algineq-71'>
     <label for= 'o-algineq-71'>
       <input type='radio' name='option'  id='o-algineq-71' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( 180 \lt w \lt 390 \)
     </label>
     <span id='r-algineq-71'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algineq-72'>
     <label for= 'o-algineq-72'>
       <input type='radio' name='option'  id='o-algineq-72' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 515 \lt w \lt 880 \)
     </label>
     <span id='r-algineq-72'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algineq-73'>
     <label for= 'o-algineq-73'>
       <input type='radio' name='option' id='o-algineq-73' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 438 \lt w \lt 949 \)
     </label>
     <span id='r-algineq-73'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algineq-74'>
     <label for= 'o-algineq-74'>
       <input type='radio' name='option' id='o-algineq-74' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( 588 \lt w \lt 1{,}099 \)
     </label>
     <span id='r-algineq-74'></span>
   </div>
@@ -78,12 +79,20 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+A simple way to do this it to calculate the absolute minimum and maximum weight the rhino could obtain:
 </p>
-
+<div style="columns: 2;">
+<center>Least weight (1.2 pounds per day for 365 days)</center>
+$$ w=150+1.2(365) $$
+$$ w=588 $$
+<center>Greatest weight (2.6 pounds per day for 365 days)</center>
+$$ w=150+2.6(365) $$
+$$ w=1{,}099 $$
+</div>
+$$ \boxed{588 \lt w \lt 1{,}099} $$
 </div>
 
 

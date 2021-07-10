@@ -4,13 +4,14 @@
   let algexpsam3But = document.getElementById('sa-algexpsam-3');
   let algexpsam4But = document.getElementById('sa-algexpsam-4');
   let algexpsam5But = document.getElementById('sa-algexpsam-5');
+  /*
   let algexpsam6But = document.getElementById('sa-algexpsam-6');
   let algexpsam7But = document.getElementById('sa-algexpsam-7');
   let algexpsam8But = document.getElementById('sa-algexpsam-8');
   let algexpsam9But = document.getElementById('sa-algexpsam-9');
   let algexpsam10But = document.getElementById('sa-algexpsam-10');
 
-
+*/
   showExplanation1 = function() {
     document.getElementById('e-algexpsam-1').style.display = 'block';
      }
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algexpsam-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algexpsam-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algexpsam-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-algexpsam-1') != null) {
@@ -442,7 +444,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-algexpsam-6') != null) {
       algexpsam6But.onclick = function() {
@@ -840,4 +842,4 @@
         }
       }
     }
-    
+    */

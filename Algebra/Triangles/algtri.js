@@ -4,12 +4,13 @@
   let algtri3But = document.getElementById('sa-algtri-3');
   let algtri4But = document.getElementById('sa-algtri-4');
   let algtri5But = document.getElementById('sa-algtri-5');
+  /*
   let algtri6But = document.getElementById('sa-algtri-6');
   let algtri7But = document.getElementById('sa-algtri-7');
   let algtri8But = document.getElementById('sa-algtri-8');
   let algtri9But = document.getElementById('sa-algtri-9');
   let algtri10But = document.getElementById('sa-algtri-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algtri-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algtri-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algtri-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algtri-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-algtri-1') != null) {
@@ -443,7 +445,7 @@
       }
     }
         
-         
+         /*
       if (document.getElementById('sa-algtri-6') != null) {
       algtri6But.onclick = function() {
         if (document.getElementById('o-algtri-61').checked) {
@@ -840,4 +842,4 @@
         }
       }
     }
-    
+    */

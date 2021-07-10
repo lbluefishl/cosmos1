@@ -4,12 +4,13 @@
   let algpoly3But = document.getElementById('sa-algpoly-3');
   let algpoly4But = document.getElementById('sa-algpoly-4');
   let algpoly5But = document.getElementById('sa-algpoly-5');
+  /*
   let algpoly6But = document.getElementById('sa-algpoly-6');
   let algpoly7But = document.getElementById('sa-algpoly-7');
   let algpoly8But = document.getElementById('sa-algpoly-8');
   let algpoly9But = document.getElementById('sa-algpoly-9');
   let algpoly10But = document.getElementById('sa-algpoly-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algpoly-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algpoly-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algpoly-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algpoly-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-algpoly-1') != null) {
@@ -443,7 +445,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-algpoly-6') != null) {
       algpoly6But.onclick = function() {
@@ -841,4 +843,4 @@
         }
       }
     }
-    
+    */

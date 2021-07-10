@@ -4,12 +4,13 @@
   let geolinang3But = document.getElementById('sa-geolinang-3');
   let geolinang4But = document.getElementById('sa-geolinang-4');
   let geolinang5But = document.getElementById('sa-geolinang-5');
+  /*
   let geolinang6But = document.getElementById('sa-geolinang-6');
   let geolinang7But = document.getElementById('sa-geolinang-7');
   let geolinang8But = document.getElementById('sa-geolinang-8');
   let geolinang9But = document.getElementById('sa-geolinang-9');
   let geolinang10But = document.getElementById('sa-geolinang-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-geolinang-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-geolinang-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-geolinang-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-geolinang-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-geolinang-1') != null) {
@@ -441,7 +443,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-geolinang-6') != null) {
       geolinang6But.onclick = function() {
@@ -839,4 +841,4 @@
         }
       }
     }
-    
+    */

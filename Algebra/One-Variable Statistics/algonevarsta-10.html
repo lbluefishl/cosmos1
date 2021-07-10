@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>One-Variable Stats Problem 10</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+A fish nursery has four tanks for holding fish before they are sold. Twelve fish weighing less than 1 pound are placed in tank A. Twenty-five fish weighing at least 1 pound but no more than 2 pounds are placed in tank B.
+Nine fish weighting at least 2 pounds but no more than 3 pounds are placed in tank C. Seven fish weighing more than 3 pounds are placed in tank D. Which of the following could be the median of the weight, in pounds, of these 53 fish? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algonevarsta-101'>
     <label for= 'o-algonevarsta-101'>
       <input type='radio' name='option'  id='o-algonevarsta-101' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(0.3\)
     </label>
     <span id='r-algonevarsta-101'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algonevarsta-102'>
     <label for= 'o-algonevarsta-102'>
       <input type='radio' name='option'  id='o-algonevarsta-102' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(1.8\)
     </label>
     <span id='r-algonevarsta-102'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algonevarsta-103'>
     <label for= 'o-algonevarsta-103'>
       <input type='radio' name='option' id='o-algonevarsta-103' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(2.2\)
     </label>
     <span id='r-algonevarsta-103'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algonevarsta-104'>
     <label for= 'o-algonevarsta-104'>
       <input type='radio' name='option' id='o-algonevarsta-104' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(3.5\)
     </label>
     <span id='r-algonevarsta-104'></span>
   </div>
@@ -78,14 +79,20 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+We can organize the data into a simple table:
 </p>
-
-
-
+$$ \begin{array}{|c|c|} \hline
+\text{Weight} & \text{\# of fish} \\ \hline
+\lt 1 \text{ pound} & 12 \\ \hline 
+\gt 1 \text{ and }\lt 2 \text{ pound} & 25 \\ \hline 
+\gt 2 \text{ and }\lt 3 \text{ pound} & 9 \\ \hline 
+\gt 3 \text{ pound} & 7 \\ \hline 
+\end{array}
+$$
+<p>Since there are 53 fish in total, the median refers to the 27<sup>th</sup> fish. This fish must belong in the \( \gt 1 \text{ and } \lt 2 \text{ pound}\) category.</p>
 </div>
 
 

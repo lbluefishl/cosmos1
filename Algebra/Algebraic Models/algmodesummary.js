@@ -3,20 +3,20 @@
 
 
 if (localStorage.getItem('algmode1') == 1) {
-  document.getElementById('algmodeb1').style.background = '#7fff00';
+  document.getElementById('algmodeb1').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode1') == 0) {
-  document.getElementById('algmodeb1').style.background = 'red';
+  document.getElementById('algmodeb1').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb1').style.background = 'white';
   }
 
 if (localStorage.getItem('algmode2') == 1) {
-    document.getElementById('algmodeb2').style.background = '#7fff00';
+    document.getElementById('algmodeb2').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('algmode2') == 0) {
-    document.getElementById('algmodeb2').style.background = 'red';
+    document.getElementById('algmodeb2').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('algmodeb2').style.background = 'white';
@@ -24,10 +24,10 @@ if (localStorage.getItem('algmode2') == 1) {
   
 
 if (localStorage.getItem('algmode3') == 1) {
-  document.getElementById('algmodeb3').style.background = '#7fff00';
+  document.getElementById('algmodeb3').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode3') == 0) {
-  document.getElementById('algmodeb3').style.background = 'red';
+  document.getElementById('algmodeb3').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb3').style.background = 'white';
@@ -35,10 +35,10 @@ if (localStorage.getItem('algmode3') == 1) {
 
   
 if (localStorage.getItem('algmode4') == 1) {
-  document.getElementById('algmodeb4').style.background = '#7fff00';
+  document.getElementById('algmodeb4').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode4') == 0) {
-  document.getElementById('algmodeb4').style.background = 'red';
+  document.getElementById('algmodeb4').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb4').style.background = 'white';
@@ -46,10 +46,10 @@ if (localStorage.getItem('algmode4') == 1) {
 
 
   if (localStorage.getItem('algmode5') == 1) {
-    document.getElementById('algmodeb5').style.background = '#7fff00';
+    document.getElementById('algmodeb5').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('algmode5') == 0) {
-    document.getElementById('algmodeb5').style.background = 'red';
+    document.getElementById('algmodeb5').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('algmodeb5').style.background = 'white';
@@ -57,10 +57,10 @@ if (localStorage.getItem('algmode4') == 1) {
 
 
 if (localStorage.getItem('algmode6') == 1) {
-  document.getElementById('algmodeb6').style.background = '#7fff00';
+  document.getElementById('algmodeb6').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode6') == 0) {
-  document.getElementById('algmodeb6').style.background = 'red';
+  document.getElementById('algmodeb6').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb6').style.background = 'white';
@@ -68,10 +68,10 @@ if (localStorage.getItem('algmode6') == 1) {
 
 
 if (localStorage.getItem('algmode7') == 1) {
-  document.getElementById('algmodeb7').style.background = '#7fff00';
+  document.getElementById('algmodeb7').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode7') == 0) {
-  document.getElementById('algmodeb7').style.background = 'red';
+  document.getElementById('algmodeb7').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb7').style.background = 'white';
@@ -79,10 +79,10 @@ if (localStorage.getItem('algmode7') == 1) {
 
   
 if (localStorage.getItem('algmode8') == 1) {
-  document.getElementById('algmodeb8').style.background = '#7fff00';
+  document.getElementById('algmodeb8').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode8') == 0) {
-  document.getElementById('algmodeb8').style.background = 'red';
+  document.getElementById('algmodeb8').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb8').style.background = 'white';
@@ -90,10 +90,10 @@ if (localStorage.getItem('algmode8') == 1) {
 
   
 if (localStorage.getItem('algmode9') == 1) {
-  document.getElementById('algmodeb9').style.background = '#7fff00';
+  document.getElementById('algmodeb9').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode9') == 0) {
-  document.getElementById('algmodeb9').style.background = 'red';
+  document.getElementById('algmodeb9').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb9').style.background = 'white';
@@ -101,10 +101,10 @@ if (localStorage.getItem('algmode9') == 1) {
 
   
 if (localStorage.getItem('algmode10') == 1) {
-  document.getElementById('algmodeb10').style.background = '#7fff00';
+  document.getElementById('algmodeb10').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('algmode10') == 0) {
-  document.getElementById('algmodeb10').style.background = 'red';
+  document.getElementById('algmodeb10').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('algmodeb10').style.background = 'white';

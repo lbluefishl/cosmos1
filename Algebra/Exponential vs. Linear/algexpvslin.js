@@ -4,12 +4,13 @@
   let algexpvslin3But = document.getElementById('sa-algexpvslin-3');
   let algexpvslin4But = document.getElementById('sa-algexpvslin-4');
   let algexpvslin5But = document.getElementById('sa-algexpvslin-5');
+  /*
   let algexpvslin6But = document.getElementById('sa-algexpvslin-6');
   let algexpvslin7But = document.getElementById('sa-algexpvslin-7');
   let algexpvslin8But = document.getElementById('sa-algexpvslin-8');
   let algexpvslin9But = document.getElementById('sa-algexpvslin-9');
   let algexpvslin10But = document.getElementById('sa-algexpvslin-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algexpvslin-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algexpvslin-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algexpvslin-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algexpvslin-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-algexpvslin-1') != null) {
@@ -442,7 +444,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-algexpvslin-6') != null) {
       algexpvslin6But.onclick = function() {
@@ -840,4 +842,4 @@
         }
       }
     }
-    
+    */

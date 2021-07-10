@@ -4,12 +4,13 @@
   let trigbastrirat3But = document.getElementById('sa-trigbastrirat-3');
   let trigbastrirat4But = document.getElementById('sa-trigbastrirat-4');
   let trigbastrirat5But = document.getElementById('sa-trigbastrirat-5');
+  /*
   let trigbastrirat6But = document.getElementById('sa-trigbastrirat-6');
   let trigbastrirat7But = document.getElementById('sa-trigbastrirat-7');
   let trigbastrirat8But = document.getElementById('sa-trigbastrirat-8');
   let trigbastrirat9But = document.getElementById('sa-trigbastrirat-9');
   let trigbastrirat10But = document.getElementById('sa-trigbastrirat-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-trigbastrirat-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-trigbastrirat-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-trigbastrirat-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-trigbastrirat-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-trigbastrirat-1') != null) {
@@ -442,7 +444,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-trigbastrirat-6') != null) {
       trigbastrirat6But.onclick = function() {
@@ -840,4 +842,4 @@
         }
       }
     }
-    
+    */

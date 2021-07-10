@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Rates Problem 5</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,12 +20,23 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+
 <p>
-
+The velocity \(v\), in meters per second, of a falling object on Earth after \(t\) seconds, ignoring the effect of air resistance, is modeled by the equation \(v=9.8t\). There is a different
+linear relationship between time and velocity on Mercury, as shown in the table below. 
 </p>
-!-->
-
+$$ \begin{array}{|c|c|} \hline
+\text{Time} & \text{ Velocity on} \\ 
+\text{ (seconds)} & \text{Mercury (meters} \\ 
+& \text{ per second)} \\ \hline
+0 & 0 \\ \hline
+2 & 7.4 \\ \hline
+4 & 14.8 \\ \hline
+\end{array}
+$$
+<p>If an object dropped towards the surface of Earth has a velocity of 117.6 meters per second after \(t\) seconds, what would be the velocity of the same object dropped toward
+  the surface of Mercury after \(t\) seconds, ignoring the effect of air resistance?
+</p>
  </h1>
 
  
@@ -36,7 +47,7 @@
   <div class="box" id='b-algrate-51'>
     <label for= 'o-algrate-51'>
       <input type='radio' name='option'  id='o-algrate-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(15.9 \text{ meters per second}\)
     </label>
     <span id='r-algrate-51'></span>
   </div>
@@ -44,7 +55,7 @@
   <div class="box" id='b-algrate-52'>
     <label for= 'o-algrate-52'>
       <input type='radio' name='option'  id='o-algrate-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(22.2 \text{ meters per second}\)
     </label>
     <span id='r-algrate-52'></span>
   </div>
@@ -52,7 +63,7 @@
   <div class="box" id='b-algrate-53'>
     <label for= 'o-algrate-53'>
       <input type='radio' name='option' id='o-algrate-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(44.4 \text{ meters per second}\)
     </label>
     <span id='r-algrate-53'></span>
   </div>
@@ -60,7 +71,7 @@
   <div class="box" id='b-algrate-54'>
     <label for= 'o-algrate-54'>
       <input type='radio' name='option' id='o-algrate-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \(88.8 \text{ meters per second}\)
     </label>
     <span id='r-algrate-54'></span>
   </div>
@@ -78,12 +89,18 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+Let's start by finding the time \(t\) given the condition that \(v=117.6\) on Earth.
 </p>
-
+$$ \text{velocity on earth}=9.8t $$
+$$ 117.6=9.8t$$
+$$ t=12 $$
+<p>From the table, an object appears to achieve a velocity of 7.4 meters per second after 2 seconds. This is equivalent to 3.7 meters per second after 1 second.</p>
+$$ \text{velocity on mercury}=3.7t $$
+$$ v=3.7(12) $$
+$$ v=\boxed{44.4 \text{ meters per second}}$$
 
 
 </div>

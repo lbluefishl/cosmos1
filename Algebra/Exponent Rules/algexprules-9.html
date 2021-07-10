@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Exponent Rules Problem 9</title>    
+  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -19,11 +20,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
+ $$ 3^{3/n}(\sqrt[n]{2}) $$
 
+<p>
+If \(n\) is a positive integer, which of the following is equivalent to the expression above? 
 </p>
-!-->
+
 
  </h1>
 
@@ -35,7 +37,7 @@
   <div class="box" id='b-algexprules-91'>
     <label for= 'o-algexprules-91'>
       <input type='radio' name='option'  id='o-algexprules-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( 2^{\frac{1}{n}}\)
     </label>
     <span id='r-algexprules-91'></span>
   </div>
@@ -43,7 +45,7 @@
   <div class="box" id='b-algexprules-92'>
     <label for= 'o-algexprules-92'>
       <input type='radio' name='option'  id='o-algexprules-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( 24^{\frac{1}{n}}\)
     </label>
     <span id='r-algexprules-92'></span>
   </div>
@@ -51,7 +53,7 @@
   <div class="box" id='b-algexprules-93'>
     <label for= 'o-algexprules-93'>
       <input type='radio' name='option' id='o-algexprules-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \sqrt[n]{6}\)
     </label>
     <span id='r-algexprules-93'></span>
   </div>
@@ -59,7 +61,7 @@
   <div class="box" id='b-algexprules-94'>
     <label for= 'o-algexprules-94'>
       <input type='radio' name='option' id='o-algexprules-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     \( \sqrt[n]{54}\)
     </label>
     <span id='r-algexprules-94'></span>
   </div>
@@ -77,13 +79,19 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+When the degree of the root is the same, we can combine the terms inside. For example, \( \sqrt{2}\cdot\sqrt{3}=\sqrt{6} \) . In our expression, the degree of the root is \(n\) for both bases.
 </p>
+<p>We can confirm by rewriting as fractional exponents. The denominator of the exponent is equivalent to the degree of the root. </p>
+$$ 3^{3/n}(\sqrt[n]{2}) $$
+ $$ =3^{\frac{3}{n}}\cdot 2^{\frac{1}{n}} $$
+ <p>This is the expression in radical form:</p>
 
-
+ $$ \sqrt[n]{3^3} \cdot \sqrt[n]{2} $$
+ $$ = \sqrt[n]{3^3\cdot 2} $$
+ $$ =\boxed{\sqrt[n]{54}} $$
 </div>
 
 

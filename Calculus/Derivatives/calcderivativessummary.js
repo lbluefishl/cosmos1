@@ -3,20 +3,20 @@
 
 
 if (localStorage.getItem('calcderivatives1') == 1) {
-  document.getElementById('calcderivativesb1').style.background = '#7fff00';
+  document.getElementById('calcderivativesb1').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives1') == 0) {
-  document.getElementById('calcderivativesb1').style.background = 'red';
+  document.getElementById('calcderivativesb1').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb1').style.background = 'white';
   }
 
 if (localStorage.getItem('calcderivatives2') == 1) {
-    document.getElementById('calcderivativesb2').style.background = '#7fff00';
+    document.getElementById('calcderivativesb2').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('calcderivatives2') == 0) {
-    document.getElementById('calcderivativesb2').style.background = 'red';
+    document.getElementById('calcderivativesb2').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('calcderivativesb2').style.background = 'white';
@@ -24,10 +24,10 @@ if (localStorage.getItem('calcderivatives2') == 1) {
   
 
 if (localStorage.getItem('calcderivatives3') == 1) {
-  document.getElementById('calcderivativesb3').style.background = '#7fff00';
+  document.getElementById('calcderivativesb3').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives3') == 0) {
-  document.getElementById('calcderivativesb3').style.background = 'red';
+  document.getElementById('calcderivativesb3').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb3').style.background = 'white';
@@ -35,10 +35,10 @@ if (localStorage.getItem('calcderivatives3') == 1) {
 
   
 if (localStorage.getItem('calcderivatives4') == 1) {
-  document.getElementById('calcderivativesb4').style.background = '#7fff00';
+  document.getElementById('calcderivativesb4').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives4') == 0) {
-  document.getElementById('calcderivativesb4').style.background = 'red';
+  document.getElementById('calcderivativesb4').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb4').style.background = 'white';
@@ -46,10 +46,10 @@ if (localStorage.getItem('calcderivatives4') == 1) {
 
 
   if (localStorage.getItem('calcderivatives5') == 1) {
-    document.getElementById('calcderivativesb5').style.background = '#7fff00';
+    document.getElementById('calcderivativesb5').style.background = 'rgb(181, 238, 238)';
   }
     else if (localStorage.getItem('calcderivatives5') == 0) {
-    document.getElementById('calcderivativesb5').style.background = 'red';
+    document.getElementById('calcderivativesb5').style.background = 'rgb(255, 213, 128)';
     }
     else {
       document.getElementById('calcderivativesb5').style.background = 'white';
@@ -57,10 +57,10 @@ if (localStorage.getItem('calcderivatives4') == 1) {
 
 
 if (localStorage.getItem('calcderivatives6') == 1) {
-  document.getElementById('calcderivativesb6').style.background = '#7fff00';
+  document.getElementById('calcderivativesb6').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives6') == 0) {
-  document.getElementById('calcderivativesb6').style.background = 'red';
+  document.getElementById('calcderivativesb6').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb6').style.background = 'white';
@@ -68,10 +68,10 @@ if (localStorage.getItem('calcderivatives6') == 1) {
 
 
 if (localStorage.getItem('calcderivatives7') == 1) {
-  document.getElementById('calcderivativesb7').style.background = '#7fff00';
+  document.getElementById('calcderivativesb7').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives7') == 0) {
-  document.getElementById('calcderivativesb7').style.background = 'red';
+  document.getElementById('calcderivativesb7').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb7').style.background = 'white';
@@ -79,10 +79,10 @@ if (localStorage.getItem('calcderivatives7') == 1) {
 
   
 if (localStorage.getItem('calcderivatives8') == 1) {
-  document.getElementById('calcderivativesb8').style.background = '#7fff00';
+  document.getElementById('calcderivativesb8').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives8') == 0) {
-  document.getElementById('calcderivativesb8').style.background = 'red';
+  document.getElementById('calcderivativesb8').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb8').style.background = 'white';
@@ -90,10 +90,10 @@ if (localStorage.getItem('calcderivatives8') == 1) {
 
   
 if (localStorage.getItem('calcderivatives9') == 1) {
-  document.getElementById('calcderivativesb9').style.background = '#7fff00';
+  document.getElementById('calcderivativesb9').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives9') == 0) {
-  document.getElementById('calcderivativesb9').style.background = 'red';
+  document.getElementById('calcderivativesb9').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb9').style.background = 'white';
@@ -101,10 +101,10 @@ if (localStorage.getItem('calcderivatives9') == 1) {
 
   
 if (localStorage.getItem('calcderivatives10') == 1) {
-  document.getElementById('calcderivativesb10').style.background = '#7fff00';
+  document.getElementById('calcderivativesb10').style.background = 'rgb(181, 238, 238)';
 }
   else if (localStorage.getItem('calcderivatives10') == 0) {
-  document.getElementById('calcderivativesb10').style.background = 'red';
+  document.getElementById('calcderivativesb10').style.background = 'rgb(255, 213, 128)';
   }
   else {
     document.getElementById('calcderivativesb10').style.background = 'white';

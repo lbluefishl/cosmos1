@@ -4,12 +4,14 @@
   let algcomnum3But = document.getElementById('sa-algcomnum-3');
   let algcomnum4But = document.getElementById('sa-algcomnum-4');
   let algcomnum5But = document.getElementById('sa-algcomnum-5');
+
+  /*
   let algcomnum6But = document.getElementById('sa-algcomnum-6');
   let algcomnum7But = document.getElementById('sa-algcomnum-7');
   let algcomnum8But = document.getElementById('sa-algcomnum-8');
   let algcomnum9But = document.getElementById('sa-algcomnum-9');
   let algcomnum10But = document.getElementById('sa-algcomnum-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algcomnum-1').style.display = 'block';
@@ -26,6 +28,8 @@
   showExplanation5 = function() {
     document.getElementById('e-algcomnum-5').style.display = 'block';
      }
+
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algcomnum-6').style.display = 'block';
      }
@@ -42,7 +46,7 @@
     document.getElementById('e-algcomnum-10').style.display = 'block';
      } 
 
-
+*/
 
      if (document.getElementById('sa-algcomnum-1') != null) {
       algcomnum1But.onclick = function () {
@@ -443,7 +447,7 @@
       }
     }
         
-         
+         /*
       if (document.getElementById('sa-algcomnum-6') != null) {
       algcomnum6But.onclick = function() {
         if (document.getElementById('o-algcomnum-61').checked) {
@@ -840,4 +844,4 @@
         }
       }
     }
-    
+    */
