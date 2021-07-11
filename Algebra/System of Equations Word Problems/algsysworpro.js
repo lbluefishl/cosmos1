@@ -4,12 +4,13 @@
   let algsysworpro3But = document.getElementById('sa-algsysworpro-3');
   let algsysworpro4But = document.getElementById('sa-algsysworpro-4');
   let algsysworpro5But = document.getElementById('sa-algsysworpro-5');
+  /*
   let algsysworpro6But = document.getElementById('sa-algsysworpro-6');
   let algsysworpro7But = document.getElementById('sa-algsysworpro-7');
   let algsysworpro8But = document.getElementById('sa-algsysworpro-8');
   let algsysworpro9But = document.getElementById('sa-algsysworpro-9');
   let algsysworpro10But = document.getElementById('sa-algsysworpro-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algsysworpro-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algsysworpro-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algsysworpro-6').style.display = 'block';
      }
@@ -41,7 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algsysworpro-10').style.display = 'block';
      } 
-
+*/
 
 
      if (document.getElementById('sa-algsysworpro-1') != null) {
@@ -442,7 +444,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-algsysworpro-6') != null) {
       algsysworpro6But.onclick = function() {
@@ -840,4 +842,4 @@
         }
       }
     }
-    
+    */

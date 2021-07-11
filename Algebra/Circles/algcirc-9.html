@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Circles Problem 9</title>       
+
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +21,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+$$ x^2-20x+y^2-16y=-20 $$
 <p>
-
+The equation above defines a circle in the \(xy\)-plane. What is the radius of the circle?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +37,7 @@
   <div class="box" id='b-algcirc-91'>
     <label for= 'o-algcirc-91'>
       <input type='radio' name='option'  id='o-algcirc-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(6\)
     </label>
     <span id='r-algcirc-91'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algcirc-92'>
     <label for= 'o-algcirc-92'>
       <input type='radio' name='option'  id='o-algcirc-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(12\)
     </label>
     <span id='r-algcirc-92'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algcirc-93'>
     <label for= 'o-algcirc-93'>
       <input type='radio' name='option' id='o-algcirc-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(36\)
     </label>
     <span id='r-algcirc-93'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algcirc-94'>
     <label for= 'o-algcirc-94'>
       <input type='radio' name='option' id='o-algcirc-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+    \(144\)
     </label>
     <span id='r-algcirc-94'></span>
   </div>
@@ -75,16 +76,26 @@
 
 <div class='explanation' id='e-algcirc-9'>
 
+</div>
 
 
-
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We'll need to rewrite the equation into standard form:
 </p>
+$$ (x-h)^2+(y-k)^2=r^2 $$
+<p>In order to do this, we must complete the square as follows:</p>
+$$ x^2-20x+y^2-16y=-20 $$
 
+$$ x^2-20x+\colorbox{aqua}{$100$} +y^2-16y=-20+\colorbox{aqua}{$100$} $$
+$$ x^2-20x+100 +y^2-16y+\colorbox{yellow}{$64$}=-20+100+\colorbox{yellow}{$64$} $$
 
+$$ \underbrace{x^2-20x+100}_\text{perfect square trinomial} + \underbrace{y^2-16y+64}_\text{perfect square trinomials} = -20+100+64 $$  
+
+$$ (x-10)^2+(y-8)^2=144 $$
+$$ (x-10)^2+(y-8)^2=12^2$$
+$$ r=\boxed{12} $$
 </div>
 
 

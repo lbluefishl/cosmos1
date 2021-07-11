@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+   <title>Function Notation Problem 10</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,18 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ $$ \begin{array} {|c|c|c|} \hline
+ x & g(x) & h(x) \\ \hline
+ 1 & -3 & 5 \\ \hline
+ 2 & 5 & -2 \\ \hline
+ 3 & 0 & 3 \\ \hline
+ 4 & 2 & -2 \\ \hline
+\end{array} 
+$$
 <p>
-
+The table above shows some values of the functions \(g\) and \(h\). For which value of \(x\) is \(g(x)+h(x)=x\) ?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +43,7 @@
   <div class="box" id='b-algfunc-101'>
     <label for= 'o-algfunc-101'>
       <input type='radio' name='option'  id='o-algfunc-101' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+     \(1\)
     </label>
     <span id='r-algfunc-101'></span>
   </div>
@@ -44,15 +51,15 @@
   <div class="box" id='b-algfunc-102'>
     <label for= 'o-algfunc-102'>
       <input type='radio' name='option'  id='o-algfunc-102' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
-    </label>
+      \(2\)
+        </label>
     <span id='r-algfunc-102'></span>
   </div>
 
   <div class="box" id='b-algfunc-103'>
     <label for= 'o-algfunc-103'>
       <input type='radio' name='option' id='o-algfunc-103' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(3\)
     </label>
     <span id='r-algfunc-103'></span>
   </div>
@@ -60,7 +67,7 @@
   <div class="box" id='b-algfunc-104'>
     <label for= 'o-algfunc-104'>
       <input type='radio' name='option' id='o-algfunc-104' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(4\)
     </label>
     <span id='r-algfunc-104'></span>
   </div>
@@ -78,14 +85,23 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+For only the last row is \(g(x)-h(x)=x\).
 </p>
-
-
-
+$$ \begin{array} {|c|c|c|} \hline
+x & g(x) & h(x) \\ \hline
+1 & -3 & 5 \\ \hline
+2 & 5 & -2 \\ \hline
+3 & 0 & 3 \\ \hline
+\colorbox{aqua}{$4$} & \colorbox{yellow}{$2$} & \colorbox{chartreuse}{$-2$} \\ \hline
+\end{array} 
+$$
+$$ \colorbox{yellow}{$g(x)$}-\colorbox{chartreuse}{$h(x)$}=\colorbox{aqua}{$x$} $$
+$$ 2-(-2)=4 $$
+$$ 4=4 &nbsp \checkmark $$
+<p>For this row, \(x=\boxed{4}\).</p>
 </div>
 
 

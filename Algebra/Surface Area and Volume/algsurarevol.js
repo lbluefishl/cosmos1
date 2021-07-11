@@ -3,13 +3,13 @@
   let algsurarevol2But = document.getElementById('sa-algsurarevol-2');
   let algsurarevol3But = document.getElementById('sa-algsurarevol-3');
   let algsurarevol4But = document.getElementById('sa-algsurarevol-4');
-  let algsurarevol5But = document.getElementById('sa-algsurarevol-5');
+  let algsurarevol5But = document.getElementById('sa-algsurarevol-5'); /*
   let algsurarevol6But = document.getElementById('sa-algsurarevol-6');
   let algsurarevol7But = document.getElementById('sa-algsurarevol-7');
   let algsurarevol8But = document.getElementById('sa-algsurarevol-8');
   let algsurarevol9But = document.getElementById('sa-algsurarevol-9');
   let algsurarevol10But = document.getElementById('sa-algsurarevol-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algsurarevol-1').style.display = 'block';
@@ -26,6 +26,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algsurarevol-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algsurarevol-6').style.display = 'block';
      }
@@ -40,7 +41,7 @@
      }
   showExplanation10 = function() {
     document.getElementById('e-algsurarevol-10').style.display = 'block';
-     } 
+     } */
 
 
 
@@ -441,7 +442,7 @@
         }
       }
     }
-        
+        /*
          
       if (document.getElementById('sa-algsurarevol-6') != null) {
       algsurarevol6But.onclick = function() {
@@ -839,4 +840,4 @@
         }
       }
     }
-    
+    */

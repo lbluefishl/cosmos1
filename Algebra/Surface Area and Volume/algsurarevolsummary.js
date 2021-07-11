@@ -55,7 +55,7 @@ if (localStorage.getItem('algsurarevol4') == 1) {
       document.getElementById('algsurarevolb5').style.background = 'white';
     }
 
-
+/*
 if (localStorage.getItem('algsurarevol6') == 1) {
   document.getElementById('algsurarevolb6').style.background = 'rgb(181, 238, 238)';
 }
@@ -110,7 +110,7 @@ if (localStorage.getItem('algsurarevol10') == 1) {
     document.getElementById('algsurarevolb10').style.background = 'white';
   }
 
-
+*/
 
 
   let button = document.getElementById('clear');
@@ -120,12 +120,12 @@ if (localStorage.getItem('algsurarevol10') == 1) {
     localStorage.removeItem('algsurarevol2');
     localStorage.removeItem('algsurarevol3');
     localStorage.removeItem('algsurarevol4');
-    localStorage.removeItem('algsurarevol5');
+    localStorage.removeItem('algsurarevol5'); /*
     localStorage.removeItem('algsurarevol6');
     localStorage.removeItem('algsurarevol7');
     localStorage.removeItem('algsurarevol8');
     localStorage.removeItem('algsurarevol9');
-    localStorage.removeItem('algsurarevol10');
+    localStorage.removeItem('algsurarevol10'); */
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";

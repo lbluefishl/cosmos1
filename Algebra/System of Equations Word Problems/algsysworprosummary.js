@@ -55,7 +55,7 @@ if (localStorage.getItem('algsysworpro4') == 1) {
       document.getElementById('algsysworprob5').style.background = 'white';
     }
 
-
+/*
 if (localStorage.getItem('algsysworpro6') == 1) {
   document.getElementById('algsysworprob6').style.background = 'rgb(181, 238, 238)';
 }
@@ -111,7 +111,7 @@ if (localStorage.getItem('algsysworpro10') == 1) {
   }
 
 
-
+*/
 
   let button = document.getElementById('clear');
 
@@ -121,11 +121,13 @@ if (localStorage.getItem('algsysworpro10') == 1) {
     localStorage.removeItem('algsysworpro3');
     localStorage.removeItem('algsysworpro4');
     localStorage.removeItem('algsysworpro5');
+    /*
     localStorage.removeItem('algsysworpro6');
     localStorage.removeItem('algsysworpro7');
     localStorage.removeItem('algsysworpro8');
     localStorage.removeItem('algsysworpro9');
     localStorage.removeItem('algsysworpro10');
+    */
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";

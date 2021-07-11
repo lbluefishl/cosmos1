@@ -54,7 +54,7 @@ if (localStorage.getItem('algunicon4') == 1) {
     else {
       document.getElementById('alguniconb5').style.background = 'white';
     }
-
+/*
 
 if (localStorage.getItem('algunicon6') == 1) {
   document.getElementById('alguniconb6').style.background = 'rgb(181, 238, 238)';
@@ -110,7 +110,7 @@ if (localStorage.getItem('algunicon10') == 1) {
     document.getElementById('alguniconb10').style.background = 'white';
   }
 
-
+*/
 
 
   let button = document.getElementById('clear');
@@ -121,11 +121,12 @@ if (localStorage.getItem('algunicon10') == 1) {
     localStorage.removeItem('algunicon3');
     localStorage.removeItem('algunicon4');
     localStorage.removeItem('algunicon5');
+    /*
     localStorage.removeItem('algunicon6');
     localStorage.removeItem('algunicon7');
     localStorage.removeItem('algunicon8');
     localStorage.removeItem('algunicon9');
-    localStorage.removeItem('algunicon10');
+    localStorage.removeItem('algunicon10');*/
     var numbers = document.getElementsByClassName('nav'); 
     for(var i = 0; i < numbers.length; i++){
 		numbers[i].style.backgroundColor = "white";

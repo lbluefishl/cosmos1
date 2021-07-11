@@ -4,12 +4,13 @@
   let algunicon3But = document.getElementById('sa-algunicon-3');
   let algunicon4But = document.getElementById('sa-algunicon-4');
   let algunicon5But = document.getElementById('sa-algunicon-5');
+  /*
   let algunicon6But = document.getElementById('sa-algunicon-6');
   let algunicon7But = document.getElementById('sa-algunicon-7');
   let algunicon8But = document.getElementById('sa-algunicon-8');
   let algunicon9But = document.getElementById('sa-algunicon-9');
   let algunicon10But = document.getElementById('sa-algunicon-10');
-
+*/
 
   showExplanation1 = function() {
     document.getElementById('e-algunicon-1').style.display = 'block';
@@ -26,6 +27,7 @@
   showExplanation5 = function() {
     document.getElementById('e-algunicon-5').style.display = 'block';
      }
+     /*
   showExplanation6 = function() {
     document.getElementById('e-algunicon-6').style.display = 'block';
      }
@@ -41,6 +43,7 @@
   showExplanation10 = function() {
     document.getElementById('e-algunicon-10').style.display = 'block';
      } 
+     */
 
 
 
@@ -443,7 +446,7 @@
       }
     }
         
-         
+         /*
       if (document.getElementById('sa-algunicon-6') != null) {
       algunicon6But.onclick = function() {
         if (document.getElementById('o-algunicon-61').checked) {
@@ -840,4 +843,4 @@
         }
       }
     }
-    
+    */
