@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Equivalent Expressions Problem 9</title>   
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,11 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+If \((ax+1)(bx+3)=6x^2+cx+3   \) for all values of \(x\), and \(a+b=5\), what are the two possible values for \(c\) ?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +36,8 @@
   <div class="box" id='b-algeqexp-91'>
     <label for= 'o-algeqexp-91'>
       <input type='radio' name='option'  id='o-algeqexp-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(2 \text{ and } 3\)
+
     </label>
     <span id='r-algeqexp-91'></span>
   </div>
@@ -44,7 +45,7 @@
   <div class="box" id='b-algeqexp-92'>
     <label for= 'o-algeqexp-92'>
       <input type='radio' name='option'  id='o-algeqexp-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(5 \text{ and } 6\)
     </label>
     <span id='r-algeqexp-92'></span>
   </div>
@@ -52,7 +53,7 @@
   <div class="box" id='b-algeqexp-93'>
     <label for= 'o-algeqexp-93'>
       <input type='radio' name='option' id='o-algeqexp-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(6 \text{ and } 8\)
     </label>
     <span id='r-algeqexp-93'></span>
   </div>
@@ -60,7 +61,7 @@
   <div class="box" id='b-algeqexp-94'>
     <label for= 'o-algeqexp-94'>
       <input type='radio' name='option' id='o-algeqexp-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(9 \text{ and } 11\)
     </label>
     <span id='r-algeqexp-94'></span>
   </div>
@@ -78,13 +79,42 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+Expand the expression on the left side first:
 </p>
+$$ (ax+1)(bx+3) $$
+$$ abx^2+bx+3ax+3 $$
+<p>Let's compare this with the equation on the other side, taking care to identify corresponding parts:</p>
+$$ \colorbox{aqua}{$abx^2$}+\colorbox{yellow}{$bx+3ax$}+\colorbox{chartreuse}{$3$} = \colorbox{aqua}{$6x^2$}+\colorbox{yellow}{$cx$}+\colorbox{chartreuse}{$3$} $$
+<p>From the above, we get the following equations:</p>
+<div style="columns: 2;">
+<center>From the \(x^2\) terms</center>
+$$ abx^2=6x^2 $$
+$$ ab=6 $$
+<center>From the linear terms</center>
+$$ bx+3ax=cx $$
+$$ b+3a=c $$
+</div>
+<p>We are given that \(a+b=5\), which we can use along with \(ab=6\) to identify possible values for \(a\) and \(b\). We can solve the system using tradional methods, or use a bit of mental math.</p>
+
+$$ a \text{ and } b = 3 \text{ or } 2 $$
+
+<p>\(c\) can have two answers, based on the values we assign \(a\) and \(b\).</p>
+
+$$ c=b+3a $$
+<div style="columns: 2;">
+  <center>\(a=2, b=3\)</center>
+$$ c=3+3(2) $$
+$$ c=9 $$
+<center>\(a=3, b=2\)</center>
+$$ c=2+3(3) $$
+$$ c=11 $$
 
 
+</div>
+$$ c=\boxed{9 \text{ and } 11} $$
 </div>
 
 
