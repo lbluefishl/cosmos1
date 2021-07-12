@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Polynomials Problem 5</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,17 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+If \(p(x)=x^3+x^2-4x-4 \), then \(p(x)\) is divisible by which of the following?
 </p>
-!-->
+<ul type="I">
+<li>\(x+1\)</li>
+<li>\(x+2\)</li>
+<li>\(x+3\)</li>
+
+
+</ul>
 
  </h1>
 
@@ -36,7 +42,7 @@
   <div class="box" id='b-algpoly-51'>
     <label for= 'o-algpoly-51'>
       <input type='radio' name='option'  id='o-algpoly-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       I only
     </label>
     <span id='r-algpoly-51'></span>
   </div>
@@ -44,7 +50,7 @@
   <div class="box" id='b-algpoly-52'>
     <label for= 'o-algpoly-52'>
       <input type='radio' name='option'  id='o-algpoly-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      I and II only
     </label>
     <span id='r-algpoly-52'></span>
   </div>
@@ -52,7 +58,7 @@
   <div class="box" id='b-algpoly-53'>
     <label for= 'o-algpoly-53'>
       <input type='radio' name='option' id='o-algpoly-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     II and III only
     </label>
     <span id='r-algpoly-53'></span>
   </div>
@@ -60,7 +66,7 @@
   <div class="box" id='b-algpoly-54'>
     <label for= 'o-algpoly-54'>
       <input type='radio' name='option' id='o-algpoly-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+     I, II, and III
     </label>
     <span id='r-algpoly-54'></span>
   </div>
@@ -75,17 +81,45 @@
 
 <div class='explanation' id='e-algpoly-5'>
 
-
+</div>
 
 
 <h2> Approach 1 </h2>
 
 <p>
-<!--             -->
+We can factor the polynomial by grouping.
 </p>
 
+$$p(x)=x^3+x^2-4x-4 $$
+$$ p(x)=x^2(x+1)-4(x+1) $$
+$$ p(x)=(x^2-4)(x+1) $$
+$$ p(x)=(x-2)(x+2)(x+1) $$
+
+<p>In this form, we clearly see that it is divisible by \(x+1\) and \(x+2\). </p>
 
 
+<h2>Approach 2</h2>
+<p>If a binomial term is a factor of a polynomial, it refers to the zero or \(x\)-intercept of the polynomial. For example, if \(x-a\) is a factor of a polynomial, \(a\) 
+  must be a zero or \(x\)-intercept to the polynomial. We can check whether the three choices are \(x\)-intercepts:</p>
+$$p(x)=x^3+x^2-4x-4 $$
+$$0=x^3+x^2-4x-4 $$
+<div style="columns: 3;"> 
+
+<center>\(x=-1\)</center>
+$$0=(-1)^3+(-1)^2-4(-1)-4 $$
+$$0=-1+1+4-4 $$
+$$ 0=0 &nbsp \checkmark $$
+<center>\(x=-2\)</center>
+$$0=(-2)^3+(-2)^2-4(-2)-4 $$
+$$0=-8+4+8-4 $$
+$$ 0=0 &nbsp \checkmark $$
+
+<center>\(x=-3\)</center>
+$$0=(-3)^3+(-3)^2-4(-3)-4 $$
+$$0=-27+9+12-4 $$
+$$ 0=-10 &nbsp &#10006; $$
+
+</div>
 </div>
 
 

@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Rates Problem 9</title>    
+
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +21,8 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
 
-</p>
-!-->
+<p>Mike can paint a certain room in \(x\) hours and Michelle can paint the same room in half the time. How much time, in hours, would it take for Mike and Michelle to paint the room together?</p>
 
  </h1>
 
@@ -36,7 +34,7 @@
   <div class="box" id='b-algrate-91'>
     <label for= 'o-algrate-91'>
       <input type='radio' name='option'  id='o-algrate-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(x+\dfrac{x}{2}\)
     </label>
     <span id='r-algrate-91'></span>
   </div>
@@ -44,7 +42,7 @@
   <div class="box" id='b-algrate-92'>
     <label for= 'o-algrate-92'>
       <input type='radio' name='option'  id='o-algrate-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(\dfrac{x}{3}\)
     </label>
     <span id='r-algrate-92'></span>
   </div>
@@ -52,7 +50,7 @@
   <div class="box" id='b-algrate-93'>
     <label for= 'o-algrate-93'>
       <input type='radio' name='option' id='o-algrate-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{3}{x}\)
     </label>
     <span id='r-algrate-93'></span>
   </div>
@@ -60,7 +58,7 @@
   <div class="box" id='b-algrate-94'>
     <label for= 'o-algrate-94'>
       <input type='radio' name='option' id='o-algrate-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( \dfrac{1}{3x}\)
     </label>
     <span id='r-algrate-94'></span>
   </div>
@@ -75,16 +73,27 @@
 
 <div class='explanation' id='e-algrate-9'>
 
+</div>
 
 
-
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+We can write a simple expression for the rates.
 </p>
 
+$$ \text{Mike's Rate}= \frac{1 \text{ room}}{x \text{ hours}} $$
+$$ \text{Michelle's Rate}= \frac{1 \text{ room}}{\frac{x}{2}\text{ hours}} \tag*{ \scriptsize Michelle takes half the time} $$
 
+<p>We can find their combined rate by adding:</p>
+
+$$ \frac{1 \text{ room}}{x \text{ hours}} + \frac{1 \text{ room}}{\frac{x}{2}\text{ hours}} $$
+$$ = \frac{1}{x}+\frac{2}{x} $$
+$$ = \frac{3}{x} $$
+<p>Since we added two terms with the same units, we can interpret the result with the same units:</p>
+$$ =\frac{3 \text{ rooms}}{x \text{ hours}} $$
+<p>Which is the same as:</p> 
+$$ =\frac{1 \text{ room}}{\frac{x}{3} \text{ hours}} $$
 </div>
 
 

@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Exponential vs. Linear Problem 5</title>     
+  
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +21,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+The population of deer in a forest has been increasing by 3 percent every 2 months. The population at the beginning of 2020 was estimated to be 325. If \(P\) represents the population of deer \(t\) years after 2020, which 
+of the following equations gives the population of deer over time?
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +38,7 @@
   <div class="box" id='b-algexpvslin-51'>
     <label for= 'o-algexpvslin-51'>
       <input type='radio' name='option'  id='o-algexpvslin-51' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \(P = 1.03t+325  \)
     </label>
     <span id='r-algexpvslin-51'></span>
   </div>
@@ -44,7 +46,7 @@
   <div class="box" id='b-algexpvslin-52'>
     <label for= 'o-algexpvslin-52'>
       <input type='radio' name='option'  id='o-algexpvslin-52' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(P = 1.03(6t)+325  \)
     </label>
     <span id='r-algexpvslin-52'></span>
   </div>
@@ -52,7 +54,7 @@
   <div class="box" id='b-algexpvslin-53'>
     <label for= 'o-algexpvslin-53'>
       <input type='radio' name='option' id='o-algexpvslin-53' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \(P=325(1.03)^{6t} \)
     </label>
     <span id='r-algexpvslin-53'></span>
   </div>
@@ -60,7 +62,7 @@
   <div class="box" id='b-algexpvslin-54'>
     <label for= 'o-algexpvslin-54'>
       <input type='radio' name='option' id='o-algexpvslin-54' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(P=325(1.03)^{\frac{t}{6}} \)
     </label>
     <span id='r-algexpvslin-54'></span>
   </div>
@@ -78,14 +80,17 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+Since the population is increasing by a percentage rather than a fixed amount, the equation must be exponential. The first two linear equations are not suitable for the situation.
 </p>
-
-
-
+<p>We expect the deer to increase by 3% after 2 months, which is the same as \(\dfrac{1}{6}\) of a year. The exponential mode that reflects this is:</p>
+$$ P=325(1.03)^{6t} $$
+<p>When \(t=\frac{1}{6}\),</p>
+$$ P=325(1.03)^{6(\frac{1}{6})} $$
+$$ P=325(1.03)^1 $$
+$$ P=325(1.03) $$
 </div>
 
 

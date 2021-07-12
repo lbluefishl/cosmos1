@@ -2,7 +2,8 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-  <!-- <title>Problem 1</title>  -->  
+    <title>Rates Problem 8</title>    
+
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +21,12 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
+ 
 <p>
-
+A group of friends decided to divide the $1,000 cost of a trip equally among themselves. When one of the friends decided not to go on the trip, those remaining still divided the $1,000 cost equally, but 
+each friend's share of the cost increased by $50. How many friends were in the group originally? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +38,7 @@
   <div class="box" id='b-algrate-81'>
     <label for= 'o-algrate-81'>
       <input type='radio' name='option'  id='o-algrate-81' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+      \(3\)
     </label>
     <span id='r-algrate-81'></span>
   </div>
@@ -44,7 +46,7 @@
   <div class="box" id='b-algrate-82'>
     <label for= 'o-algrate-82'>
       <input type='radio' name='option'  id='o-algrate-82' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(4\)
     </label>
     <span id='r-algrate-82'></span>
   </div>
@@ -52,7 +54,7 @@
   <div class="box" id='b-algrate-83'>
     <label for= 'o-algrate-83'>
       <input type='radio' name='option' id='o-algrate-83' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \(5\)
     </label>
     <span id='r-algrate-83'></span>
   </div>
@@ -60,7 +62,7 @@
   <div class="box" id='b-algrate-84'>
     <label for= 'o-algrate-84'>
       <input type='radio' name='option' id='o-algrate-84' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \(6\)
     </label>
     <span id='r-algrate-84'></span>
   </div>
@@ -78,18 +80,45 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach </h2>
 
 <p>
-<!--             -->
+The description of the situation can be modeled by the difference of rates:
 </p>
+$$ \text{new rate} - \text{old rate} = \$50 $$
+<p>The rate is equal to the total cost divided by the number of friends. If \(f\) is the number of friends originally,</p>
+$$ \text{new rate}=\frac{\$1{,}000}{F-1} $$
+$$ \text{old rate}=\frac{\$1{,}000}{F} $$
+<p>Putting it all together:</p>
 
+$$ \frac{1{,}000}{F-1} - \frac{1{,}000}{F}=50 $$
+$$ \frac{1{,}000}{F-1}\cdot \frac{F}{F} - \frac{1{,}000}{F}\cdot \frac{F-1}{F-1}=50 $$
+$$ \frac{1{,}000F-(1{,}000F-1{,}000)}{F(F-1)} =50$$
+$$ \frac{1{,}000}{F^2-F}=50 $$
+$$ \frac{20}{F^2-F}=1 $$
+$$ F^2-F-20=0 $$
+$$ (F-5)(F+4)=0 $$
+$$ F=\boxed{5} $$
 
+<h2>Approach 2</h2>
 
+<p>Once you've confirmed your rate expresions, we can just try different values of \(F\) and check if the difference is $50.</p>
+$$ \text{new rate}=\frac{\$1{,}000}{F-1} $$
+$$ \text{old rate}=\frac{\$1{,}000}{F} $$
+<p>We can also check for whole integer answers since we need to obtain a difference of $50.</p>
+$$ \text{for }F=5$$
+<div style="columns: 2;">
+<center>&nbsp</center>
+$$ \text{new rate}=\frac{\$1{,}000}{5-1} $$
+$$ = \$200 $$
+<center>&nbsp</center>
+$$ \text{old rate}=\frac{\$1{,}000}{4} $$
+$$ =\$250 $$
 </div>
 
+$$ 250-200=50 &nbsp \checkmark$$
 
-
+</div>
 </body>
 
 </html> 

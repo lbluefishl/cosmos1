@@ -2,7 +2,7 @@
 <html lang="en-US"> 
 <head>
     <meta charset="utf-8">
-<title>Conditional Probability Using Two-Way Tables Problem 9</title>    
+<title>Conditional Probability Problem 9</title>    
 <link href="../../styles/questions.css" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
@@ -20,11 +20,17 @@
 <body>
 
 <h1 class="question"> 
-<!-- 
-<p>
+ $$ \begin{array}{|c|c|c|c|} \hline
+ & \text{Type A} & \text{Type B}& \text{Type C} \\ \hline
+ \text{Category 1} & 12 & 34 & 16 \\ \hline
+ \text{Category 2} & 15 & 46 & 25 \\ \hline
+ \text{Category 3} & 3 & 14 & 20 \\ \hline
+ \end{array} $$
 
+<p>
+The table above summarizes items by type and category. What is the probability that the selected item will <u>not</u> be in category 2? 
 </p>
-!-->
+
 
  </h1>
 
@@ -36,7 +42,7 @@
   <div class="box" id='b-algconprotwotab-91'>
     <label for= 'o-algconprotwotab-91'>
       <input type='radio' name='option'  id='o-algconprotwotab-91' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-       <!--               -->
+       \( \dfrac{14}{100}  \)
     </label>
     <span id='r-algconprotwotab-91'></span>
   </div>
@@ -44,7 +50,7 @@
   <div class="box" id='b-algconprotwotab-92'>
     <label for= 'o-algconprotwotab-92'>
       <input type='radio' name='option'  id='o-algconprotwotab-92' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+      \( \dfrac{86}{185}\)
     </label>
     <span id='r-algconprotwotab-92'></span>
   </div>
@@ -52,7 +58,7 @@
   <div class="box" id='b-algconprotwotab-93'>
     <label for= 'o-algconprotwotab-93'>
       <input type='radio' name='option' id='o-algconprotwotab-93' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-      <!--               -->
+     \( \dfrac{99}{185}\)
     </label>
     <span id='r-algconprotwotab-93'></span>
   </div>
@@ -60,7 +66,7 @@
   <div class="box" id='b-algconprotwotab-94'>
     <label for= 'o-algconprotwotab-94'>
       <input type='radio' name='option' id='o-algconprotwotab-94' style='transform: scale(1.3); vertical-align: middle; margin-top: -3px; margin-right: 15px; margin-left: -15px;' /> 
-     <!--               -->
+      \( \dfrac{86}{99}\)
     </label>
     <span id='r-algconprotwotab-94'></span>
   </div>
@@ -78,13 +84,24 @@
 
 
 
-<h2> Approach 1 </h2>
+<h2> Approach  </h2>
 
 <p>
-<!--             -->
+We can manually count the total number of items not in category 2 and divide that by the total number of items. It would help if we added rows and columns for total values:
 </p>
+$$ \begin{array}{|c|c|c|c|c|} \hline
+& \text{Type A} & \text{Type B}& \text{Type C}& \text{Total} \\ \hline
+\text{Category 1} & 12 & 34 & 16 & 62 \\ \hline
+\text{Category 2} & 15 & 46 & 25 & 86\\ \hline
+\text{Category 3} & 3 & 14 & 20 &37\\ \hline
+\text{Total} &  &  &  &185\\ \hline
+\end{array} $$
+<p>The probability that is is not in category 2 can be found:</p>
 
-
+$$ \text{Probability of not category 2}= 1- \text{probability of category 2} $$
+$$ = 1-\frac{86}{185} $$
+$$ = \boxed{\frac{99}{185}} $$
+<p>You could also simply calculate the probability of being in category 1 and 3.</p>
 </div>
 
 
